@@ -1,0 +1,297 @@
+顶层对象		global
+中文文档API		http://nodeapi.ucdok.com/api/globals.html
+
+
+
+■全局方法■（全局方法就是直接就可以调用的方法）
+★全局方法★
+require			加载模块,把引用的模块返回给这个变量，有些是node自带的模块，如“http”模块，更多自带模块API参考官网
+			（加载模块机制规则是：当前路径下准确查找 => 把后缀修改成JS去查找 => 把后缀修改成Json去查找 => 把后缀修改成noe去查找 => 抛出错误）
+module			访问模块信息
+process			访问进程信息
+
+
+★打印★
+console.log		打印控制台,参数默认只传一个类型的话就直接输出,输出多个的话从第2个参数开始输出，参数1为设定输出类型,如'%s'或'%d'
+console.error		打印错误流输出到控制台
+console.dir		一般用来打印对象
+console.time		如脚本代码一样，这个方法用来测试中间代码的执行时间(毫秒),与console.timeend一起使用
+console.trace		打印当前栈(zhan)位置信息，参数为任何string参数，相当于name
+console.assert		对表达式进行评估，参数1，表达式，参数2,string，相当于name（抛错name）
+
+☆所有打印打印到log日志文件里去☆
+node node.js 1>log.log		把nodejs文件执行后的console监听输出流重定向到一个log的日志文件里去，输出流全部在log文件里输出，后面参数为路径，没有则创建
+node node.js 2>error.log	如上，但输出的是错误类型的log文件，做类型区分
+
+
+★process★
+argv				一组包含命令行参数的数组，一：一般是node.exe 二：这个程序启动的模块 三：后面都是运行程序带的参数
+execPath			开启当前进程的绝对路径
+env				user的环境信息
+pid				在系统进程了的node的进程pid（相当于进程ID）
+arch				当前cpu处理器架构，如：arm/ia32/x64
+platform			当前user操作系统平台信息
+cwd()				当前进程的工作目录
+chdir(directory)		改变当前进程的工作目录
+memoryUsage()			node进程的内存使用情况，单位是byte
+exit(code)			退出
+kill(pid)			向进程发送信息
+IO操作
+stdin				标准输入流，通过该对象下的on方法去监听data事件，来等待用户输入跟回车后的动作，并且输入流默认是关闭的，需要手动调用开启：stdin.resume()
+stdout				标准输出流
+
+
+
+■当前模块下的方法■（就是得在模块下才有的方法，如一个nodejs文件就是一个模块）
+__filename			查看当前模块的绝对路径的文件
+__dirname			查看当前模块的绝对路径
+
+
+
+■内置模块和模块内的一些常用方法■（内置的一些模块都需要去require拿到模块提供的接口跟方法）
+★hppt跟https★			var exports = require('http') or require('https');
+createServer()			通过执行拿到返回的服务器对象
+   listen(端口,域名，等待,回调)	createServer()下的方法，用来监听网卡对应的端口，1-1024端口一般被电脑系统的程序所占用，参数的3跟4可选，等待是写一个连接等待队列最大长度
+   事件有 error,fn(err)  	参数的err代表接收到的错误信息
+	  request,fn(req,res)	参数的req代表请求的客户端信息对象，res代表要写入的服务器信息对象 ！	
+	     res下常用的方法有
+		res.writeHead() 返回到客户端请求的头部信息（状态吗，状态描述，{ 'content-type' : 返回的类型，如:'text/html','text/plain'等 }）
+                res.write()	返回到客户端的正文
+		res.end()	代表服务器返回的信息完毕
+	     req下常用的方法有
+		req.method	知道客户端发送过来的请求方法，一般是get或者post
+		req.on		监听一些事件，如data事件去监听读取缓存区	跟	end事件去监听读取完缓冲区的事件
+
+
+		
+★fs★
+path:地址   flags:打开文件方式，申明读或者读写的权限   带[]的是可选参数   mode:设置文件的模式读/写/执行4/2/1   fd:文件标识  encoding:数据类型,如'utf-8'
+
+open(path,flags,[mode],回调)		打开一个文件（异步）
+openSync(path,flags,[mode],回调)	打开一个文件（同步）
+close(fd,callback)			关闭一个文件（异步）
+closeSync(fd)				关闭一个文件（同步）
+read(fd,BF,offset,length,position,回)	读取文件（异步），比如需要先通过open打开文件拿到fd的文件唯一标识符 
+					offset=新内容添加到BF对象中的起始位置，length=添加到BF对象中内容长度，posi=读取的文件中的起始位置，回调(err,BF)
+readSync(fd,BF,offset,length,posi..)	读取文件（同步）
+write(fd,BF,offset,length,[posi..],回)	写文件操作（异步），回调(err,fd)，BF参数位置还可以不写BF对象，直接写入data，直接写入data的要在这个参数后面写一个encoding
+writeSync(fd,BF,offset,length,[posi..])	写文件操作（同步）
+快捷操作方法
+readFile(pathname,[options],回)		读取文件全部内容（异）			
+readFileSync(pathname,[options])	读取文件全部内容（同）
+writeFile(pathname,data,[options],回)	替换的写入或新建一个文件（异）
+writeFileSync(pathname,data,[options])	替换的写入或新建一个文件（同）
+appendFile(pathname,data,data,[opti],回)追加到文件的最后或新建一个文件（异）				
+appendFileSync(pathname,data,[potions])	追加到文件的最后或新建一个文件（同）
+exists(pathname,回(boolean))		判断一个文件或目录存不存在，返回的布尔值代表存在或者不存在（异）
+existsSync(pathname)			判断一个文件或目录存不存在（同）
+unlink(pathname,回)			删除一个文件（异）
+unlinkSync(pathname)			删除一个文件（同）
+rename(pathname,newname,回)		重命名文件（异）
+renameSync(pathname,newname)		重命名文件（同）
+stat(pathname,回)			文件状态（异）			
+statSync(pathname)			文件状态（同）
+mkdir(path,[flags],回)			创建文件夹（异）
+mkdirSync(path,[flags])			创建文件夹（同）
+readdir(path,回)			读取文件夹，回调(err，fileList)（异）
+readdirSync(path)			读取文件夹（同）
+rmdir(path,回)				删除文件夹（异）
+rmdirSync(path)				删除文件夹（同）
+
+
+★url★
+parse(url)			返回url的一些详细分类信息
+
+
+★querystring★
+parse(data)			把一些如 'a=1&b=2&c=3' 的一些string类型的属性转换成一个 object
+
+
+
+■REPL模式■（启动了node后的在线模式，可以直接在里面进行jacascript的书写于nodejs的书写）
+☆REPL语法与基础命令☆
+_			下划线，直接获取到上次使用过的变量或者返回值,但是对其进行运算与修改是不修改真正的变量的数值的！如需改许这样 a=1;a = _+2;才能修改
+ctrl+enter		换行操作，会出现标识符为 ... 的3小点
+
+.break			跳出正在书写的语法或者函数,也可以用快捷键 ctrl+c 来直接操作这个命令
+.clear			清除上下文的变量跟对象
+ctrl+c*2		退出REPL模式,连续按2下
+.exit			在书写表达式或者函数的时候输入也可以直接退出REPL模式,可以用快捷键 ctrl+d代替命令
+.help			显示所有基础命令
+.save			实现把你在REPL的输出所有表达式保存到一个文件中，如这样书写	 .save ../node.js
+.load			实现把某个文件中保存的所有表达式依次加载到REPL模式中执行调用 如这样书写		.load ../node.js
+
+
+
+
+
+
+
+■实例类■（通过new来拿到返回的接口跟方法）
+Buffer			为2进制的数据的储存提供一个缓存区，参数可以是一个number的分享大小也可以是一个array来指定固定的buffer，
+			但是都是后期无法在修改的，更多参数可以参考官网
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

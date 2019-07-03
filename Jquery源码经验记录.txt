@@ -1,0 +1,132 @@
+◆挂载◆（闭包内的变量挂载到当前加载了这个代码的window上）
+
+(function(){
+	function abc(){
+		alert(123);
+	}
+
+	window.Jquery = window.$ = abc;
+})();
+
+abc();
+
+
+◆全局参数◆
+(function(w,u){
+	w = 好处，一个复杂函数里，查找本域是比较性能优的，还有利压缩代码时候优化
+	u = 传进来是防止外面的全局函数修改了这个参数，一般低版本浏览器可以修改
+})(window,undefined)
+
+
+
+◆绝对确认undefined◆
+typeof undefined == 'undefined'			因为可能在XML直接判断undefined可能会证据不足
+
+
+
+◆直接返回new对象◆
+jq = function(a){ return new jq.fn.aaa(a) }（返回new出来的构造函数的对象）
+jq.fn = jq.prototype;
+jq.fn.init.prototype = jq.fn（然后赋值对象引用，所以你new的那个函数底下的对象变成了jq的原型对象，所以你之前修改jq原型对象，后面new的那个函数对象也就也有了）
+
+
+
+◆每次的变量◆
+function aaa(){
+aaa.obj = aaa.obj || {};
+}
+这样就无需在函数外面定义一个obj的变量，还能在初始化的时候先定义一下
+
+
+
+
+◆精彩环节◆
+extend			在JQ源码视频里的第13-14集
+
+
+
+
+
+◆没看懂的后面回看◆
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

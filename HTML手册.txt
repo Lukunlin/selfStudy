@@ -1,0 +1,408 @@
+■mate申明■
+高速模式		
+<meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">	
+申明viewpor窗口的宽高缩比跟缩放允许等	
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" charset="utf-8">
+申明关键词搜索，提高SEO
+<meta name="keywords" content="大神金融,网上理财"/>
+申明关键词描述，提高SEO
+<meta name="description" content="大神金融互联网金融服务平台,致力于为投资者提供安全、透明、便捷、低门槛、高收益的理财服务,并且在该理财平台上100元即可加入理财计划" />
+其他
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+
+■input行间功能属性■
+readonly		让input为只读，用户不可修改，但仍然可以切换焦点到Dom上，进行复制
+disabled 	    	让input禁用，除了获取到值以外，用户不可以再做任何操作
+     
+
+■表格■
+<table>             表格
+<thead>             表格头部(一般不写)
+<tbody>             表格主体(一般不写)
+<tr>   		    一整个横行
+<th>                横行里面的单元格(自带加粗，居中)
+<td>		    横行里面的单元格(自带内容垂直居中,但通过样式vertical-align:可以控制垂直对齐方向)
+样式
+border-collapse:collapse; 表格下的边框合并，相当于margin吧
+colspan=""          x横向合并单元格(加在th标签跟td标签里面)合并后，需要在下面删除一个
+rowspan=""    	    y竖向合并单元格(加在th标签跟td标签里面)合并后，需要在下面删除一个
+
+
+■黑客■
+可用在指定IE下被解析注释里面的代码
+<!--[if IE 6]>中间这里地方只有IE6下会被解析，你改变上面的6改成指定的IE级就会被IE级解析<![endif]-->
+<!--[if !IE]><!--> 除IE外都可识别 <!--<![endif]-->
+<!--[if IE]> 所有的IE可识别 <![endif]-->
+<!--[if IE 6]> 仅IE6可识别 <![endif]-->
+<!--[if lt IE 6]> IE6以及IE6以下版本可识别 <![endif]-->
+<!--[if gte IE 6]> IE6以及IE6以上版本可识别 <![endif]-->
+<!--[if IE 7]> 仅IE7可识别 <![endif]-->
+<!--[if lt IE 7]> IE7以及IE7以下版本可识别 <![endif]-->
+<!--[if gte IE 7]> IE7以及IE7以上版本可识别 <![endif]-->
+<!--[if IE 8]> 仅IE8可识别 <![endif]-->
+<!--[if IE 9]> 仅IE9可识别 <![endif]-->
+
+
+
+
+
+
+■HTML5■更多请参考				http://caniuse.com	支持度查询
+首先，标准下是支持自定义标签的，但是自定义标签的display是没有的，需要设置。下面这些标签不兼容IE低版本的话，可以转换成自定义标签(通过JS中的创建元素即可,创在document下)
+
+
+★放弃★的标签有	<acronym>定义首字母缩写,<applet>定义嵌入的applet,<basefont>定义基准字体,<big>定义大号文本,
+			<center>定义居中的文本,<dir>定义目录列表,<font>规定文本的字体外观,<frame>定义子窗口,<frameset>定义框架的集,
+			<isindex>定义单行的输入域,<noframes>向浏览器显示无法处理框架的提示文本,<s>定义加删除线的文本,
+			<strike>定义加删除线的文本,<tt>定义打字机文本,<u>定义下划线文本,<xmp>定义预格式文本
+
+
+★新增★常用的语义化标签
+<header></header>				头部
+<footer></footer>				底部
+<nav></nav>					导航(没有特别的嵌套规范)
+<section></section>				页面上的版块，一般用来划分区域
+<article></article>				面上独立的内容（如帖子，文章，新闻）例如DIV吧
+<aside></aside>					跟上面同用，跟独立内容比的附属信息（如帖子里的坐着个人信息，或者帖子的尾巴，侧边栏，广告，友情链接）
+<figure><img /></figure>			里面包含的是图片或者视频的媒体元素
+<figcaption></figcaption>			跟上面同用，用来表示一个图片或者视频的文字说明信息
+<time></time>					用来表示时间单位的元素
+<dialog><dt></dt><dd></dd></dialog>		用来表示对话
+<address></address>				定义作者信息   
+<mark></mark>					定义标记,高亮
+<progress max="总长" vlaue="当前"></progress>	进度条
+<details>					收缩相信信息，它一般配合<summary>标题</summary>，跟另外相信的块来标新详细信息，如
+						<details>
+							<summary>默认显示的标题，点击它以后可以显示下面的的块，也可以隐藏</summary>
+							<p>My are bboy</p>
+						</details>
+<math></math>					用来表达一些数学的表达式等的标签
+
+
+★选择器★
+document.querySelector('[title=abc]')		选择器，跟JQ的选择器是一样的，但只包括前面（而且这个方法只能选择到一组元素中的第一个元素）
+document.querySelectorAll('[title=abc]')	选择器，如上，但它获取到的是一组元素了		
+
+
+★class方法★
+元素.classList					获取到元素身上的class属性下的所有class值，也就是每一个class的名字，返回的是一个集合对象
+元素.classList.add('class名')			添加一个class名
+元素.classList.remove('class名')		删除class
+元素.classList.toggle('class名')		切换class，就是有就删除，没有就添加
+
+
+★表单forms★提交功能，都必须是在配合forms标签，并且提交的按钮也要是为input的提交按钮才会生效
+type="email"					邮箱类型，输入不为邮箱的value的话，不用过验证，并且出现原生提示
+type="url"					输入网址,如上	
+type="submit"					提交按钮
+type="tel"					电话（移动端切换数字键盘）	
+type="search"					搜索（后面多了个取消）
+type="range" step="步"min="最小"max="最大"	范围条 它value为当前位置
+type="number"					可快捷操作的数字选择器，（如购物车）
+type="color"					颜色选择器
+type="datetime"					显示完整日历跟时间（包含时区）
+type="datetime-local"				同上，不显示时区
+type="time"					时间
+type="date"					选择日
+type="week"					选择周
+type="month"					显示月
+type="file"   		 			文件上传。（ ，可用新HTML5升级的Ajax进行无刷新上传到后端 ）
+						DOM.files对象
+						DOM.value  —　选择到文件的名字
+						multiple属性放到type=file 身上的行间属性的话，支持多个上传
+						
+
+★表单属性★提交校验功能，都必须是在配合forms标签，并且提交的按钮也要是为input的提交按钮才会生效
+maxlength="位数"				表示用户能输入多少内容
+placeholder="提示信息"				input的属性，获得焦点后不消失，用户输入一个内容后消失。但它的样式需要特殊CSS控制,input::-webkit-input-placeholder {}
+autocomplete=“off”				是否显示用户之前输入的信息
+autofocus					焦点，直接放input里面，然后就会获得焦点
+required					提交的时候当前元素的值不能为空（也就是必填）
+pattern="\d{1,5}"				行间正则校验，表示用户输入的值要与正则匹配（不安全，可被PC修改）
+x-webkit-speech					语言输入（移动端支持，部分PC端支持）
+list='关联的ID'					自定义详情信息,这是一个input的功能属性，这里的值是去关联一个<datalist id="">里的ID，用户可以看到<datalist>内的提示内容
+						进行快速选择，如下：
+									<input list="关联的ID" type="text" />
+									<datalist id="关联的ID">
+										<option value="A">A</option><option value="B">B</option>
+									</datalist>
+
+
+★标签属性优化★
+<a>
+media="handheld"				对手持设备进行样式优化
+media="tv"					对电视设备优化
+<列表>
+start="数值"					排序起始数值，也会把数字加到li的前面
+reversed					倒序排列
+新增内嵌样式
+<div>
+	<style scoped></style>/* 这里设置的只对包住它的有效，并且要设置scoped */
+</div>
+<iframe>
+seamless					去掉边框，如果这个属性存在的话。
+sandbox						安全最高相当于，阻止了嵌套页面的表单提交，脚本，成为异元，但他里面是可以设置值的，设置了值可以解除某个被禁止的
+
+
+
+★多媒体★
+■视频■
+<video src="/i/movie.ogg"  width="320" height="240" controls >
+
+这里是显示，如果不支持该标签就直接显示出这段文字</video>
+目前支持的
+Ogg		Firefox Opera Chrome
+MPEG 4		IE Chrome Safari
+WebM		Firefox Opera Chrome
+
+video的方法
+document.documentElement.前缀requestFullscreen		判断是否支持全屏方法的，存在这个方法，就表示支持全屏的API
+document.前缀fullscreenElement				找到当前正在全屏的Dom
+document.前缀fullscreen					当前的全屏状态，boolean为true就是状态未全屏状态
+Dom.前缀requestFullScreen()				全屏
+Dom.前缀exitFullscreen()				关闭全屏
+
+video的event						需要注意的是它需要用addEvent去绑定事件,参考http://www.w3school.com.cn/tags/html_ref_audio_video_dom.asp 
+video的CSS伪类						video:fullscreen
+
+
+■音频■
+<audio src="/i/movie.ogg"  width="320" height="240" controls>
+
+这里是显示，如果不支持该标签就直接显示出这段文字</audio>
+<source>		兼容解码器的，它是视频标签跟音频标签的子元素，可以有N个，然后从父级下如果遇见不支持的容器，就从上到下找支持的解码器。用来兼容格式的
+媒体元素
+如果有controls 属性就显示控件给用户操作
+如果有autoplay 就视频加载完成就播放
+如果有loop     就视频播放完后继续重新播放（循环播放）
+
+当暂停的时候 元素的paused就为 true 这个时候可以直接调用元素的方法  play()播放	pause()暂停
+
+
+■多媒体方法■
+对象.currentTime		当前播放的时间。可修改
+对象.duration			媒体的总时间（只读属性）
+对象.volume			音量（0.0-1.0）
+对象.muted			静音状态
+对象.preload			是否随页面一起加载（页面在加载的时候一起加载。也就是无需等页面加载完成再加载视频，但会忽略autoplay属性）
+对象.autobuffer			是否不优先加载（就是如果用户没有触发播放的话，媒体是不会加载的，无论页面加载好没加载好。而且也会忽略autoplay属性）
+对象.ended			媒体是否播放完毕了（只读）（并且它还是一个事件，就是播放完后触发一个函数，但这个事件需要绑定方式来绑定）
+对象.paused			媒体是否暂停（只读）
+对象.error			媒体发生错误返回错误代码。（只读）
+对象.currentSrc			返回媒体地址（以字符串的形式返回，只读）
+对象.load()			重新加载媒体
+对象.poster			视频媒体预览图
+对象.videoWidth/H		视频媒体的原尺寸大小（只读）
+
+
+★拖拽★如QQ邮箱上传附件
+■拖拽元素■
+draggable 如果这个属性存在在被拖拽元素身上的话，那么可以用HTML5的JS事件控制
+被拖元素.ondragstart				被拖元素被拖的时候
+被拖元素.ondragend				被拖元素拖拽结束的时候
+被拖元素.ondrag					被拖元素拖拽开始之结束前的时候，连续触发，类似定时器
+
+
+■目标元素■
+目标元素.ondragenter				拖拽元素碰到目标元素的时候
+目标元素.ondragleave				拖拽元素碰到目标点后又离开目标点后触发
+目标元素.ondragover				拖拽元素碰到目标点后连续触发
+目标元素.ondrop					拖拽元素在碰到目标点不离开的时候松开鼠标（▲注▲语法规定，要使用这个事件就必须要在ondragover事件里阻止默认事件）
+			
+			
+■ev对象■
+						在火狐下必须要用ev底下的preventDefaul()这个方法的setData()来设置一下数据才可以进行拖拽
+						设置的数据是可以通过ev底下的preventDefaul()的getData()来获取
+						也可以用这个方法底下的setDragImage()方法来改变拖拽元素的影子，三个参数。1,指定元素,X轴,Y轴
+ev.dataTransfer.files				拖拽浏览器以外的后端的用户文件信息。这个底下还有一个 type 属性，里面存的是用户拖进来文件的类型，也有length 
+
+
+■文件对象■new  FileReader()
+文件对象.readAsDataURL()			读取文件,读取文件信息，就是ev.dataTransfer.files
+对象.onload = function(){}			读取文件成功后的函数(文件的信息可以通过this.result来AJAX提交到后台上传用户的文件)
+
+
+★本地储存★（存储量5M）
+localStorage					没有时间限制的数据存储	（长时间的）
+sessionStorage					针对一个页面的 session 进行数据存储。当用户关闭当前窗口后，数据会被删除。
+						▲语法▲就是window.localStorage.setItem()，也可以直接写下数据  window.localStorage.lastname = 'key';推荐前者
+方法.setItem( '设置的名字','设置的数值' )	设置数据
+方法.key(下标或者key名)				获取数据的key名
+方法.getItem('想获取到的那组数据的名字')	获取数据的value
+方法.removeItem('想删除的那组数据的名字')	删除数据
+方法.clear()					删除全部数据
+
+
+■储存事件（需要用绑定的形式绑定事件才支持）■
+storage						本地储存的数值发生改变的时候触发的事件，当前页面修改当前页面设置的值不会触发这个事件的。(服务器环境下支持，FF支持本地)
+一般如						window.addEventListener('storage',function(ev){},false)
+
+
+■储存事件ev对象■
+ev.key						修改或删除的key的名字不是key的值就是key自己的名字
+ev.newValue					新设置的key值
+ev.oldValue					修改前的key值
+ev.storageArea					本地存储的对象			
+ev.url						发生改变的http地址协议
+
+
+★离线储存★
+AddType text/cache-manifest .manifest	在服务器请求头写入一段string代表申请离线储存
+设置一个后缀为 .manifest 的文件里面设置一个清单。
+CACHE MANIFEST				设置要离线的文件，不再从服务器请求的文件（可包括，图片，css，js，flash等一些文件），写法直接在下面写文件名后换行即可
+FALLBACK				如果服务器没有连上，就走缓存里的文件，写法类似修改 host，	lkl.css lkl2.css
+NETWORK					指定文件，一定从服务器中获取文件，不走缓存			
+manifest="名.manifest"			在HTML标签里引用那个清单文件。
+
+
+★陀螺仪★
+window.DeviceMotionEvent		存在这个function代表支持操作陀螺仪，启动陀螺仪事件需要addEvent去添加 'devicemotion'
+    					if(window.DeviceMotionEvent) {
+        					var speed = 25;
+        					var x = y = z = lastX = lastY = lastZ = 0;
+        					window.addEventListener('devicemotion', function(){
+            						var acceleration = event.accelerationIncludingGravity;
+            						x = acceleration.x;
+            						y = acceleration.y;
+            						if(Math.abs(x-lastX) > speed || Math.abs(y-lastY) > speed) {
+                						//your code
+            						}
+            						lastX = x;
+            						lastY = y;
+        					}, false);
+   					}
+
+
+★Worker多线程★强大提高性能，更多请参考API
+Worker					在客户端开一个后台线程去计算。var worker = new Worker('线程地址.js')，一般可以配合复杂计算或者配合canvas绘图来使用
+对象.postMessage(参数)			参数为发送到新开的那个后台线程过去的data
+对象.onmessage				他是一个ement对象事件，赋值一个函数，函数的第一个参数是一个ev对象，是计算完后返回的数据，存在ev.data下
+对象.close()				计算完后Worker不会自动关闭，需要手动关闭
+
+
+★定位★
+navigator.geolocation			请求对象
+对象.getCurrentPosition()		单次定位请求（多终端可用）（参数为 1.成功的回调函数 2.失败的回调函数 3.数据收集方式的对象）
+对象.watchPosition()			多次定位请求，如上（但只有移动端支持）跟(setInterval一样的特性，可以存在变量，然后可以用 对象.clearWatch(存的变量) 来关闭 )
+
+1.成功（参数）				
+对象.coords.longitude			经度
+对象.coords.latitude			纬度
+对象.coords.accuracy			准确度
+对象.coords.altitude			海拔
+对象.coords.altitudeAcuracy		海拔准确度（移动端才有值）
+对象.coords.heading			行进方向（移动端才有值）
+对象.coords.speed			地面速度（移动端才有值）
+new Date(的.timestamp)			时间戳	
+	
+2.失败（参数）				对象.code为失败返回的失败编码
+					1.用户拒绝；2.尝试去获取，但失败了；3.设置了延迟时间，超过延迟时间失败；0.其他错误，也就是不包括其他编码的错误
+
+3.数据收集json				{ enableHighAcuracy:false, timeout:infinity, maximumAge:0 }	首先在这个json里面的都是默认值
+enableHighAcuracy			更精准的查找
+timeout					延迟时间
+maximumAge				位置可以被缓存的最大时间
+
+
+★获取行间的自定义属性★
+DOM.dataset.成员			HTML5新行间自定属性数据，可以获取在 <DOM data-成员="value">的数据
+
+
+★script标签属性的延迟加载属性★
+defer					延迟加载，script标签身上的属性，defer="defer" ，会等页面以及全部其他文件加载好再加载（注意，需要在服务器环境下）
+async					异步加载，内容如上
+
+
+★全局行间功能属性★
+hidden						隐藏
+spellcheck="true"				纠错,可能错误的单词 
+tabindex="设置数值"				按tab时切换相应的顺序，按找设置的数值顺序切换
+contenteditable='trur'				块里面的内容可供用户编辑（HTML元素存在这个属性的话）
+document.designMode = 'off或on'			document下的新增加的属性，打开的话，就是让当前整个文档下都可以编辑了
+
+
+★canvas画图★	w3c的api参考手册地址	http://www.w3school.com.cn/tags/html_ref_canvas.asp
+画图的几个步骤  >   创建画布  >  JS获取到画布  >  设置画布的绘图环境   >   
+●环境●
+getContext('2d')				绘图环境，获取到canvas的DOM对象后调用该方法，获得环境后，后续绘图都是通过该方法返回的对象来绘图
+
+●绘制域●所有的样式跟状态在通用的域里会互相覆盖到最后一个，通过下面方法可以创新单独的绘画域
+环境对象.beginPath()				全新绘制的起点（一般配合closePath使用，形成一个内作用域，相当于里面的单独设置样式状态不会影响其他的绘制对象）
+环境对象.closePath()				结束绘制，并且闭合。把lineTo方法绘制的结束点跟起点闭合起来，W3C【推荐】使用次方法替代用lineTo去绘制闭合的路径
+
+●自定义路径绘制●
+环境对象.moveTo()				绘图的起始位置（也就是从哪个地方来开始起笔,两个参数，X，Y）
+环境对象.lineTo()				绘制点的位置（2个参数X,Y，在使用了上面moveTo方法后，就可以连续使用此方法绘制图形的路径）
+
+●文本文字●					文本的坐标是从Y坐标下面开始绘制文字的，所以要换算的话加上字体大小
+环境对象.fillText()				绘制实体的文本（参数为文本内容,文本位置X轴，跟Y轴）
+环境对象.strokeText()				绘制线体的文本（参数为文本内容,文本位置X轴，跟Y轴）
+
+●快捷绘制方法●
+环境对象.rect()					普通矩形，无边框无实心无填充，相当于简单的绘制了路径，需要你自己去给予样式，参数如下面方法
+环境对象.fillRect()				“被填充”矩形(参数为 矩形左上角的X,矩形左上角的Y,Width,Height)参数不带单位
+环境对象.strokeRect()				“被填充”矩形但不填充内颜色 （参数如上，边框是笔触，可以修改样式）
+环境对象.arc()					圆（参数为X,Y,圆半径,起始角度,结束角度,可选参数为布尔值,默认false，就是顺时针）起始点在中心点右方,结束点在中心点上方
+
+●绘制状态●
+环境对象.stroke()				线条,画线。就是对于用 自定义路径 绘画了路径之后可以用这个方法让路径以线条表示出来
+环境对象.fill()					填充,对于用自定义路径绘画路径后,可用此方法让路径内闭合的区域进行填充填色,默认是黑色,可以通过fillStyle属性来赋值改变
+						
+●画布状态●
+环境对象.clearRect()				清空画布的指定区域（参数为X,Y,width,height）
+
+●样式属性●
+环境对象.lineWidth='像素'			设置线条跟边框的宽度
+环境对象.fillStyle='颜色'			设置填充填色区域的颜色
+环境对象.strokeStyle='颜色'			设置线条矩形的线条颜色
+环境对象.shadowBlur='纯number'			设置阴影的面积大小，单位为PX
+环境对象.shadowOffsetX/Y='纯number'		设置阴影的具体位置，按照中心点位移
+环境对象.shadowColor='颜色'			设置阴影的颜色
+环境对象.globalCompositeOperation=""		设置绘制的块在覆盖前面的块还是被覆盖，source-over覆盖后面的，destination-over被之前的覆盖
+
+●样式对象●
+返回值=环境对象.createPattern()			设置图片或视频的DOM对象在一个图形背景上的重复规律（参数为DOM,参数2为string,内容如css的背景重复的命令内容）设置好后，
+						拿到返回值直接复制给绘制图形的Style样式属性即可，如：环境对象.fillStyle=返回值
+返回值=环境对象.createLinearGradient()		普通渐变对象（参数为x开始点,y开始点,x结束点,y结束点）具体改变渐变数值需要通过该方法返回的对象内的一个addColorStop方
+						法，addColorStop方法参数为2个（0-1.0的范围number数值，颜色）可以多次调用该方法的指定范围数值来多次渐变距离，经过多
+						次调用addColorStop方法后，可以直接把渐变对象方法的返回对象赋值给颜色样式属性即可
+返回值=环境对象.createRadialGradient()		环形渐变对象（参数为x0,y0,r0,x1,y1,r1）除参数不同以为，其他特性如上方法一致
+
+●端点类型●
+环境对象.lineJoin				相交端点样式，它为属性，通过赋值改变，默认为'miter'尖角，还可以为'bevel'斜角，跟'round'圆角
+环境对象.lineCap				结束点样式，线条起点跟结束的样式，属性值默认为'butt'笔直的到路径点，'square'突出路径点线帽，'round'突出圆角线帽
+
+●特殊方法●
+canvasDOM.toDataURL('image/png')		把canvas画布的内容转换成base64图片值
+						如：base64ImageValue = canvasDOM.toDataURL("image/png") | 这个png是默认值,如果为jpeg的话，还有一个压缩参数0-1的值
+						如果需要输出一张让浏览器下载的图片,使用替换方法把原先的图片格式替换成 'octet-stream'，就是 'image/octet-stream'
+						这里需要注意的是,如果画布上有drawImage引用过来的外部资源图片（非自己域名下）,那么调用这个方法会报错（同源策略）
+环境对象.drawImage()				把图片或者视频放到画布做展示，参数有多种写法，如下:（引用非自己域名下的图片,那么不能使用toDataURL输出）
+						(1)：环境.drawImage(DOM,x,y)   
+						(2)：环境.drawImage(DOM,x,y,width,height)   
+						(3)：环境.drawImage(DOM,sx,sy,swidth,sheight,x,y,width,height)
+						参数表：DOM为直接获取到一个元素DOM，无论是img还是video对象
+							sx/sy 为开始剪切的 x/y 坐标位置
+							swidth/sheight 被剪切图像的宽度
+							x/y 在画布上放置图像的 x/y 坐标位置
+							width/height 要使用的图像的 宽度/高度
+
+●方法●
+环境对象.save()					保存一下画笔状态
+环境对象.restore（）				恢复之前的画笔（因为开发者使用一些transform的话，或者其他变换的话，会被叠加，所以使用前可以save()一下）
+
+
+★ajax2.0★（升级版）			参考	http://www.ruanyifeng.com/blog/2012/09/xmlhttprequest_level_2.html
+对象.onload				ajax成功发送并且返回后直接用了这个事件
+
+对象.upload				上传进度对象
+对象.upload.onprogress			进度事件,进度事件的属性跟方法都在event对象里，ev.loaded（已发送的量），ev.total（文件总量）
+
+
+
+
+
+

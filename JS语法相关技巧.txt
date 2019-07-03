@@ -1,0 +1,66 @@
+◆快速把2个数组合并◆
+var arr1 = [1,2,3],
+    arr2 = [3,2,1];
+
+Array.prototype.push.apply(arr1,arr2)
+
+
+
+◆比较数组里面的数字大小◆方法哦
+var a=0;
+
+for(var i=0;i<arr.length;i++){
+arr[i]>a?a=arr[i]:a=a
+}
+
+Math.max.apply(null,arr);
+
+
+◆找字符串里面的某个全部位置◆方法
+var str = '字字例如很多字字';
+var s= '字字';
+
+for( var i=0;str.indexOf(s,i) != -1;  ){
+	i=str.indexOf(s,i) + s.llength;
+};
+
+
+◆for in 找全部 json◆
+var json = {'1' : '123','2':'412'};
+
+for( var key in json ){	//声明一个变量循环去找后面这个组里面的东西
+     alert( json[i] );	//找到全部里面的东西
+};			//i是key值,json[i]的value	
+
+
+◆尝试执行语法（异常 || 异步）◆
+try {
+	代码尝试执行这个块中的内容，如果有错误，不报错，然后执行下面块里的代码（并且传一个错误信息参数）
+}
+catch(err){
+   console.log(err)//报错信息
+};
+
+
+
+switch开关  prompt提示 default违约，超出  case案例  break打破(与case同用)
+
+◆符号语法◆
+= 就是把右边的丢到左边去
+> < 大于小于
+>=大于或者等于
+<=小于或者等于
+== 就是两边相同等于
+!= 不等于
+!== 转换后再=
+a=b= null 也就是如a=null 跟b=null
+++本身在加就是
+--本身在减就是
+|| 或者 不返回布尔值,直接看左边，是真就直接返回左边的，是假，就直接返回右边的
+&& 并且 不返回布尔值,左边是真的返回右边的，左边是假的就返回左边的  也可以拿来作为只有一个if的判断 a&& alert();  
+
+
+
+
+
+

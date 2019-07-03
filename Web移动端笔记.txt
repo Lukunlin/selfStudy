@@ -1,0 +1,176 @@
+个人Web端笔记
+
+
+◆移动端声明◆
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" charset="utf-8">
+
+device-width			屏幕宽
+height-viewport			屏幕高
+width/h				物理宽高
+
+initial-scale 			初始的缩放比例（相当于默认比例）
+minimum-scale			允许用户缩放到的最小比例
+maximum-scale			允许用户缩放到的最大比例
+user-scalable			用户是否可以手动缩放(yes允许no不允许)
+
+target-densitydpi		DPI，像素紧密度（IOS不支持）
+
+orientation			设备方向
+resolution			设备分辨率
+
+
+
+◆媒体查询◆
+
+CSS，在样式表里的环境
+
+针对页面样式表的
+@media 	媒体类型   关键字   媒体特性	.abc{ 正常样式 }
+
+针对引入样式表的
+<link rel="stylesheet" type="text/css" href="index.css" media="媒体类型 and 媒体特性">
+
+
+媒体类型
+1.all 所有媒体
+2.braille 盲文触觉设备
+3.embossed 盲文打印机
+4.print 手持设备 
+5.projection 打印预览
+6.screen 彩屏设备
+7.speech '听觉'类似的媒体类型
+8.tty 不适用像素的设备
+9.tv  电视
+
+
+关键字
+1.and	   并且 || 连接	
+2.not      not关键字是用来排除某种制定的媒体类型
+3.only     only用来定某种特定的媒体类型（ 很多时候是用来对那些不支持媒体特性但却支持媒体类型的设备 ）
+
+
+
+媒体特性
+1.(max-width:599px) 
+2.(min-width:600px) 
+3.(orientation:portrait) 竖屏
+4.(orientation:landscape)        横屏
+5.(-webkit-min-device-pixel-ratio: 2) 像素比
+
+
+
+
+
+
+
+
+◆兼容问题汇总◆
+
+IOS ： 会默认把标签里的是纯数字或者数字开头的这边变成或者加上a标签
+解决	无法解决，纯数字自己尽量用a去避免
+
+
+IOS：  input的type类型为button的默认样式比较多,button标签也有一点默认样式
+解决	-webkit-appearance:none;  appearance:none;  -webkit-tap-highlight-color:rgba(0,0,0,0);  border-radius:0;  -webkit-touch-callout:none;
+
+
+android：默认a标签点击的时候会有默认的边框问题
+解决	 -webkit-tap-highlight-color:transparent; 或者  -webkit-tap-highlight-color:rgba(0,0,0,0);  
+
+
+android  4.0系统以下图片也会有默认边框问题
+解决	-webkit-appearance:none;
+
+
+IOS：苹果的原生溢出滚动,拉到最顶部或者最低部队时候会拉起黑边条,
+解决	绑定一个onscroll事件,判断用户滚动到0和最底部的数值的时候,采用牺牲1像素2像素的方式去解决这个问题,则到0或者最底部的时候 +1 || -1
+
+
+IOS: 苹果的active伪类无效的情况,
+在body上绑定一个touch空事件即可，如：
+'body' in document && document.body.addEventListener('touchstart',function(){},true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

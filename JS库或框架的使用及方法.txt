@@ -1,0 +1,165 @@
+◆sea.js（阿里，玉伯）前端模块化CMD框架◆
+
+首先这里说明，这里无论你是写后缀名或者不写都是能找到的。官网的Demo基本都是不写，但笔记为了清晰书写，尽量都写上后缀
+
+
+１,	引入sea.js
+
+
+２. 	可选（填写配置信息）seajs.config 对象,以下是它底下的成员。
+
+
+	/*默认路径，设置了以后，后面所有相关的路径都按照它的基础上找。默认值为sea.js的那个目录，也可以设置为当前文件的路径 ./ 还可以到根目录 /
+	base: './'
+
+
+	/*文件编码	
+	charset: 'utf-8'
+
+
+	/*调试模，值为true时，加载器不会删除动态插入的 script 标签。插件也可以根据 debug 配置，来决策 log 等信息的输出。
+	debug:false(默认)
+
+
+	/*预加载项,在加载其他模块就先加载数组里面的（不稳定）
+	preload: [
+    		Function.prototype.bind ? '' : 'es5-safe.js',
+    		this.JSON ? '' : 'json.js'
+  	]
+	
+
+	/*变量配置
+	vars: {
+    		'varname': 'value'
+  	}
+
+
+	/*映射配置
+  	map: [
+    		['http://example.com/js/app/', 'http://localhost/js/app/']
+ 	]
+
+
+	/*别名配置,配置了一个key跟value，value都是基于base设置的默认路径,设置好后，你可以用seajs.use('key')就能调用到你那个key里存的路径去加载相应的js	
+	alias: {
+    		'es5-safe': 'gallery/es5-safe/0.9.3/es5-safe.js',
+    		'json': 'gallery/json/1.0.2/json.js',
+    		'jquery': 'jquery/jquery/1.10.1/jquery.js'
+  	}
+
+
+	/*路径配置，也可以说是路径别名,定时key跟value,然后你可以直接通过这个key路径来找到下面的文件，但key必须写到路径最前面，如seajs.use('key/xxx/xxx/jq')
+	/*paths 配置可以结合 alias 配置一起使用，让模块引用非常方便。
+	paths: {
+    		'gallery': 'https://a.alipayobjects.com/gallery'
+  	}
+
+
+
+３.	调用模块，与加载模块。
+	
+	/*当你加载了sea.js后，会有一个全局对象,seajs，它底下还有一个use方法，用来加载模块，相对于用<script>引用或加载一个js模块
+	seajs.use()	参数1可以是String,表示加载一个模块的路径,又可以是Array,把要加载的路径模块地址全部写进去,Array的写法类似与AMD的写法，但并不表示就是AMD的前置加载
+			参数2（可选写与不写）回调函数，异步加载完成后的回调函数，函数里的默认参数为按照顺序加载返回的模块暴露的接口
+
+
+
+４.	变成模块	define（function( require,exports,module ){ 逻辑 }）
+
+	module 是 当前模块的信息。如 module.id(模块身份) module.url(绝对路径) module.dependencies(当前依赖的模块，返回的是数组) module.exports(当前模块对外提供的接口)
+	参数1，ID，当前模块的ID，最好跟依赖的模块的名字一样，但是是可以自己命名的
+	参数2,Array,依赖的地址，就是用要把用的模块写到这个数组里面去
+
+
+
+５.	依赖模块	var _modelu = require( 路径 );                    同步加载		
+			var _modelu2 = require.async( 路径,回调函数 );    异步加载依赖模块
+
+
+
+
+６.	模块接口	exports.定义的名字 = ( 对外提供的接口 );
+			modelu.exports = ( 对外提供的接口 );
+
+
+
+７.	合并操作（ 当要处理合并或者压缩代码上线的处理后，需要多2个参数来进行特殊处理的，这个写法跟AMD写法是一样的 ）
+	就是在定义模块的时候要在函数里加一个ID，跟依赖的数组
+        define( 'ID名就是当前这个模块的路径',数组里面是依赖别的模块的地址分别写进去,函数 )
+	
+	
+
+
+
+
+◆FIS◆
+
+
+FIS为百度团队开发的开源项目，要在Node.js下使用哦
+
+
+本地调试服务器启动成功后，就会自动打开 http://127.0.0.1:8080 ，但是此时服务器内没有任何内容。我们还需要通过FIS发布DEMO项目才能进行预览
+
+
+
+
+fis -h 			FIS的命令帮助
+
+
+
+
+fis server start	启动FIS的 本地调试 服务器功能对构建发布的项目进行预览调试
+
+fis server start -p [port]	如果8080端口被占用，指定新的端口。
+
+fis server start --type node	如果没有java、php环境，启动Node版fis server。
+
+fis server stop		命令关闭内置服务器。（命令执行后内置服务器会一直运行）
+
+
+fis release		会将编译后的项目发布至本地调试服务器，这个时候再次刷新浏览器页面，我们就可以到fis-quickstart-demo项目的主页了。（编译后的效果）
+
+
+$ fis release --optimize 或简写 fis release -h
+代码压缩，无需任何配置。
+
+
+
+$ fis release --optimize --md5	添加MD5，类似身份证，相当于更新了时间戳
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

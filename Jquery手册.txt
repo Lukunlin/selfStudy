@@ -1,0 +1,177 @@
+★JQ的对象方法★
+★ $()	★			JQ的一个万能获取对象的函数(获取跟CSS获取元素是一样的)
+$(function(){});		替代window.onload（不同点在于onload是等文档加在完成，而JQ是直接把DOM结构加载完成就可以了，不需要等待图片加载完成）
+
+$('li:eq()')可以选择所有获取到的li中的第几个,这个 :  的意思是后面可以删选，如前面eq或者写奇数偶数，even奇数，odd偶数来匹配。也是从0开始，0为偶数
+
+$('<div>')创建元素  $('<div>111</div>')创建并直接修改该元素的内容
+
+
+
+.prop()			获取/设置 原生DOM对象 的自定义属性
+.removeProp()		删除 原生DOM对象 的自定义属性
+.attr()			获取/设置 行间的属性  
+.removeAttr()		删除行间属性
+
+
+.add()			集合成一个新的JQ对象集合，把参数里的DOM对象或JQ对象集合合并到调用该方法的JQ对象集合，合并成一个新的JQ对象集合
+.get()			把匹配到的JQ对象集合 转换 成原生的集合类数组对象
+.end()			返回JQ对象的上一层（无参数）
+
+
+.html()			获取/设置 JQ对象里的标签内容，如原生的innerHTML
+.text()			获取/设置 JQ对象里的文本内容（包括他们的子元素里的文本内容,如果是赋值，标签也不会被解析，会被当做文本内容显示)
+
+
+.filter()		对找到的JQ对象集合再次进行选择器的过滤，如奇数偶数等等
+.not()			反过滤，如上方法，但此方法就是匹配到的不选中
+.find()			标签（匹配前面对象的子级元素的标签）（这个是针对当前元素下的元素的条件）
+
+
+.eq()			下标（匹配到JQ对象集合里的第几个对象，参数也可以是负数，如-1相当于查找最后一个）
+.slice()		下标筛选的到JQ对象集合里的指定对象，参数为起始到结束，类似string的截取字符串
+.index()		索引（在当前所有兄弟节点当中这个元素的位置）不接受参数的方法
+
+
+.css()			获取/设置 JQ对象集合里的每一个样式，参数可以是一个对象来进行设置（获取的时候只会到JQ对象集合里第一个对象的attr值）
+.width/h()		获取/设置对象的宽/高(去除单位)
+.innerWidth/h()		获取对象宽/高（包含填充）不接受参数的方法
+.outerWidth/h(布尔值)	获取对象的宽/高（包含填充跟边框）（参数默认为false，true的时候就是包含获取到margin值）
+
+
+.each()			遍历，为JQ对象集合里的每一个执行一次函数（参数为函数，函数的第一个参数为"i"当前第几次循环，从0开始，第2参数为当前执行的对象(原生)）
+.length			长度（属性）与原生的length属性一致
+	
+
+.addClass()		设置class
+.removeClass()		删除class
+.hasClass()		检索class，返回布尔值
+.toggleClass()		切换class
+
+
+.val()			获取/设置 对象的value属性
+.show()			显示对象（都是不自带参数，但参数可以是一个时间，形成自带运动）
+.hide()			隐藏对象（都是不自带参数，但参数可以是一个时间，形成自带运动）
+.fadeOut()		淡出	（都是不自带参数，但参数可以是一个时间，形成自带运动）
+.fadeIn()		淡入	（都是不自带参数，但参数可以是一个时间，形成自带运动）
+.slideUp()		向上卷起（都是不自带参数，但参数可以是一个时间，形成自带运动）
+.slideDown()		向下展开（都是不自带参数，但参数可以是一个时间，形成自带运动）
+.fadeTo()		渐变（第一个参数时间，第2个参数0到1的小数透明度）
+
+
+.siblings()		获取到JQ对象集合里的所有兄弟节点，但排除自身，参数为删选功能的选择器
+.next()			下一个兄弟节点
+.nextAll()		下一个兄弟节点到最后一个兄弟节点
+.prev()			上一个兄弟节点
+.prevAll()		上一个兄弟节点到第一个兄弟节点
+
+
+.before()		把参数里的对象放到前面JQ对象集合里的每一个的前面
+.insertBefore()		同上，但位置相反，把前面的JQ对象添加到参数对象集合的每一个的前面
+.after()		把参数里的对象放到前面JQ对象集合里的每一个的后面
+.insertAfter()		同上，但位置相反，把前面的JQ对象添加到参数对象集合的每一个的后面
+
+
+.append()		把参数里的对象添加到前面JQ对象里面，做为子节点，并且放到子节点里的最后一个
+.appendTo()		同上，但是位置相反，把前面的JQ对象添加到参数对象的子节点里去，并且放到最后一个
+.prepend()		把参数里的对象添加到前面JQ对象里面，做为子节点，并且放到子节点里的第一个
+.prependTo()		同上，但是位置相反，把前面的JQ对象添加到参数对象的子节点里去，并且放到第一个
+
+
+.detach() 		删除节点（返回值返回这个节点的所有，包括事件）
+.remove()		删除节点（返回值返回DOM的这个节点，不包含事件）
+.clone()		克隆节点（参数为布尔值，true就是事件也克隆）
+.children()		获取所有子节点
+.parent()		获取父级
+.offsetParent()		获取定位父级
+.parents()		获取对象上面的所有祖先节点（参数为删选，被删选中的元素都会被找到）
+.closest()		获取对象最近的祖先节点（必填参数，参数删选条件，然后只返回一个最近的元素。）（包括自身元素）
+
+
+.on()			绑定事件，如同addEventListener绑定的事件，可以绑定一个事件多次多个，参数可以是一个string加一个function，也可以是一个对象，对象的key就是事件名
+.one()			如上，但事件只执行一次就解除了当前方法绑定的事件
+.off()			删除事件（不传参数就是删除对象的全部事件，传参数的话就只删除传参数的那个事件）
+.hover()		移入移出（参数为2个function，分别为移入跟移出）
+ev.pageX/Y		鼠标位置（相对于文档的坐标）
+ev.which		键盘键值（包含鼠标的）
+ev.preventDefault()	阻止默认事件
+ev.stopPropagation	阻止冒泡（如果要阻止默认跟冒泡2个事件，可以直接return false）
+ev.date			传参，在匿名事件里进行传参，如：JQ对象.on('click',{name:'nihao'},function(e){ alert(e.date.name) } ) 
+ev.type			事件类。事件名
+.delegate()		事件委托，如:	$(父级).delegate(子级,事件名称,执行的函数)
+.undelegate()		删除事件委托 如: $(父级).undelegate()，但jquery推荐，事件用off删除是最好的方式
+.trigger()		主动触发事件（参数为主动触发的事件名，包括自定义事件）如: 对象.trigger('事件名称')
+
+
+.scrollTop()		获取滚动条距离
+.offset()		返回一个距离对象，他底下有2个属性，分别是left/top（跟原生不一样的是它，不是到定位父级，而是到可视区的距离）
+.position()		同上，一样有2个属性是left/top（于原生offset一样）
+
+
+.animate()		运动（第1参数json,json里面写attr跟attr的值。第2参数，时间(默认400s)。第3参数，运动形式，默认'swing'慢快慢/'linear'匀速。第4为callback）
+.stop()			阻止元素当前的运动（第一参数为布尔值，true就是阻止元素后续的所有运动。第2参数为布尔值，表示停止的时候还把运动的目标点实现）
+.finish()		停止元素的后续所有运动，并且到达目标点
+.delay()		延迟后续运动，参数为时间
+
+
+
+
+
+
+★JQ的工具方法★
+$.type()		判断类型（更强大）
+$.trim()		去字符串的空格（参数为字符串）
+$.inArray		找数组的某个值在数组的第几个，找不到返回-1	如 $.它(第一参数找的东西,第2参数在哪个对象下面去找)
+$.proxy()		改变this指向,通过这个方法后可以不调用函数的情况下改变this的指向跟传参  如 JQ.click($.(fn,window,参数,参数))
+$.noConflict()		防止冲突 如 var Lukunlin = $.noConflict();  后续就可以 Lukunlin(this).css().......什么的了
+$.parseJSON()		把字符串转换json对象	如：$.parseJSON(str).abc
+$.makeArray()		把类数组转换成数组 如把一堆集合元素转换成真正的数组
+$.each(对象,fn(i,this)) 遍历
+$.merge(数组，数组)	合并数组返回一个新的数组。
+$.fx.interval		设置Jq动画的帧数，默认为13，设置为 $.fx.interval = 5;
+
+
+
+AJAX
+$.ajax()		参数为一个objcet在这个objcet下来进行传输或者接收数据
+
+			url:'接口'			接口地址协议
+			data:'name=aaa&nane=bbb'	url里带的参数，接收string类型也接收objcet类型
+			type:'POST'			请求协议类型，默认GET
+			success:function(data,状态码){}	成功后回调函数
+			error:function(){}		请求失败或者错误
+			contentType:'';			请求头的信息，后面是默认地址 'application/x-www-form-urlencoded; charset=UTF-8'
+			dataType:''			返回的数据类型，xml,html,script,json,jsonp,text
+			cache:boolean			是否缓存
+			timeout:number			设置请求超时时间（毫秒）
+			async:默认为true		是否异步
+			beforeSend:fn			请求前的回调函数
+			complete:fn			请求完成后的回调函数
+			contents:{字符串/正则表达式}	根据给定的正则匹配的内容解析返回的结果
+			crossDomain:boolean		是否跨域，默认为false,（同时还需要设定返回类型为jsonp，跟接口要带http://）
+			global:boolean			是否全局AJAX触发 默认为true，触发
+			ifModified:boolean		是否等上次请求响应，默认false,就是说如果上次请求的AJAX没有响应的话，是否不请求了。
+			jsonpCallback:string		为jsonp请求指定一个回调函数名。这个值将用来取代jQuery自动生成的随机函数名。这主要用来生成一个独特的函数名
+			username:string			于响应HTTP访问认证请求的用户名
+			password:string			用于响应HTTP访问认证请求的密码
+			statusCode:objcet		一般检测HTTP代码，当响应了响应的代码就执行里边函数,如:statusCode:{404:function(){'发生了错误'}}
+
+
+
+$.get('xxx.php?name=a&b=b',function(data){} )
+$.post('xxx.php',function(){} )
+$.getJSON('xxx.php?callback=JSONP的回调函数名或者直接写个?',function(){} )
+
+更多Ajax详解请参考	http://www.cnblogs.com/heyuquan/archive/2013/05/13/js-jquery-ajax.html
+
+
+$.extend()		扩展工具插件（参数一位一个对象 or 布尔值（决定是否深拷贝），如果只有一个对象那么就是扩展到this的指向里去，就是插件，多个对象就是扩展到第一个对象里去）
+$.fn.extend()		扩展JQ下的方法，其他如上。
+
+
+更多方法请参考		jquery.bootcss.com
+
+
+
+
+

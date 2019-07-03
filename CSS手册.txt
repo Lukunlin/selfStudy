@@ -1,0 +1,266 @@
+★显示★
+visibility			设置显示的模式，默认为visible可见&暂用位置，hidden为不可见&还是暂用位置
+
+
+★display技巧★
+inline-block的好处		当不能使用margin居中的时候，可以通过display为inline-block的时候，那么就可以同过text-align来控制行块的左右居中，也可以通过
+				vertical-align来控制上下居中，
+				坏处：可能出现莫名的边距，但如果块里面没有文字的话，设置font-size为0就解决了，也就是说边距是文字大小造成的
+
+
+★程序一些特殊命令样式★
+pointer-events:none;		阻止DOM的默认事件		
+-webkit-text-size-adjust:	阻止在移动端自动调整文字大小,比如设备横屏的改变,参数有100% || none
+
+
+★文本样式★
+text-decoration: underline	下划线,a标签默认
+text-decoration:blink		不改变颜色的无下划线
+
+
+★默认边框★
+outline				设置input边框样式，一般设置为none，用来取消input焦点默认边框，也可以设置其他的默认样式，详情参考W3C
+
+
+★文本排序★
+letter-spacing;			字母间距
+word-spacing;			单词间距
+direction;			文本的排序,可改变文本排序的方向，默认为ltr，从左往右，rtl，从右往左
+white-space:nowrap;		强制文本不换行，强制单行溢出有省略的话，配合3条样式使用:white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+word-break:break-all;		强行强制数字英文换行
+word-wrap:break-word;		强制单词换行（CSS3）
+
+
+★鼠标样式★
+cursor:default			默认
+cursor:pointer			手掌
+cursor:url(url图片地址)		自定义
+
+
+★定位★  
+position:static; 		*默认的盒子流* 
+position:relative; 		*相对定位，以原本位置相对偏移，类似标准流* 
+position:absolute; 		*绝对定位，脱离标准流*   /* IE6下块元素里面有内容的话在蒙版的所有前面加个空的DIV */
+position:fixed; 		*固定定位，基于浏览器窗口可视区的定位*
+
+
+★最佳清除浮动的class★
+.clear { zoom:1; }
+.clear:after { content:""; display:block; clear:both; }
+
+
+★过滤器★
+opacity            		设置透明度等级从0.0级到1级，IE9下使用后面的命令做兼容filter:alpha(opacity=50);
+
+
+★浏览器滚动条的样式修改★	具体直接参考文章 -> http://blog.csdn.net/hanshileiai/article/details/40398177
+
+
+
+
+
+
+■黑客■CSS HACK
+background:#000\9  *background:#000 +background:#000 _background:#000
+\9 IE10之前的浏览器解析出来 *跟+ IE7跟IE7之前的浏览器解析出来 _这个是IE6跟IE6之前的浏览器解析出来
+这玩意已经不推荐使用
+
+
+
+■级别提升■
+!important			如词，表示重要，样式后加入，可代表此条样式级别最高，在webkit跟主流浏览器下，他的级别高过行间，在IE下，仍然是行间最高
+
+
+
+
+
+
+★CSS3★
+前缀
+-ms-				IE
+-moz-				火狐	
+-webkit-			谷歌跟苹果	
+-o-				欧朋	
+
+
+■特殊API■更多运算函数的时候，参考 http://www.w3cplus.com/css3/how-to-use-css3-calc-function.html
+calc				运算,支持度不高，但能在设置的时候使用运算方式，如：width:calc(66% + 66px)，注意：里面运算的空格是必须的
+will-change			预知，支持度不高，提前告诉浏览器这个Dom一般会有哪些变化，让浏览器提前做好准备，默认为auto,当你需要的变换结束以
+				后最好重置回auto。但一般不推荐使用，更多请查阅资料
+touch-action			用户操作，用于指定某个给定的区域是否允许用户操作，以及如何响应用户操作（比如浏览器自带的划动、缩放等）更多请查阅资料
+pointer-event:none		阻止，允许当前层以上的父级不再有默认触发事件，但当前层自身也会丢失触发的事件，所以可以在当前层的子Dom上再设置为auto即可
+
+
+
+■默认样式■更多请参考 http://www.jb51.net/css/68781.html
+缀appearance:none;		移动端android或ios的一些DOM有些自带默认样式，可以自己设置为none后，去掉默认样式
+::-webkit-input-placeholder	input显示placeholder时候的样式
+
+■字体放大■
+-webkit-text-size-adjust: 100%!important;	给需要禁止的Dom设置上样式，则在IOS下禁止被放大缩小，Android则需要使用微信SDKJS做兼容判断
+
+■滚动■
+缀overflow-scrolling:touch	设置移动端溢出的内容带滚动条的话,都带滑动缓冲效果,但overflow-x只能是默认值才能生效
+
+
+■圆角和阴影■
+border-radius:			圆角（左上，右上，右下，左下）可使用百分比
+box-shadow:			阴影（x偏移量，y偏移量，模糊半径，扩展半径(可选)，颜色）（CSS3）
+text-shadow			文字阴影（x偏移量，y偏移量，模糊半径，扩展半径(可选)，颜色）（CSS3）
+
+
+■元素[属性名]■		属性选择器，选择到所有属性名为这个的元素,也可以把属性数值也写上，那么就会选择到属性名=属性值的元素
+p[miaowei]			选择到标签身上有一个自定义属性名为***的全部元素
+p[miaowei=leo]			选择到标签身上的一个自定义属性跟值的全部元素，leo这个value可以有引号也可以不用
+p[miaoqwi~=leo]			选择到标签身上的一个自定义属性的值或词组里，全部有空格并包含着leo的那些元素   <p miaowei='ooo leo'>
+p[miaowei^=lll]			选择到标签身上的一个自定义属性的值，找到这个值以value开头的值的元素		<p miaowei="lllfshjfksdnfjs">
+p[miaowei$=lll]			选择到标签身上的一个自定义属性的值，找到这个值以value结尾的值的元素	
+p[miaowei*=lll]			如上，这里*号就是只要value中包含了这个lll的就会被选中
+p[miaowei|=B]			如上，这里是说单独找到这个B或者B-或B_的元素，如bedsadas则不同过		b跟b-fsdf通过
+p:nth-child(公式|指定)		选择当前p父级下的所有元素里的第N个元素(可使用公式过滤)，并且要是p元素，◆注意，CSS3下标是从1开始计数的，JS是从0开始的
+				下标里还可以写奇数偶数选择元素，odd（奇数）跟even（偶数），公式如：
+				5n(每5个选中一个),
+				n+3(第3个跟后面全部),
+				-n+3(前面3个),				
+				2n+2(从第2个以后,每2个选中一个)
+
+p:nth-last-child(公式|指定)	如上，但他是从后面开始算起
+p:nth-of-type(公式|指定)	选择当前父级下的所有p元素里的第N个p
+p:nth-last-of-type(公式|指定)	如上，但他是从后面开始算起
+p*:first-child()		选择当前p底下的第N个子节点
+p*:last-child()			如上，从后面开始算起
+
+
+■定义字体■			@font-face 规则，在新的 @font-face 规则中，您必须首先定义字体的名称（比如 myFirstFont），然后指向该字体文件。
+				字体文件存放到 web 服务器上。
+<style> 
+@font-face
+{
+font-family: myFirstFont;
+src: url('Sansation_Light.ttf'),
+     url('Sansation_Light.eot'); /* IE9+ */
+}
+
+div
+{
+font-family:myFirstFont;
+}
+</style>
+
+
+■伪类，伪元素■(CSS的伪类是可以叠加选择的,如 Dom:checked:before)
+elem:target			代表哈希值里面的东西后找到元素的样式。如<a>跳到一个#元素上，那么这个元素的:target，就代表跳转后的什么样式
+elem:first-line			第一行文字的样式
+elem:first-letter		第一个文字，加了这个后第一个文字就选不中了
+elem:selection			文字被选中时候的样式
+elem:active			表示被按下并且在容器内时候的触发,IOS下可能会有不触发的情况,这个时候需要在body里添加空的touch事件,如：
+				'body' in document && document.body.addEventListener('touchstart',function(){},true);
+elem:before{ content:"text" }	可以在文字的起始添加一段文字，并且可以单独设置添加文字的样式，也可以变成一个块
+elem:after			如上，但添加在文字最后面
+input[type="checked"]:checked	选择框类型的input，checked为true时候的伪类
+elem:not(参数为ID或者类)	排除
+
+
+■颜色■
+新颜色				background:rgba(3个rgb颜色数值,然后是透明度0到1)透明不影响块里面的内容，如：color:rgba(255,255,255,0.5)
+渐变				background:缀linear-gradient( 60deg,red 0,blue 50% )
+平铺渐变			background:缀repeating-linear-gradient( 60deg,red 0,blue 50% )
+径向渐变			background:缀radial-gradient（起点，形状ellpse,circle，颜色）
+多背景 				background:url,url,url.......
+大小				background-size:参数1为X，参数2为Y，参数可以是百分比，还可以有几个关键字，cover填满元素（高），contain填满元素（宽），多图就用","隔开
+背景原点			background-origin:参数（border-box边框边左上算原点,padding-box默认值从填充算起,content-box从内容开始算起）
+背景裁切			background-clip:参数（默认border-box为边框，padding-box填充内显示，content-box内容区域显示背景，text文字里开始显示背景(!暂时只支持kit)）
+
+
+■弹性新盒模型■
+display:缀flex			强大的flex,比box强大,但是部分移动端支持不全,所以慎用,相关文章 http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html	
+display:缀box			默认为横向显示 ( 子级必须不为内嵌模式，才能生效 )
+缀box-orient:			设置弹性的方向，默认为horizontal横向，vertical垂直
+缀box-direction			元素下的元素排序顺序，默认为正序 normal  反序为 reverse
+缀box-ordinal-group		元素位置排序，改变元素在父级下的成为第几个
+缀box-flex:份数			弹性空间，份数 =  份数 / 父级下所有设置了这个样式的和加起来（自身必须也得是display:box，并且要给自身设置一个比flex宽度小的宽度）
+缀box-pack			横向富裕空间,默认为	start盒子左侧显示，富裕空间右侧显示
+							end盒子右侧显示，富裕空间在左侧
+							center盒子横向居中，富裕空间左右平分
+							justify富裕空间在盒子里平均分配（box-pack独有）
+缀box-align			垂直赋予空间管理，如上
+
+
+■怪异盒模型■
+缀box-sizing:border-box; 	当定义的宽高后&设为怪异模型后，后续往盒子里添加的margin和padding和border，都会往盒子内部加，最后的宽高还是最初定义的宽高
+
+
+■分栏布局■
+缀column-width			分栏宽度
+缀column-count			分栏列数，参数为num
+缀column-gap			栏目距离
+缀column-rule			栏目间隔线，参数跟border一样设置
+
+
+
+	
+■过度■	
+缀transition			过渡变化，运动（ 参数之间以空格隔开 ）
+				基本参数可以只有一个，那就是时间，S为秒单位,MS为毫秒单位，
+				参数1，是attr，指定某个属性变化的时候才过渡。写all的话也相当于默认，也就是全部
+				参数2为过度时间，参数1跟参数2的参数位置可以是互换的。
+				参数3为运动形式，默认为ease（慢慢变慢），linear（匀速），ease-in（加速），ease-out（减速），cubic-bezier（自定义曲线运动4个参数）
+				关于自定义运动曲线请打开	http://matthewlein.com/ceaser
+				参数4为多少秒后才触发过度
+				不同速度单个运动样式的话可以用 , 隔开后继续写参数，如：width 1s,height 2s 
+
+
+■过度事件■
+webkitTransitionEnd		weikit内核的事件
+transitionend			标准事件，要用第2种事件绑定方式监听，并且要做兼容要再次绑定多一个上面的事件，触发条件为没发生一次样式改变，并且过度完成，就会触发一次,
+				如果是这个事件里面再次改变样式，会造成循环递归哦！
+
+
+■过度帧动画■过度&关键帧，函数
+@缀keyframea 动画名 {
+	0% {width:100px;height:100px;}
+	10%{width:120px;color:red;}
+	40%{width:130px;color:blue;}
+	70%{width:200px;}
+	100%{width:300px}
+}
+0%-100%的参数表示每个时间点,是相对于整个动画的持续时间来说的,时间点里的表示当前时间的状态,最少需要定义0%到100%这2个时间点
+
+缀animation			上面定义好了一个动画的关键帧，那么我们要触发，只需要绑定到元素身上就可以了，在元素身上调用animation属性animation-name:函数
+animation-name			绑定定义好的动画名
+animation-duration		动画完成的一个时间
+animation-delay			动画什么时候开始（延迟）
+animation-iteration-count	动画播放次数,默认1,infinite无限
+animation-direction		规定动画在下一次运动，是否往回运动，
+				默认"normal",
+				如果为"reverse"则一开始就以倒序开始动画,
+				如果为"alternate"则播放完成后再按之前运动的反方向运动回去
+animation-play-state		让动画运动还是暂停，默认"running"播放,"paused"暂停
+animation-fill-mode		规定对象动画时间之外的状态,一般用来设置动画结束后停在最后一帧。值为 "forwards"
+animation-timing-function	动画运动形式，linear匀速,ease缓冲,ease-in慢到快,ease-out快到慢,ease-in-out慢快慢,cubic-bezier()贝塞尔曲线,4个参数
+
+
+■过度帧动画事件■更多关键帧请参考 http://www.cnblogs.com/2050/p/3409129.html
+webkitAnimationEnd		如transition事件一样的，请参考transition事件
+animationend			
+
+
+■变换&矩阵■参考更多矩阵 http://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/
+缀transform			变换（很多方法的变化都支持3D，如rotate3d、translate3d等）,如果不进行动画的话，尽量不使用3d，因为可能导致PC上容器整体模糊
+transform:rotate3d(deg,0,0)	旋转，参数接收的是旋转的度数
+transform:skew()		斜切,参数也是接收XY轴的deg度数
+transform:scale(num)		缩放，参数只写一个数字，如果方法前面不带x或y那么就是x跟y都缩放，单独操作x或y,可以 transform:scaleX(num)，如上面的方法
+transform:translate3d()		位移，跟移动差不多，▲重要▲他支持使用▲百分比▲来位移，块居中就可以用left:50%,然后用3d(-50%,0,0)就可以居中了
+transform-origin:x,y		基点，可以让他们运动点以哪个基点运动,参数也可以写关键字
+transform-style:preserve-3d;	变化为3D空间
+缀perspective			景深，配合3D空间使用，单位px
+transform:matrix(a,b,c,d,e,f)	矩阵，以上的旋转变化斜切什么的都是通过他实现的，IE下用IE的矩阵实现变化
+				a=x轴缩放,b=y轴缩放,e=x轴位移,f=y轴位移
+IE下的矩阵
+filter: progid:DXImageTransform.Microsoft.Matrix( 
+enabled= bEnabled , SizingMethod= sMethod , FilterType= sType , Dx= fDx , Dy= fDy , M11= fM11 , M12= fM12 , M21= fM21 , M22= fM22 )
+
+
+
+
+

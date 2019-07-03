@@ -1,0 +1,79 @@
+■创建一个数据库■
+create database "数据库名";						
+
+■创建用户和权限■
+grant
+
+■撤销用户权限■
+revoke
+
+■选择数据库■
+use 数据库名
+mysql -D 数据库名（登录的时候带入参数）
+
+■创建数据库表■
+create tabel '表名称' (
+	'键名' integer(类型长度) unsigned/*无符号*/ not null/*不为空*/ auto_increment,/*自动递增*/
+	`键名` varchar(类型长度) character set utf8/*字符集*/ collate utf8_general_ci/*排序规则*/ null default '',/*默认为空字符串*/
+	`键名` float(类型长度,保留位数) unsigned/*无符号*/ not null,/*不为空*/
+	primary key (`键名`)/*设置某个键名为主键,一个表必须有一个主键，也可以放到声明键名的那行配置里*/
+);
+
+
+■显示所有数据库■有权限操作的
+show databases;
+
+■显示所有表■
+show tables;
+
+■显示表的属性■
+describe 表名;
+
+■■
+
+■■
+
+
+
+
+■■
+
+
+■■
+
+■■
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -83,7 +83,7 @@ background:#000\9  *background:#000 +background:#000 _background:#000
 -o-				欧朋	
 
 
-■特殊API■更多运算函数的时候，参考 http://www.w3cplus.com/css3/how-to-use-css3-calc-function.html
+■特殊API■			更多运算函数的时候，参考 http://www.w3cplus.com/css3/how-to-use-css3-calc-function.html
 calc				运算,支持度不高，但能在设置的时候使用运算方式，如：width:calc(66% + 66px)，注意：里面运算的空格是必须的
 will-change			预知，支持度不高，提前告诉浏览器这个Dom一般会有哪些变化，让浏览器提前做好准备，默认为auto,当你需要的变换结束以
 				后最好重置回auto。但一般不推荐使用，更多请查阅资料
@@ -92,7 +92,7 @@ pointer-event:none		阻止，允许当前层以上的父级不再有默认触发事件，但当前层自身也
 
 
 
-■默认样式■更多请参考 http://www.jb51.net/css/68781.html
+■默认样式■			更多请参考 http://www.jb51.net/css/68781.html
 缀appearance:none;		移动端android或ios的一些DOM有些自带默认样式，可以自己设置为none后，去掉默认样式
 ::-webkit-input-placeholder	input显示placeholder时候的样式
 
@@ -136,19 +136,19 @@ p*:last-child()			如上，从后面开始算起
 <style> 
 @font-face
 {
-font-family: myFirstFont;
-src: url('Sansation_Light.ttf'),
-     url('Sansation_Light.eot'); /* IE9+ */
+	font-family: myFirstFont;
+	src: url('Sansation_Light.ttf'),
+     	     url('Sansation_Light.eot'); /* IE9+ */
 }
 
 div
 {
-font-family:myFirstFont;
+	font-family:myFirstFont;
 }
 </style>
 
 
-■伪类，伪元素■(CSS的伪类是可以叠加选择的,如 Dom:checked:before)
+■伪类，伪元素■		(CSS的伪类是可以叠加选择的,如 Dom:checked:before)
 elem:target			代表哈希值里面的东西后找到元素的样式。如<a>跳到一个#元素上，那么这个元素的:target，就代表跳转后的什么样式
 elem:first-line			第一行文字的样式
 elem:first-letter		第一个文字，加了这个后第一个文字就选不中了
@@ -240,12 +240,12 @@ animation-fill-mode		规定对象动画时间之外的状态,一般用来设置动画结束后停在最后一
 animation-timing-function	动画运动形式，linear匀速,ease缓冲,ease-in慢到快,ease-out快到慢,ease-in-out慢快慢,cubic-bezier()贝塞尔曲线,4个参数
 
 
-■过度帧动画事件■更多关键帧请参考 http://www.cnblogs.com/2050/p/3409129.html
+■过度帧动画事件■		更多关键帧请参考 http://www.cnblogs.com/2050/p/3409129.html
 webkitAnimationEnd		如transition事件一样的，请参考transition事件
 animationend			
 
 
-■变换&矩阵■参考更多矩阵 http://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/
+■变换&矩阵■			参考更多矩阵 http://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/
 缀transform			变换（很多方法的变化都支持3D，如rotate3d、translate3d等）,如果不进行动画的话，尽量不使用3d，因为可能导致PC上容器整体模糊
 transform:rotate3d(deg,0,0)	旋转，参数接收的是旋转的度数
 transform:skew()		斜切,参数也是接收XY轴的deg度数

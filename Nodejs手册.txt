@@ -1,23 +1,23 @@
-顶层对象		global
-中文文档API		http://nodeapi.ucdok.com/api/globals.html
+顶层对象			global
+中文文档API			http://nodeapi.ucdok.com/api/globals.html
 
 
 
-■全局方法■（全局方法就是直接就可以调用的方法）
+■全局方法■			（全局方法就是直接就可以调用的方法）
 ★全局方法★
-require			加载模块,把引用的模块返回给这个变量，有些是node自带的模块，如“http”模块，更多自带模块API参考官网
-			（加载模块机制规则是：当前路径下准确查找 => 把后缀修改成JS去查找 => 把后缀修改成Json去查找 => 把后缀修改成noe去查找 => 抛出错误）
-module			访问模块信息
-process			访问进程信息
+require				加载模块,把引用的模块返回给这个变量，有些是node自带的模块，如“http”模块，更多自带模块API参考官网
+				（加载模块机制规则是：当前路径下准确查找 => 把后缀修改成JS去查找 => 把后缀修改成Json去查找 => 把后缀修改成noe去查找 => 抛出错误）
+module				访问模块信息
+process				访问进程信息
 
 
 ★打印★
-console.log		打印控制台,参数默认只传一个类型的话就直接输出,输出多个的话从第2个参数开始输出，参数1为设定输出类型,如'%s'或'%d'
-console.error		打印错误流输出到控制台
-console.dir		一般用来打印对象
-console.time		如脚本代码一样，这个方法用来测试中间代码的执行时间(毫秒),与console.timeend一起使用
-console.trace		打印当前栈(zhan)位置信息，参数为任何string参数，相当于name
-console.assert		对表达式进行评估，参数1，表达式，参数2,string，相当于name（抛错name）
+console.log			打印控制台,参数默认只传一个类型的话就直接输出,输出多个的话从第2个参数开始输出，参数1为设定输出类型,如'%s'或'%d'
+console.error			打印错误流输出到控制台
+console.dir			一般用来打印对象
+console.time			如脚本代码一样，这个方法用来测试中间代码的执行时间(毫秒),与console.timeend一起使用
+console.trace			打印当前栈(zhan)位置信息，参数为任何string参数，相当于name
+console.assert			对表达式进行评估，参数1，表达式，参数2,string，相当于name（抛错name）
 
 ☆所有打印打印到log日志文件里去☆
 node node.js 1>log.log		把nodejs文件执行后的console监听输出流重定向到一个log的日志文件里去，输出流全部在log文件里输出，后面参数为路径，没有则创建

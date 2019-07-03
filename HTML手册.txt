@@ -1,12 +1,16 @@
 ■mate申明■
 高速模式		
 <meta http-equiv="x-ua-compatible" content="IE=edge, chrome=1">	
-申明viewpor窗口的宽高缩比跟缩放允许等	
+申明viewpor窗口的宽高缩比跟缩放允许等
+	
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" charset="utf-8">
 申明关键词搜索，提高SEO
+
 <meta name="keywords" content="大神金融,网上理财"/>
 申明关键词描述，提高SEO
+
 <meta name="description" content="大神金融互联网金融服务平台,致力于为投资者提供安全、透明、便捷、低门槛、高收益的理财服务,并且在该理财平台上100元即可加入理财计划" />
+
 其他
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
@@ -19,20 +23,19 @@ disabled 	    	让input禁用，除了获取到值以外，用户不可以再做任何操作
      
 
 ■表格■
-<table>             表格
-<thead>             表格头部(一般不写)
-<tbody>             表格主体(一般不写)
-<tr>   		    一整个横行
-<th>                横行里面的单元格(自带加粗，居中)
-<td>		    横行里面的单元格(自带内容垂直居中,但通过样式vertical-align:可以控制垂直对齐方向)
+<table>             	表格
+<thead>             	表格头部(一般不写)
+<tbody>             	表格主体(一般不写)
+<tr>   		    	一整个横行
+<th>                	横行里面的单元格(自带加粗，居中)
+<td>		    	横行里面的单元格(自带内容垂直居中,但通过样式vertical-align:可以控制垂直对齐方向)
 样式
 border-collapse:collapse; 表格下的边框合并，相当于margin吧
-colspan=""          x横向合并单元格(加在th标签跟td标签里面)合并后，需要在下面删除一个
-rowspan=""    	    y竖向合并单元格(加在th标签跟td标签里面)合并后，需要在下面删除一个
+colspan=""          	x横向合并单元格(加在th标签跟td标签里面)合并后，需要在下面删除一个
+rowspan=""    	    	y竖向合并单元格(加在th标签跟td标签里面)合并后，需要在下面删除一个
 
 
-■黑客■
-可用在指定IE下被解析注释里面的代码
+■黑客■		可用在指定IE下被解析注释里面的代码
 <!--[if IE 6]>中间这里地方只有IE6下会被解析，你改变上面的6改成指定的IE级就会被IE级解析<![endif]-->
 <!--[if !IE]><!--> 除IE外都可识别 <!--<![endif]-->
 <!--[if IE]> 所有的IE可识别 <![endif]-->
@@ -54,10 +57,10 @@ rowspan=""    	    y竖向合并单元格(加在th标签跟td标签里面)合并后，需要在下面删除
 首先，标准下是支持自定义标签的，但是自定义标签的display是没有的，需要设置。下面这些标签不兼容IE低版本的话，可以转换成自定义标签(通过JS中的创建元素即可,创在document下)
 
 
-★放弃★的标签有	<acronym>定义首字母缩写,<applet>定义嵌入的applet,<basefont>定义基准字体,<big>定义大号文本,
-			<center>定义居中的文本,<dir>定义目录列表,<font>规定文本的字体外观,<frame>定义子窗口,<frameset>定义框架的集,
-			<isindex>定义单行的输入域,<noframes>向浏览器显示无法处理框架的提示文本,<s>定义加删除线的文本,
-			<strike>定义加删除线的文本,<tt>定义打字机文本,<u>定义下划线文本,<xmp>定义预格式文本
+★放弃★的标签有				<acronym>定义首字母缩写,<applet>定义嵌入的applet,<basefont>定义基准字体,<big>定义大号文本,
+						<center>定义居中的文本,<dir>定义目录列表,<font>规定文本的字体外观,<frame>定义子窗口,<frameset>定义框架的集,
+						<isindex>定义单行的输入域,<noframes>向浏览器显示无法处理框架的提示文本,<s>定义加删除线的文本,
+						<strike>定义加删除线的文本,<tt>定义打字机文本,<u>定义下划线文本,<xmp>定义预格式文本
 
 
 ★新增★常用的语义化标签
@@ -115,7 +118,7 @@ type="file"   		 			文件上传。（ ，可用新HTML5升级的Ajax进行无刷新上传到后端 ）
 						multiple属性放到type=file 身上的行间属性的话，支持多个上传
 						
 
-★表单属性★提交校验功能，都必须是在配合forms标签，并且提交的按钮也要是为input的提交按钮才会生效
+★表单属性★					提交校验功能，都必须是在配合forms标签，并且提交的按钮也要是为input的提交按钮才会生效
 maxlength="位数"				表示用户能输入多少内容
 placeholder="提示信息"				input的属性，获得焦点后不消失，用户输入一个内容后消失。但它的样式需要特殊CSS控制,input::-webkit-input-placeholder {}
 autocomplete=“off”				是否显示用户之前输入的信息
@@ -140,7 +143,7 @@ start="数值"					排序起始数值，也会把数字加到li的前面
 reversed					倒序排列
 新增内嵌样式
 <div>
-	<style scoped></style>/* 这里设置的只对包住它的有效，并且要设置scoped */
+	<style scoped></style>			/* 这里设置的只对包住它的有效，并且要设置scoped */
 </div>
 <iframe>
 seamless					去掉边框，如果这个属性存在的话。
@@ -183,24 +186,24 @@ video的CSS伪类						video:fullscreen
 
 
 ■多媒体方法■
-对象.currentTime		当前播放的时间。可修改
-对象.duration			媒体的总时间（只读属性）
-对象.volume			音量（0.0-1.0）
-对象.muted			静音状态
-对象.preload			是否随页面一起加载（页面在加载的时候一起加载。也就是无需等页面加载完成再加载视频，但会忽略autoplay属性）
-对象.autobuffer			是否不优先加载（就是如果用户没有触发播放的话，媒体是不会加载的，无论页面加载好没加载好。而且也会忽略autoplay属性）
-对象.ended			媒体是否播放完毕了（只读）（并且它还是一个事件，就是播放完后触发一个函数，但这个事件需要绑定方式来绑定）
-对象.paused			媒体是否暂停（只读）
-对象.error			媒体发生错误返回错误代码。（只读）
-对象.currentSrc			返回媒体地址（以字符串的形式返回，只读）
-对象.load()			重新加载媒体
-对象.poster			视频媒体预览图
-对象.videoWidth/H		视频媒体的原尺寸大小（只读）
+对象.currentTime					当前播放的时间。可修改
+对象.duration						媒体的总时间（只读属性）
+对象.volume						音量（0.0-1.0）
+对象.muted						静音状态
+对象.preload						是否随页面一起加载（页面在加载的时候一起加载。也就是无需等页面加载完成再加载视频，但会忽略autoplay属性）
+对象.autobuffer						是否不优先加载（就是如果用户没有触发播放的话，媒体是不会加载的，无论页面加载好没加载好。而且也会忽略autoplay属性）
+对象.ended						媒体是否播放完毕了（只读）（并且它还是一个事件，就是播放完后触发一个函数，但这个事件需要绑定方式来绑定）
+对象.paused						媒体是否暂停（只读）
+对象.error						媒体发生错误返回错误代码。（只读）
+对象.currentSrc						返回媒体地址（以字符串的形式返回，只读）
+对象.load()						重新加载媒体
+对象.poster						视频媒体预览图
+对象.videoWidth/H					视频媒体的原尺寸大小（只读）
 
 
 ★拖拽★如QQ邮箱上传附件
 ■拖拽元素■
-draggable 如果这个属性存在在被拖拽元素身上的话，那么可以用HTML5的JS事件控制
+draggable 					如果这个属性存在在被拖拽元素身上的话，那么可以用HTML5的JS事件控制
 被拖元素.ondragstart				被拖元素被拖的时候
 被拖元素.ondragend				被拖元素拖拽结束的时候
 被拖元素.ondrag					被拖元素拖拽开始之结束前的时候，连续触发，类似定时器
@@ -250,12 +253,12 @@ ev.url						发生改变的http地址协议
 
 
 ★离线储存★
-AddType text/cache-manifest .manifest	在服务器请求头写入一段string代表申请离线储存
-设置一个后缀为 .manifest 的文件里面设置一个清单。
-CACHE MANIFEST				设置要离线的文件，不再从服务器请求的文件（可包括，图片，css，js，flash等一些文件），写法直接在下面写文件名后换行即可
-FALLBACK				如果服务器没有连上，就走缓存里的文件，写法类似修改 host，	lkl.css lkl2.css
-NETWORK					指定文件，一定从服务器中获取文件，不走缓存			
-manifest="名.manifest"			在HTML标签里引用那个清单文件。
+AddType text/cache-manifest .manifest		在服务器请求头写入一段string代表申请离线储存
+						设置一个后缀为 .manifest 的文件里面设置一个清单。
+CACHE MANIFEST					设置要离线的文件，不再从服务器请求的文件（可包括，图片，css，js，flash等一些文件），写法直接在下面写文件名后换行即可
+FALLBACK					如果服务器没有连上，就走缓存里的文件，写法类似修改 host，	lkl.css lkl2.css
+NETWORK						指定文件，一定从服务器中获取文件，不走缓存			
+manifest="名.manifest"				在HTML标签里引用那个清单文件。
 
 
 ★陀螺仪★
@@ -277,43 +280,43 @@ window.DeviceMotionEvent		存在这个function代表支持操作陀螺仪，启动陀螺仪事件需要
 
 
 ★Worker多线程★强大提高性能，更多请参考API
-Worker					在客户端开一个后台线程去计算。var worker = new Worker('线程地址.js')，一般可以配合复杂计算或者配合canvas绘图来使用
-对象.postMessage(参数)			参数为发送到新开的那个后台线程过去的data
-对象.onmessage				他是一个ement对象事件，赋值一个函数，函数的第一个参数是一个ev对象，是计算完后返回的数据，存在ev.data下
-对象.close()				计算完后Worker不会自动关闭，需要手动关闭
+Worker						在客户端开一个后台线程去计算。var worker = new Worker('线程地址.js')，一般可以配合复杂计算或者配合canvas绘图来使用
+对象.postMessage(参数)				参数为发送到新开的那个后台线程过去的data
+对象.onmessage					他是一个ement对象事件，赋值一个函数，函数的第一个参数是一个ev对象，是计算完后返回的数据，存在ev.data下
+对象.close()					计算完后Worker不会自动关闭，需要手动关闭
 
 
 ★定位★
-navigator.geolocation			请求对象
-对象.getCurrentPosition()		单次定位请求（多终端可用）（参数为 1.成功的回调函数 2.失败的回调函数 3.数据收集方式的对象）
-对象.watchPosition()			多次定位请求，如上（但只有移动端支持）跟(setInterval一样的特性，可以存在变量，然后可以用 对象.clearWatch(存的变量) 来关闭 )
+navigator.geolocation				请求对象
+对象.getCurrentPosition()			单次定位请求（多终端可用）（参数为 1.成功的回调函数 2.失败的回调函数 3.数据收集方式的对象）
+对象.watchPosition()				多次定位请求，如上（但只有移动端支持）跟(setInterval一样的特性，可以存在变量，然后可以用 对象.clearWatch(存的变量) 来关闭 )
 
 1.成功（参数）				
-对象.coords.longitude			经度
-对象.coords.latitude			纬度
-对象.coords.accuracy			准确度
-对象.coords.altitude			海拔
-对象.coords.altitudeAcuracy		海拔准确度（移动端才有值）
-对象.coords.heading			行进方向（移动端才有值）
-对象.coords.speed			地面速度（移动端才有值）
-new Date(的.timestamp)			时间戳	
+对象.coords.longitude				经度
+对象.coords.latitude				纬度
+对象.coords.accuracy				准确度
+对象.coords.altitude				海拔
+对象.coords.altitudeAcuracy			海拔准确度（移动端才有值）
+对象.coords.heading				行进方向（移动端才有值）
+对象.coords.speed				地面速度（移动端才有值）
+new Date(的.timestamp)				时间戳	
 	
-2.失败（参数）				对象.code为失败返回的失败编码
-					1.用户拒绝；2.尝试去获取，但失败了；3.设置了延迟时间，超过延迟时间失败；0.其他错误，也就是不包括其他编码的错误
+2.失败（参数）					对象.code为失败返回的失败编码
+						1.用户拒绝；2.尝试去获取，但失败了；3.设置了延迟时间，超过延迟时间失败；0.其他错误，也就是不包括其他编码的错误
 
-3.数据收集json				{ enableHighAcuracy:false, timeout:infinity, maximumAge:0 }	首先在这个json里面的都是默认值
-enableHighAcuracy			更精准的查找
-timeout					延迟时间
-maximumAge				位置可以被缓存的最大时间
+3.数据收集json					{ enableHighAcuracy:false, timeout:infinity, maximumAge:0 }	首先在这个json里面的都是默认值
+enableHighAcuracy				更精准的查找
+timeout						延迟时间
+maximumAge					位置可以被缓存的最大时间
 
 
 ★获取行间的自定义属性★
-DOM.dataset.成员			HTML5新行间自定属性数据，可以获取在 <DOM data-成员="value">的数据
+DOM.dataset.成员				HTML5新行间自定属性数据，可以获取在 <DOM data-成员="value">的数据
 
 
 ★script标签属性的延迟加载属性★
-defer					延迟加载，script标签身上的属性，defer="defer" ，会等页面以及全部其他文件加载好再加载（注意，需要在服务器环境下）
-async					异步加载，内容如上
+defer						延迟加载，script标签身上的属性，defer="defer" ，会等页面以及全部其他文件加载好再加载（注意，需要在服务器环境下）
+async						异步加载，内容如上
 
 
 ★全局行间功能属性★
@@ -395,11 +398,11 @@ canvasDOM.toDataURL('image/png')		把canvas画布的内容转换成base64图片值
 环境对象.restore（）				恢复之前的画笔（因为开发者使用一些transform的话，或者其他变换的话，会被叠加，所以使用前可以save()一下）
 
 
-★ajax2.0★（升级版）			参考	http://www.ruanyifeng.com/blog/2012/09/xmlhttprequest_level_2.html
-对象.onload				ajax成功发送并且返回后直接用了这个事件
+★ajax2.0★（升级版）				参考	http://www.ruanyifeng.com/blog/2012/09/xmlhttprequest_level_2.html
+对象.onload					ajax成功发送并且返回后直接用了这个事件
 
-对象.upload				上传进度对象
-对象.upload.onprogress			进度事件,进度事件的属性跟方法都在event对象里，ev.loaded（已发送的量），ev.total（文件总量）
+对象.upload					上传进度对象
+对象.upload.onprogress				进度事件,进度事件的属性跟方法都在event对象里，ev.loaded（已发送的量），ev.total（文件总量）
 
 
 

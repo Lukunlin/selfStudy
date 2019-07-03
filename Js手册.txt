@@ -10,40 +10,40 @@ Area : China the GuangDong
 
 
 ¡þ¿ò¡þ
-alert           ¾¯¸æ Ö´ÐÐ¾Í +'\n'+
-console		´òÓ¡¶ÔÏó,Ëüµ×ÏÂÓÐ2¸öÌØÊâ·½·¨time,timeEnd£¬²âÊÔÖ´ÐÐÊ±¼ä£¬±ê×¼ÏÂ¸úIE11ÏÂ¼æÈÝ,cnosoleµ×ÏÂµÄ¶ÔÏóÓÐÒÔÏÂÌØÊâ·½·¨:
-		timeÓëtimeEnd,´òÓ¡±»°üº¬ÔÚtime·½·¨¸útimeEnd·½·¨ÄÚµØ³ÌÐòÖ´ÐÐËùÓÃµÄÊ±¼ä,ËûÃÇµÄ²ÎÊý¶¼±ØÐëÎªÏàµÈµÄstringÀ´´ú±íname
-		trace,½«ÔÚµ÷ÊÔ¿ØÖÆÌ¨ÖÐ´òÓ¡¸Ã´¦µÄº¯Êýµ÷ÓÃÕ»ÐÅÏ¢		
+alert           	¾¯¸æ Ö´ÐÐ¾Í +'\n'+
+console			´òÓ¡¶ÔÏó,Ëüµ×ÏÂÓÐ2¸öÌØÊâ·½·¨time,timeEnd£¬²âÊÔÖ´ÐÐÊ±¼ä£¬±ê×¼ÏÂ¸úIE11ÏÂ¼æÈÝ,cnosoleµ×ÏÂµÄ¶ÔÏóÓÐÒÔÏÂÌØÊâ·½·¨:
+			timeÓëtimeEnd,´òÓ¡±»°üº¬ÔÚtime·½·¨¸útimeEnd·½·¨ÄÚµØ³ÌÐòÖ´ÐÐËùÓÃµÄÊ±¼ä,ËûÃÇµÄ²ÎÊý¶¼±ØÐëÎªÏàµÈµÄstringÀ´´ú±íname
+			trace,½«ÔÚµ÷ÊÔ¿ØÖÆÌ¨ÖÐ´òÓ¡¸Ã´¦µÄº¯Êýµ÷ÓÃÕ»ÐÅÏ¢		
 
-confirm         È·ÈÏ¿ò£¬Ö´ÐÐºóÐèÒª½ÓÊÕ·µ»ØÖµ£¬·µ»ØÖµÎª²¼¶ûÖµÀ´´ú±íÓÃ»§Ñ¡ÔñµÄÊÇÈ·ÈÏ»¹ÊÇÈ¡Ïû
-prompt          ÌáÊ¾´°¿Ú,Ö´ÐÐºóÐèÒª½ÓÊÕ·µ»ØÖµ£¬¿ÉÒÔÈ¥ÅÐ¶ÏÓÃ»§ÌîÐ´ÁËÊ²Ã´
-break		Ìø³ö(´Ë´ÎÑ­»·)
-continue 	Ìø¹ý(±¾´ÎÑ­»·)
-delete		É¾³ý£¨Ò»°ãÉ¾³ý¶ÔÏó¸újsonµÄÊôÐÔÓÃ£¬·µ»ØÖµÎª²¼¶ûÖµ£¬³É¹¦É¾³ý¾ÍÎªtrue£©
-write		Ð´£¬¸úinnerHTML²»Í¬£¬²»»áÌæ»»Ô­À´ÓÐµÄ
-error		´íÎó¶ÔÏó,throw new Error()£¬ÕâÑù¿ÉÒÔÊÖ¶¯Å×³öÒ»¸ö´íÎóÐÅÏ¢,²¢ÇÒ»á´¥·¢windowµ×ÏÂµÄonerrorÊÂ¼þ
+confirm         	È·ÈÏ¿ò£¬Ö´ÐÐºóÐèÒª½ÓÊÕ·µ»ØÖµ£¬·µ»ØÖµÎª²¼¶ûÖµÀ´´ú±íÓÃ»§Ñ¡ÔñµÄÊÇÈ·ÈÏ»¹ÊÇÈ¡Ïû
+prompt          	ÌáÊ¾´°¿Ú,Ö´ÐÐºóÐèÒª½ÓÊÕ·µ»ØÖµ£¬¿ÉÒÔÈ¥ÅÐ¶ÏÓÃ»§ÌîÐ´ÁËÊ²Ã´
+break			Ìø³ö(´Ë´ÎÑ­»·)
+continue 		Ìø¹ý(±¾´ÎÑ­»·)
+delete			É¾³ý£¨Ò»°ãÉ¾³ý¶ÔÏó¸újsonµÄÊôÐÔÓÃ£¬·µ»ØÖµÎª²¼¶ûÖµ£¬³É¹¦É¾³ý¾ÍÎªtrue£©
+write			Ð´£¬¸úinnerHTML²»Í¬£¬²»»áÌæ»»Ô­À´ÓÐµÄ
+error			´íÎó¶ÔÏó,throw new Error()£¬ÕâÑù¿ÉÒÔÊÖ¶¯Å×³öÒ»¸ö´íÎóÐÅÏ¢,²¢ÇÒ»á´¥·¢windowµ×ÏÂµÄonerrorÊÂ¼þ
 
 
 ¡öÓï·¨¸úÊôÐÔ¶ÔÏó¡ö
-this             ¾ÍÊÇËü£¬±¾Éí(µ±Ç°ÔªËØ·¢ÉúÊÂ¼þºó£¬¿ÉÒÔµ÷ÓÃÕâ¸öËû£¬ÔÚÒ»¸öÊÂ¼þÏÂµÄ»°,this¶¼ÊÇµÈÓÚµ±Ç°·¢ÉúÊÂ¼þµÄÔªËØ)
-		 1, ÔÚÊÂ¼þ´¦Àíº¯ÊýÖÐµÄthis £º ÊÂ¼þ·¢ÉúÔÚË­ÉíÉÏ£¬this¾ÍÊÇË­¡£	
-		 2£¬º¯Êý¼ÓÐ¡À¨ºÅÖ±½ÓÖ´ÐÐ£¬thisÒ»¶¨ÊÇwindow.	3£¬¶¨Ê±Æ÷ÖÐµÄthis£¬ÊÇ window
-		 4, ÊôÐÔµÄ·½·¨ÖÐµÄthis,¾ÍÊÇÕâ¸öÊôÐÔËùÊôµÄ¶ÔÏó¡£	
+this             	¾ÍÊÇËü£¬±¾Éí(µ±Ç°ÔªËØ·¢ÉúÊÂ¼þºó£¬¿ÉÒÔµ÷ÓÃÕâ¸öËû£¬ÔÚÒ»¸öÊÂ¼þÏÂµÄ»°,this¶¼ÊÇµÈÓÚµ±Ç°·¢ÉúÊÂ¼þµÄÔªËØ)
+		 	1, ÔÚÊÂ¼þ´¦Àíº¯ÊýÖÐµÄthis £º ÊÂ¼þ·¢ÉúÔÚË­ÉíÉÏ£¬this¾ÍÊÇË­¡£	
+		 	2£¬º¯Êý¼ÓÐ¡À¨ºÅÖ±½ÓÖ´ÐÐ£¬thisÒ»¶¨ÊÇwindow.	3£¬¶¨Ê±Æ÷ÖÐµÄthis£¬ÊÇ window
+		 	4, ÊôÐÔµÄ·½·¨ÖÐµÄthis,¾ÍÊÇÕâ¸öÊôÐÔËùÊôµÄ¶ÔÏó¡£	
 
-new		 ÔËËã·û£¬´´½¨£¬¾ßÌå²ÎÊý£¬Çë¿´±êÌâ¡°ÃæÏò¶ÔÏó¡±
+new		 	ÔËËã·û£¬´´½¨£¬¾ßÌå²ÎÊý£¬Çë¿´±êÌâ¡°ÃæÏò¶ÔÏó¡±
 
-null             ¿ÕµÄ(Ò»°ãÈ¡Ò»¸ö±äÁ¿Îª¿Õ£¬ºóÃæÔÙÍùÕâ¸ö±äÁ¿ÀïÃæ´æ¶«Î÷»òÕß´æÒ»¸öÊýÖµ)
-return           ·µ»ØÖµ(ÔÚº¯ÊýÏÂ²ÅÄÜÓÐ)Ð´ÁË·µ»ØÖµ£¬ÄÇÃ´Õâ¸öÕâ¸öº¯Êý±»µ÷ÓÃµÄÊ±ºò£¬¾ÍÊÇËûreturnºóÃæµÄ¶«Î÷£¬Òª2¸öÀ¨ºÅ²ÅÄÜµ÷ÓÃµ½returnºóÃæµÄ
-arguments	 ´«²ÎÊµ²ÎµÄ¼¯ºÏ£¬ÓÐÏÂ±ê¡££¨µ±º¯ÊýµÄÊµ²Î²»ÄÜÈ·¶¨£¬»òÕßÊýÁ¿²»Ò»µÄÊ±ºòÓÃÕâ¸ö£©
-element          ÔªËØ  
-length           ÔªËØµÄ£¨¸öÊý£©£¬£¨ÊýÁ¿£©
-value            ¼ÛÖµ,ÄÚº­ //ÀïÃæµÄ¶«Î÷
-innerHTML        Õâ¸öÔªËØÀïÃæµÄÄÚÈÝ£¬ÀïÃæ»¹¿ÉÒÔ¼ÓHTMLµÄ±êÇ©£¬DIV¼¶³ýÍâ
-switch           ifÅÐ¶ÏµÄÇ¿»¯°æ,¶ÔÓÚÃ¿¸öÌõ¼þ¶¼ÏêÏ¸,·½²ÅÖ´ÐÐ´úÂë     !(ÔÚÎÄ±¾JSÌõ¼þÖÐÓÐ°¸Àý)!
-while		 forÑ­»·µÄ¼ò»¯°æ
-with		 Ñ¡ÖÐ¶ÔÏóÓï·¨£¬Óï·¨ÈçifµÄÓï·¨£¬ÔÚ±»withÑ¡ÖÐµÄ¶ÔÏó£¬ÔÚÕâ¸ö{}Àï£¬Ä¬ÈÏ´øÉÏÁË±»Ñ¡ÖÐµÄ¶ÔÏó£¬´ïµ½¼ò»¯ÖØÐ´¶ÔÏóµÄÓï·¨
-void		 ÔËËã·û£¬µ«²»·µ»ØÔËËã½á¹û
-cssText		 »ñÈ¡µ½ÔªËØºó£¬¿ÉÒÔÖ±½ÓÐÞ¸Ä£¬Ò²¾ÍÊÇËµ²»ÓÃÔÙµ¥¶ÀÈ¥»ñÈ¡ÔªËØµÄwidth°¡£¬height°¡£¬Ö±½ÓcssText = 'width:';
+null             	¿ÕµÄ(Ò»°ãÈ¡Ò»¸ö±äÁ¿Îª¿Õ£¬ºóÃæÔÙÍùÕâ¸ö±äÁ¿ÀïÃæ´æ¶«Î÷»òÕß´æÒ»¸öÊýÖµ)
+return           	·µ»ØÖµ(ÔÚº¯ÊýÏÂ²ÅÄÜÓÐ)Ð´ÁË·µ»ØÖµ£¬ÄÇÃ´Õâ¸öÕâ¸öº¯Êý±»µ÷ÓÃµÄÊ±ºò£¬¾ÍÊÇËûreturnºóÃæµÄ¶«Î÷£¬Òª2¸öÀ¨ºÅ²ÅÄÜµ÷ÓÃµ½returnºóÃæµÄ
+arguments	 	´«²ÎÊµ²ÎµÄ¼¯ºÏ£¬ÓÐÏÂ±ê¡££¨µ±º¯ÊýµÄÊµ²Î²»ÄÜÈ·¶¨£¬»òÕßÊýÁ¿²»Ò»µÄÊ±ºòÓÃÕâ¸ö£©
+element          	ÔªËØ  
+length           	ÔªËØµÄ£¨¸öÊý£©£¬£¨ÊýÁ¿£©
+value            	¼ÛÖµ,ÄÚº­ //ÀïÃæµÄ¶«Î÷
+innerHTML        	Õâ¸öÔªËØÀïÃæµÄÄÚÈÝ£¬ÀïÃæ»¹¿ÉÒÔ¼ÓHTMLµÄ±êÇ©£¬DIV¼¶³ýÍâ
+switch           	ifÅÐ¶ÏµÄÇ¿»¯°æ,¶ÔÓÚÃ¿¸öÌõ¼þ¶¼ÏêÏ¸,·½²ÅÖ´ÐÐ´úÂë     !(ÔÚÎÄ±¾JSÌõ¼þÖÐÓÐ°¸Àý)!
+while		 	forÑ­»·µÄ¼ò»¯°æ
+with		 	Ñ¡ÖÐ¶ÔÏóÓï·¨£¬Óï·¨ÈçifµÄÓï·¨£¬ÔÚ±»withÑ¡ÖÐµÄ¶ÔÏó£¬ÔÚÕâ¸ö{}Àï£¬Ä¬ÈÏ´øÉÏÁË±»Ñ¡ÖÐµÄ¶ÔÏó£¬´ïµ½¼ò»¯ÖØÐ´¶ÔÏóµÄÓï·¨
+void		 	ÔËËã·û£¬µ«²»·µ»ØÔËËã½á¹û
+cssText		 	»ñÈ¡µ½ÔªËØºó£¬¿ÉÒÔÖ±½ÓÐÞ¸Ä£¬Ò²¾ÍÊÇËµ²»ÓÃÔÙµ¥¶ÀÈ¥»ñÈ¡ÔªËØµÄwidth°¡£¬height°¡£¬Ö±½ÓcssText = 'width:';
 
 
 
@@ -99,34 +99,36 @@ var ±äÁ¿=document.createElement('±êÇ©Ãû')	¡ñ´´½¨ÔªËØ¡ñ²¢ÇÒ±£´æµ½Ò»¸ö±äÁ¿ÀïÃæ£¬·½
 
 
 ¡öMathÊýÑ§·½·¨¡ö
-Math.ceil()		ÏòÉÏÈ¡Õû,Ö»ÒªÓÐÐ¡Êý(²»°üÀ¨0)¾Í½øÒ»Î»ÕûÊý
-Math.floor()		ÏòÏÂÈ¡Õû,Ö»ÒªÓÐÐ¡Êý¾Í²»ÒªÐ¡Êý.±£ÁôÇ°ÃæµÄÕûÊý¡£µ«Èç¹û¸ºÊýµÄ»°,±£ÁôÊýÇé¿öÏà·´
-Math.round()		Ð¡ÊýÎªËÄÉáÎåÈë£¬·½·¨È¥±£ÁôÕûÊý£¬µ«Ëû²»¾ß±¸¿É¿ØÖÆµ½¶àÉÙÎ»ÊýÀ´ËÄÉáÎåÈë£¬Õâ¸öÊ±ºò¿ÉÒÔÓÃ  
-			numberÀàÐÍ.toFixed( ±»ËÄÉáÎåÈëµÄÐ¡ÊýÎ»ÖÃ ),²¢ÇÒÕâ¸ö·½·¨·µ»ØÀ´µÄÀàÐÍ»á±ä³ÉstringÀàÐÍ
+Math.ceil()					ÏòÉÏÈ¡Õû,Ö»ÒªÓÐÐ¡Êý(²»°üÀ¨0)¾Í½øÒ»Î»ÕûÊý
+Math.floor()					ÏòÏÂÈ¡Õû,Ö»ÒªÓÐÐ¡Êý¾Í²»ÒªÐ¡Êý.±£ÁôÇ°ÃæµÄÕûÊý¡£µ«Èç¹û¸ºÊýµÄ»°,±£ÁôÊýÇé¿öÏà·´
+Math.round()					Ð¡ÊýÎªËÄÉáÎåÈë£¬·½·¨È¥±£ÁôÕûÊý£¬µ«Ëû²»¾ß±¸¿É¿ØÖÆµ½¶àÉÙÎ»ÊýÀ´ËÄÉáÎåÈë£¬Õâ¸öÊ±ºò¿ÉÒÔÓÃ  
+						numberÀàÐÍ.toFixed( ±»ËÄÉáÎåÈëµÄÐ¡ÊýÎ»ÖÃ ),²¢ÇÒÕâ¸ö·½·¨·µ»ØÀ´µÄÀàÐÍ»á±ä³ÉstringÀàÐÍ
 
-Math.random()		Ëæ»ú³öÏÖ0µ½1µÄ£¨0.¼¸£©µÄÐ¡Êý£¨Ö¸ÄÏËµÓÐ¿ÉÄÜÎª0£©¹«Ê½ Math.random()*k+n  nµÈÓÚÆðµã  kµÈÓÚÄ¿±êµã¼õÈ¥n
-Math.max()		Çó×î´óÖµ£¬²ÎÊýÀïÃæ¿ÉÒÔ´«²Î£¬È»ºó·µ»Ø×î´óÖµ
-Math.min()		Çó×îÐ¡Öµ£¬²ÎÊýÀïÃæ¿ÉÒÔ´«²Î£¬È»ºó·µ»Ø×îÐ¡Öµ
-Math.abs()		·µ»Ø¾ø¶ÔÖµ
-Math.Pi			Ô²ÖÜÂÊ£¨3.141592653ÎÞÏÞ²»Ñ­»·£©
-Math.pow()		Æ½·½Êý(µÚÒ»²ÎÊýÎªÒ»¸öÊý×Ö£¬µÚ2²ÎÊýÎªÕâ¸öÊý×ÖµÄ¶àÉÙÆ½·½)
-Math.sqrt()		¿ª·½(²ÎÊýÎªÒ»¸ö)Æ½·½µÄÄæÔËËã
+Math.random()					Ëæ»ú³öÏÖ0µ½1µÄ£¨0.¼¸£©µÄÐ¡Êý£¨Ö¸ÄÏËµÓÐ¿ÉÄÜÎª0£©¹«Ê½ Math.random()*k+n  nµÈÓÚÆðµã  kµÈÓÚÄ¿±êµã¼õÈ¥n
+Math.max()					Çó×î´óÖµ£¬²ÎÊýÀïÃæ¿ÉÒÔ´«²Î£¬È»ºó·µ»Ø×î´óÖµ
+Math.min()					Çó×îÐ¡Öµ£¬²ÎÊýÀïÃæ¿ÉÒÔ´«²Î£¬È»ºó·µ»Ø×îÐ¡Öµ
+Math.abs()					·µ»Ø¾ø¶ÔÖµ
+Math.Pi						Ô²ÖÜÂÊ£¨3.141592653ÎÞÏÞ²»Ñ­»·£©
+Math.pow()					Æ½·½Êý(µÚÒ»²ÎÊýÎªÒ»¸öÊý×Ö£¬µÚ2²ÎÊýÎªÕâ¸öÊý×ÖµÄ¶àÉÙÆ½·½)
+Math.sqrt()					¿ª·½(²ÎÊýÎªÒ»¸ö)Æ½·½µÄÄæÔËËã
 
-¸ü¶à·½·¨Çë²Î¿¼ 		http://www.w3school.com.cn/jsref/jsref_obj_math.asp
+¸ü¶à·½·¨Çë²Î¿¼ 					http://www.w3school.com.cn/jsref/jsref_obj_math.asp
 
 
 
 
 
 ¡öÀàÐÍ¡ö
-typeof		 ÓÃÀ´ÅÐ¶ÏÀàÐÍµÄ¡ñ²é¿´±äÁ¿ÀàÐÍµÄÊôÓÚÔËËã·û¡ñ
+typeof		 				ÓÃÀ´ÅÐ¶ÏÀàÐÍµÄ¡ñ²é¿´±äÁ¿ÀàÐÍµÄÊôÓÚÔËËã·û¡ñ
 
-function	 º¯Êý
-number		 Êý×Ö
-boolean		 ²¼¶ûÖµ
-string 		 ×Ö·û´®   			
-object		 ¶ÔÏó
-undefined	 Î´¶¨ÒåµÄ
+function	 				º¯Êý
+number		 				Êý×Ö
+boolean		 				²¼¶ûÖµ
+string 		 				×Ö·û´®   			
+object		 				¶ÔÏó
+undefined	 				Î´¶¨ÒåµÄ
+symbol						Î¨Ò»
+
 
 ÉÏÃæÊÇ°´ÕÕtypeof µÄÐÎÊ½È¥ÅÐ¶ÏÀàÐÍµÄ£¬°´ÕÕ¡ñECMAScript±ê×¼¡ñµÄ»°£¬Ò»°ãÓÐÁ½¸öÀàÐÍ£¬¾ÍÊÇ¡ñ¼òµ¥¡ñÀàÐÍ¸ú¡ñÒýÓÃ¡ñÀàÐÍ£¬Ê×ÏÈ±ê×¼ÏÂµÄÀàÐÍÓÐ
 
@@ -137,35 +139,35 @@ undefined	 Î´¶¨ÒåµÄ
 
 ¡öÀà×ª»»ÐÍ¡ö
 ¡øÏÔÊ¾ÀàÐÍ×ª»» Ç¿ÖÆ
-Number		 ¡ñ¾¡Á¿¡ñ×ª³ÉÊý×ÖÀàÐÍ
-parseInt	 ´Ó×óµ½ÓÒ×ª»»³É¡ñÕûÊý¡ñÓö¼û·ÇÊý×Öºó£¬·ÇÊý×ÖºóÃæµÄÍ³Í³²»Òª£¬¶øÇÒ×ª»»µÄ¶«Î÷»ù±¾ÉÏÖ»ÄÜÊÇ×Ö·û´®»òÇ°Ãæ´øÊý×ÖÀàÐÍµÄ¶«Î÷£¬£¨ËüÈÏ·ûºÅ£©
-parseFloat	 ´Ó×óµ½ÓÒ×ª»»£¬¡ñ±£Áô¡ñÐ¡Êý¡£ÆäËûÈçÉÏ
+Number		 				¡ñ¾¡Á¿¡ñ×ª³ÉÊý×ÖÀàÐÍ
+parseInt	 				´Ó×óµ½ÓÒ×ª»»³É¡ñÕûÊý¡ñÓö¼û·ÇÊý×Öºó£¬·ÇÊý×ÖºóÃæµÄÍ³Í³²»Òª£¬¶øÇÒ×ª»»µÄ¶«Î÷»ù±¾ÉÏÖ»ÄÜÊÇ×Ö·û´®»òÇ°Ãæ´øÊý×ÖÀàÐÍµÄ¶«Î÷£¬£¨ËüÈÏ·ûºÅ£©
+parseFloat	 				´Ó×óµ½ÓÒ×ª»»£¬¡ñ±£Áô¡ñÐ¡Êý¡£ÆäËûÈçÉÏ
 
-NAN		 ×ª»»¡ñÊ§°Ü¡ñÒ²ËãÊÇÊý×ÖÀàÐÍÀïµÄ·ÇÊý×Ö¡£²¼¶ûÖµµÈÓÚ¼Ùfalse£¬¶øÇÒËû²»µÈÓÚËû±¾Éí¡£
-isNaN		 ÅÐ¶Ï²»ÊÇÊý×Ö£¬ÖµÎª²¼¶ûÖµ.²»ÊÇÊý×Ö¾ÍÎªÕæ.µ«ËûÊÇÍ¨¹ýNumber()ÅÐ¶ÏÎªÊÇ²»ÊÇÊý×ÖµÄ.
+NAN		 				×ª»»¡ñÊ§°Ü¡ñÒ²ËãÊÇÊý×ÖÀàÐÍÀïµÄ·ÇÊý×Ö¡£²¼¶ûÖµµÈÓÚ¼Ùfalse£¬¶øÇÒËû²»µÈÓÚËû±¾Éí¡£
+isNaN		 				ÅÐ¶Ï²»ÊÇÊý×Ö£¬ÖµÎª²¼¶ûÖµ.²»ÊÇÊý×Ö¾ÍÎªÕæ.µ«ËûÊÇÍ¨¹ýNumber()ÅÐ¶ÏÎªÊÇ²»ÊÇÊý×ÖµÄ.
 
 ¡øÒþÊ½ÀàÐÍ×ª»»
-'200'-3		 ±ä³ÉÊý×ÖÀàÐÍÁË
-È»ºó - * / % ++ -- 		 ¶¼»á°Ñ×Ö·û´®±ä³ÉÊý×ÖÀàÐÍ£¬
-200+ '3'	 ±ä³É×Ö·û´®ÁË
-!100		 È¡·´£¬£¡£¬¾ÍÊÇÈ¡·´£¬Ò»°ãÈ¡µÄ¶¼ÊÇ²¼¶ûÖµ
+'200'-3		 				±ä³ÉÊý×ÖÀàÐÍÁË
+È»ºó - * / % ++ -- 		 		¶¼»á°Ñ×Ö·û´®±ä³ÉÊý×ÖÀàÐÍ£¬
+200+ '3'	 				±ä³É×Ö·û´®ÁË
+!100		 				È¡·´£¬£¡£¬¾ÍÊÇÈ¡·´£¬Ò»°ãÈ¡µÄ¶¼ÊÇ²¼¶ûÖµ
 Èç¹ûÊÇ == È«µÈ »òÕß ===Ç¿µÈµÄ»°£¬ '2'==2;ÊÇÕæ£¬±ÈµÄÊÇÀïÃæµÄ,'2' === 2;Îª¼Ù£¬Ç¿µÈÅÐ¶ÏËùÓÐÌõ¼þÀàÐÍ¶¼ÒªÒ»Ñù.
 
 
 
-¡öÊôÓÚÌØ±ðµÄ·½·¨¡ö£¨IE6/7Ã»ÓÐÕâ¸ö¶ÔÏó¸ú·½·¨µÄ£¬ËùÒÔ¿ÉÒÔÔÚJSON¹ÙÍøÏÂ£¬ÏÂÔØÒ»¸öJS¿âÀ´×öÒýÓÃÈ»ºó¾Í¿ÉÒÔ¼æÈÝ£©
+¡öÊôÓÚÌØ±ðµÄ·½·¨¡ö				£¨IE6/7Ã»ÓÐÕâ¸ö¶ÔÏó¸ú·½·¨µÄ£¬ËùÒÔ¿ÉÒÔÔÚJSON¹ÙÍøÏÂ£¬ÏÂÔØÒ»¸öJS¿âÀ´×öÒýÓÃÈ»ºó¾Í¿ÉÒÔ¼æÈÝ£©
 
-JSON		 	ÏµÍ³ÒÑ¾­¡ñÄÚÖÃ¡ñµÄ¶ÔÏó£¬²»ÐèÒªÔÙ´æÔÚÒ»¸ö±äÁ¿Àï¾Í¿ÉÒÔÓÃÕâ¸ö¶ÔÏó£¨Ê¹ÓÃÕâ¸ö¶ÔÏóµÄ·½·¨½øÐÐ×ª»»µÄÊ±ºò¶¼ÊÇÓÃÑÏ¸ñÄ£Ê½½øÐÐ×ª»»µÄ£©
+JSON		 				ÏµÍ³ÒÑ¾­¡ñÄÚÖÃ¡ñµÄ¶ÔÏó£¬²»ÐèÒªÔÙ´æÔÚÒ»¸ö±äÁ¿Àï¾Í¿ÉÒÔÓÃÕâ¸ö¶ÔÏó£¨Ê¹ÓÃÕâ¸ö¶ÔÏóµÄ·½·¨½øÐÐ×ª»»µÄÊ±ºò¶¼ÊÇÓÃÑÏ¸ñÄ£Ê½½øÐÐ×ª»»µÄ£©
 
-JSON.parse() 		°ÑjsonÐÎÊ½µÄ¡ñ×Ö·û´®¡ñ×ª»»³ÉÔ´ÉúµÄjs´úÂë£¨°²È«ÐÔ¸ß£¬±ØÐëÊÇÑÏ¸ñÄ£Ê½µÄ£©
-JSON.stringify() 	°ÑÒ»¸ö¡ñ¶ÔÏó¡ñ×ª»»³ÉÒ»¶Î×Ö·û´®
+JSON.parse() 					°ÑjsonÐÎÊ½µÄ¡ñ×Ö·û´®¡ñ×ª»»³ÉÔ´ÉúµÄjs´úÂë£¨°²È«ÐÔ¸ß£¬±ØÐëÊÇÑÏ¸ñÄ£Ê½µÄ£©
+JSON.stringify() 				°ÑÒ»¸ö¡ñ¶ÔÏó¡ñ×ª»»³ÉÒ»¶Î×Ö·û´®
 
+		
+eval()						¿ÉÒÔ°ÑÈÎºÎµÄ¡ñ×Ö·û´®¡ñ×ª³ÉÔ´ÉúµÄjavascript´úÂë(Õâ¸ö·½·¨ÊÇÔ­ÉúµÄ£¬¼æÈÝËùÓÐ£¬µ«ÊÇ°²È«ÐÔ²»¸ß)
+						²¢ÇÒÐèÒª×¢ÒâµÄÊÇ£¬Ëü¼ÈÊÇ¹Ø¼ü×ÖÒ²ÊÇwindowÏÂµÄÒ»¸ö·½·¨£¬ÔÚ¾Ö²¿µ÷ÓÃ¸úÓÃwindowÏÂµ÷ÓÃ×÷ÓÃ»á²»Í¬
 
-eval()			¿ÉÒÔ°ÑÈÎºÎµÄ¡ñ×Ö·û´®¡ñ×ª³ÉÔ´ÉúµÄjavascript´úÂë(Õâ¸ö·½·¨ÊÇÔ­ÉúµÄ£¬¼æÈÝËùÓÐ£¬µ«ÊÇ°²È«ÐÔ²»¸ß)
-			²¢ÇÒÐèÒª×¢ÒâµÄÊÇ£¬Ëü¼ÈÊÇ¹Ø¼ü×ÖÒ²ÊÇwindowÏÂµÄÒ»¸ö·½·¨£¬ÔÚ¾Ö²¿µ÷ÓÃ¸úÓÃwindowÏÂµ÷ÓÃ×÷ÓÃ»á²»Í¬
-
-encodeURI()		¿É°Ñ×Ö·û´®×÷Îª URI ½øÐÐ±àÂë,ÁíencodeURIComponent()Ò²ÊÇ²î²»¶àµÄ
-decodeURI()		¿É°Ñ URI±àÂëµÄstring ½øÐÐ×ªÂë(½âÂë),ÁídecodeURIComponent()Ò²ÊÇ²î²»¶àµÄ
+encodeURI()					¿É°Ñ×Ö·û´®×÷Îª URI ½øÐÐ±àÂë,ÁíencodeURIComponent()Ò²ÊÇ²î²»¶àµÄ
+decodeURI()					¿É°Ñ URI±àÂëµÄstring ½øÐÐ×ªÂë(½âÂë),ÁídecodeURIComponent()Ò²ÊÇ²î²»¶àµÄ
 
 
 
@@ -180,9 +182,9 @@ Object.freeze()
 
 ¡ö³ÌÐòÕæ¼ÙÖµ¡ö
 
-Õæ		 ·Ç0µÄÊý×Ö£¬·Ç¿Õ×Ö·û´®£¬true£¬º¯Êý£¬ÄÜÕÒµ½µÄÔªËØ£¬[]£¬{}
+Õæ		 		·Ç0µÄÊý×Ö£¬·Ç¿Õ×Ö·û´®£¬true£¬º¯Êý£¬ÄÜÕÒµ½µÄÔªËØ£¬[]£¬{}
 
-¼Ù		 0,NaN£¬¿Õ×Ö·û´®,false£¬²»ÄÜ±»ÕÒµ½µÄÔªËØ£¬null£¬Î´¶¨Òå
+¼Ù		 		0,NaN£¬¿Õ×Ö·û´®,false£¬²»ÄÜ±»ÕÒµ½µÄÔªËØ£¬null£¬Î´¶¨Òå
 
 
 
@@ -311,27 +313,27 @@ if(window = window.top){
 
 
 
-¡öÊó±ê¼üÅÌÊÂ¼þ¡ö¸ü¶àÊÂ¼þÇëµ½W3CÖÐ²é¿´	http://www.w3school.com.cn/tags/html_ref_eventattributes.asp
-¶ÔÏó.onload          	Ò³Ãæ¼ÓÔØÍê³É
-¶ÔÏó.onunload        	¹Ø±Õµ±Ç°Ò³Ãæ
+¡öÊó±ê¼üÅÌÊÂ¼þ¡ö		¸ü¶àÊÂ¼þÇëµ½W3CÖÐ²é¿´	http://www.w3school.com.cn/tags/html_ref_eventattributes.asp
+¶ÔÏó.onload          		Ò³Ãæ¼ÓÔØÍê³É
+¶ÔÏó.onunload        		¹Ø±Õµ±Ç°Ò³Ãæ
 
-¶ÔÏó.onmouseover     	Êó±êÒÆÈë
-¶ÔÏó.onmouseenter	Êó±êÒÆÈë£¨ÊÂ¼þ×ÔÉí²»Ã°ÅÝ£©
-¶ÔÏó.onmouseout      	Êó±êÀë¿ª
-¶ÔÏó.onmouseleave	Êó±êÀë¿ª£¨ÊÂ¼þ×ÔÉí²»Ã°ÅÝ£©
-¶ÔÏó.onmousemove    	Êó±êÒÆ¶¯Ê±·¢Éú
+¶ÔÏó.onmouseover     		Êó±êÒÆÈë
+¶ÔÏó.onmouseenter		Êó±êÒÆÈë£¨ÊÂ¼þ×ÔÉí²»Ã°ÅÝ£©
+¶ÔÏó.onmouseout      		Êó±êÀë¿ª
+¶ÔÏó.onmouseleave		Êó±êÀë¿ª£¨ÊÂ¼þ×ÔÉí²»Ã°ÅÝ£©
+¶ÔÏó.onmousemove    		Êó±êÒÆ¶¯Ê±·¢Éú
 
-¶ÔÏó.onclick         	µã»÷·¢Éú
-¶ÔÏó.ondblclick      	Ë«»÷·¢Éú
+¶ÔÏó.onclick         		µã»÷·¢Éú
+¶ÔÏó.ondblclick      		Ë«»÷·¢Éú
 
-¶ÔÏó.oncontextmenu	Êó±êÓÒ¼üºó·¢Éú	   
+¶ÔÏó.oncontextmenu		Êó±êÓÒ¼üºó·¢Éú	   
 
-¶ÔÏó.onmousedown    	Êó±ê°´¼ü±»°´ÏÂ
-¶ÔÏó.onmouseup		Êó±ê°´¼ü±»ËÉ¿ª
+¶ÔÏó.onmousedown    		Êó±ê°´¼ü±»°´ÏÂ
+¶ÔÏó.onmouseup			Êó±ê°´¼ü±»ËÉ¿ª
 
-¶ÔÏó.onkeydown       	°´ÏÂÒ»¸ö¼üÅÌ°´¼ü
-¶ÔÏó.onkeyup		¼üÅÌ°´¼ü±»°´ÏÂºóËÉ¿ª
-¶ÔÏó.onkeypress		ÊäÈë°´¼üÀàµÄ²ÅÏìÓ¦£¨ÉÙÓÃ£©
+¶ÔÏó.onkeydown       		°´ÏÂÒ»¸ö¼üÅÌ°´¼ü
+¶ÔÏó.onkeyup			¼üÅÌ°´¼ü±»°´ÏÂºóËÉ¿ª
+¶ÔÏó.onkeypress			ÊäÈë°´¼üÀàµÄ²ÅÏìÓ¦£¨ÉÙÓÃ£©
 
 
 ¡öinputÊÂ¼þ¡ö
@@ -347,52 +349,52 @@ inputDOM.onblur          	Ê§È¥½¹µã	  	 ¹ØÓÚ½¹µã£¨ ÈÃÒ»¸öÔªËØµÃµ½½¹µã .focus()	ÈÃ
 
 
 ¡ö´°¿ÚÊÂ¼þ¡ö
-window.onpageshow       µ±Ç°Ò³Ãæ¿ªÊ¼¡ñ¶ÁÈ¡¡ñ¾Í´¥·¢,Ïà¶ÔÓÚonload¸üÔç,Ò³ÃæÇ°½øºóÍËÒ²»á´¥·¢
-window.onscroll		µ±Ç°Ò³Ãæ¡ñ¿ÉÊÓÇø¸Ä±ä£¨¹ö¶¯Ò²ËãÊÇ¸Ä±äÁË¿ÉÊÓÇø£©¡ñµÄÊ±ºò´¥·¢
-window.onresize		µ±¡ñ´°¿Ú¡ñ·¢Éú¸Ä±äµÄÊ±ºò´¥·¢
-window.onhashchange	µ±Ò³ÃæµÄ¡ñhash¡ñÖµ·¢Éú¸Ä±äÖ®ºó,¿ÉÒÔÓÃÕâ¸öÊÂ¼þÅäºÏhashµÄÐÞ¸Ä,À´´ïµ½ÒÆ¶¯¶Ë¿É¿ØÖÆ·µ»Ø¼üµÄ²Ù×÷,µ«Ç°ÌáÊÇ±ØÐëÓµ»¤ÊÖ¶¯´¥·¢½»»¥ÐÞ¸Ähash²Å»á¿É¿Ø
-window.onerror 		µ±¡ñ½Å±¾¡ñ·¢Éú´íÎóµÄÊ±ºò´¥·¢,±ØÐëÓÃÖ±½ÓµÈÊ½È¥°ó¶¨
-do**.visibilitychange	µ±ä¯ÀÀÆ÷ÇÐ»»ä¯ÀÀÆ÷µÄtabµÄÊ±ºò»á´¥·¢¸ÃÊÂ¼þ,»òÕß´Óµ±Ç°Ç°Ì¨×ªµ½ºóÌ¨µÄÊ±ºò,²¢ÇÒ¿ÉÒÔ´ÓdocumentµÄvisibilityStateÊôÐÔÖªµÀµ±Ç°×´Ì¬
-do**.oncopy		µ±¼ì²âµ½ÓÃ»§ÓÐ¸´ÖÆÐÐÎªµÄÊ±ºò´¥·¢,²¢ÇÒ¿ÉÒÔ×èÖ¹ÓÃ»§¸´ÖÆµÄÄ¬ÈÏÐÐÎª(µ«¸ÃÊÂ¼þÊÇ²»ÔÚW3C¹æ·¶Àï,µ«ä¯ÀÀÆ÷»ù±¾¶¼ÊµÏÖÁË)
-do**.oncut		µ±¼ì²âµ½ÓÃ»§ÓÐ¼ôÇÐÐÐÎªµÄÊ±ºò´¥·¢,²¢ÇÒ¿ÉÒÔ×èÖ¹ÓÃ»§¼ôÇÐµÄÄ¬ÈÏÐÐÎª(µ«¸ÃÊÂ¼þÊÇ²»ÔÚW3C¹æ·¶Àï,µ«ä¯ÀÀÆ÷»ù±¾¶¼ÊµÏÖÁË)
-do**.onpaste		µ±¼ì²âµ½ÓÃ»§ÓÐÕ³ÌùÐÐÎªµÄÊ±ºò´¥·¢,²¢ÇÒ¿ÉÒÔ×èÖ¹ÓÃ»§Õ³ÌùµÄÄ¬ÈÏÐÐÎª(µ«¸ÃÊÂ¼þÊÇ²»ÔÚW3C¹æ·¶Àï,µ«ä¯ÀÀÆ÷»ù±¾¶¼ÊµÏÖÁË)
+window.onpageshow       	µ±Ç°Ò³Ãæ¿ªÊ¼¡ñ¶ÁÈ¡¡ñ¾Í´¥·¢,Ïà¶ÔÓÚonload¸üÔç,Ò³ÃæÇ°½øºóÍËÒ²»á´¥·¢
+window.onscroll			µ±Ç°Ò³Ãæ¡ñ¿ÉÊÓÇø¸Ä±ä£¨¹ö¶¯Ò²ËãÊÇ¸Ä±äÁË¿ÉÊÓÇø£©¡ñµÄÊ±ºò´¥·¢
+window.onresize			µ±¡ñ´°¿Ú¡ñ·¢Éú¸Ä±äµÄÊ±ºò´¥·¢
+window.onhashchange		µ±Ò³ÃæµÄ¡ñhash¡ñÖµ·¢Éú¸Ä±äÖ®ºó,¿ÉÒÔÓÃÕâ¸öÊÂ¼þÅäºÏhashµÄÐÞ¸Ä,À´´ïµ½ÒÆ¶¯¶Ë¿É¿ØÖÆ·µ»Ø¼üµÄ²Ù×÷,µ«Ç°ÌáÊÇ±ØÐëÓµ»¤ÊÖ¶¯´¥·¢½»»¥ÐÞ¸Ähash²Å»á¿É¿Ø
+window.onerror 			µ±¡ñ½Å±¾¡ñ·¢Éú´íÎóµÄÊ±ºò´¥·¢,±ØÐëÓÃÖ±½ÓµÈÊ½È¥°ó¶¨
+do**.visibilitychange		µ±ä¯ÀÀÆ÷ÇÐ»»ä¯ÀÀÆ÷µÄtabµÄÊ±ºò»á´¥·¢¸ÃÊÂ¼þ,»òÕß´Óµ±Ç°Ç°Ì¨×ªµ½ºóÌ¨µÄÊ±ºò,²¢ÇÒ¿ÉÒÔ´ÓdocumentµÄvisibilityStateÊôÐÔÖªµÀµ±Ç°×´Ì¬
+do**.oncopy			µ±¼ì²âµ½ÓÃ»§ÓÐ¸´ÖÆÐÐÎªµÄÊ±ºò´¥·¢,²¢ÇÒ¿ÉÒÔ×èÖ¹ÓÃ»§¸´ÖÆµÄÄ¬ÈÏÐÐÎª(µ«¸ÃÊÂ¼þÊÇ²»ÔÚW3C¹æ·¶Àï,µ«ä¯ÀÀÆ÷»ù±¾¶¼ÊµÏÖÁË)
+do**.oncut			µ±¼ì²âµ½ÓÃ»§ÓÐ¼ôÇÐÐÐÎªµÄÊ±ºò´¥·¢,²¢ÇÒ¿ÉÒÔ×èÖ¹ÓÃ»§¼ôÇÐµÄÄ¬ÈÏÐÐÎª(µ«¸ÃÊÂ¼þÊÇ²»ÔÚW3C¹æ·¶Àï,µ«ä¯ÀÀÆ÷»ù±¾¶¼ÊµÏÖÁË)
+do**.onpaste			µ±¼ì²âµ½ÓÃ»§ÓÐÕ³ÌùÐÐÎªµÄÊ±ºò´¥·¢,²¢ÇÒ¿ÉÒÔ×èÖ¹ÓÃ»§Õ³ÌùµÄÄ¬ÈÏÐÐÎª(µ«¸ÃÊÂ¼þÊÇ²»ÔÚW3C¹æ·¶Àï,µ«ä¯ÀÀÆ÷»ù±¾¶¼ÊµÏÖÁË)
 
 
 ¡ö¹öÂÖÊÂ¼þ¡ö
-document.onmousewheel	Êó±ê¡ñ¹öÂÖ¡ñÊ±ºò·¢Éú£¨ »ðºü³ýÍâ(ÔÚFFÏÂ»á½âÎö³É×Ô¶¨ÒåÊôÐÔ),ËùÓÐ ev.wheelDelta µÄÖµ¶¼ÊÇ¹öÏÂÎª -120 ¹öÉÏÎª 120 ¶øÇÒ°ó¶¨·½Ê½ÎªÍ¨³£¶¼¿ÉÒÔ  £©
+document.onmousewheel		Êó±ê¡ñ¹öÂÖ¡ñÊ±ºò·¢Éú£¨ »ðºü³ýÍâ(ÔÚFFÏÂ»á½âÎö³É×Ô¶¨ÒåÊôÐÔ),ËùÓÐ ev.wheelDelta µÄÖµ¶¼ÊÇ¹öÏÂÎª -120 ¹öÉÏÎª 120 ¶øÇÒ°ó¶¨·½Ê½ÎªÍ¨³£¶¼¿ÉÒÔ  £©
 
-DOMMouseScroll		Êó±ê¡ñ¹öÂÖ¡ñÊ±ºò·¢Éú£¨ ¡ñ»ðºü¶ÀÓÐ¡ñ £©¶øÇÒ°ó¶¨·½Ê½Ö»ÄÜÊÇÓÃµÚ¶þÖÖ°ó¶¨·½Ê½ addEventListener È¥°ó¶¨º¯Êý ÈçÏÂ
-			¶ÔÏó.addEventListener('DOMMouseScroll',function(ev){},false); 	¿ÉÒÔÖ±½ÓÅÐ¶Ï if(document.addEventListener) À´Ö´ÐÐ¼æÈÝ 
-			¡ñ·½ÏòÊôÐÔ¡ñÎª ev.detail ÖµÏòÏÂÕý3 ÖµÏòÉÏ-3 ¡ñÈ¡ÏûÄ¬ÈÏÊÂ¼þ¡ñ²»ÄÜÍ¨¹ý·µ»Ø¼Ù£¬ÓÃ if( oBar.releaseCapture ){ oBar.releaseCapture(); };
+DOMMouseScroll			Êó±ê¡ñ¹öÂÖ¡ñÊ±ºò·¢Éú£¨ ¡ñ»ðºü¶ÀÓÐ¡ñ £©¶øÇÒ°ó¶¨·½Ê½Ö»ÄÜÊÇÓÃµÚ¶þÖÖ°ó¶¨·½Ê½ addEventListener È¥°ó¶¨º¯Êý ÈçÏÂ
+				¶ÔÏó.addEventListener('DOMMouseScroll',function(ev){},false); 	¿ÉÒÔÖ±½ÓÅÐ¶Ï if(document.addEventListener) À´Ö´ÐÐ¼æÈÝ 
+				¡ñ·½ÏòÊôÐÔ¡ñÎª ev.detail ÖµÏòÏÂÕý3 ÖµÏòÉÏ-3 ¡ñÈ¡ÏûÄ¬ÈÏÊÂ¼þ¡ñ²»ÄÜÍ¨¹ý·µ»Ø¼Ù£¬ÓÃ if( oBar.releaseCapture ){ oBar.releaseCapture(); };
 
 
 ¡öÊÂ¼þ×Ü½á¡ö
-event			¼ÇÂ¼ÊÂ¼þ·¢ÉúÊ±µÄÏêÏ¸ÐÅÏ¢(±ê×¼ÏÂevent¶ÔÏóÊÇÊÂ¼þ´¦Àíº¯ÊýµÄµÚÒ»¸ö²ÎÊý)(IEËùÓÐÏÂevent ÊÇÒ»¸öÈ«¾Ö¶ÔÏó)
-			¿É¼ÇÂ¼£º1£¬ÔÚÄÄ¸öÔªËØÉÏ´¥·¢µÄÊÂ¼þ	2£¬ÔÚ¿ÉÊÓÇøµÄ×ø±êÎ»ÖÃ¡£		3£¬µã»÷µÄÊÇÊó±êµÄÄÄ¸ö¼ü¡£	4£¬°´ÏÂÁË¼üÅÌµÄÄÄ¸ö¼ü¡£
+event				¼ÇÂ¼ÊÂ¼þ·¢ÉúÊ±µÄÏêÏ¸ÐÅÏ¢(±ê×¼ÏÂevent¶ÔÏóÊÇÊÂ¼þ´¦Àíº¯ÊýµÄµÚÒ»¸ö²ÎÊý)(IEËùÓÐÏÂevent ÊÇÒ»¸öÈ«¾Ö¶ÔÏó)
+				¿É¼ÇÂ¼£º1£¬ÔÚÄÄ¸öÔªËØÉÏ´¥·¢µÄÊÂ¼þ	2£¬ÔÚ¿ÉÊÓÇøµÄ×ø±êÎ»ÖÃ¡£		3£¬µã»÷µÄÊÇÊó±êµÄÄÄ¸ö¼ü¡£	4£¬°´ÏÂÁË¼üÅÌµÄÄÄ¸ö¼ü¡£
 
-ev.target		¡ñÊÂ¼þÔ´¡ñÊÇÖ¸´¥·¢µ±Ç°ÊÂ¼þµÄÔ´Í·ÊÇÄÄ¸öÔªËØ¡££¨IEÏÂµÄ¶ÔÏóÊÇ srcElement£¬||Ò»ÏÂ¾Í¿ÉÒÔÁË£©
-ev.stopPropagation()	¡ñ×èÖ¹¡ñÊÂ¼þÃ°ÅÝ
-ev.preventDefault()	¡ñ×èÖ¹¡ñÊÂ¼þÄ¬ÈÏÐÐÎª£¬Èç¹ûEvent¶ÔÏóµÄcancelableÊôÐÔÎªfasle£¬ÄÇÃ´¾ÍÃ»ÓÐÄ¬ÈÏ¶¯×÷£¬»òÕß²»ÄÜ×èÖ¹Ä¬ÈÏ¶¯×÷
-ev.cancelBubble = true	¡ñÈ¡Ïû¡ñÊÂ¼þÍù¸¸¼¶Ã°ÅÝ£¬Ä¬ÈÏÎªfalse£¬true¾ÍÊÇÈ¡Ïû.µ±ÔÚ×ÓÊÂ¼þµÄÀïÃæ(Õâ¸ö×èÖ¹Ã°ÅÝÊÇIEµÄ×¨Êô)
-ev.clientX/Y		¡ñÊó±ê¡ñÔÚ¿ÉÊÓÇøÀïµÄX,¸úY
+ev.target			¡ñÊÂ¼þÔ´¡ñÊÇÖ¸´¥·¢µ±Ç°ÊÂ¼þµÄÔ´Í·ÊÇÄÄ¸öÔªËØ¡££¨IEÏÂµÄ¶ÔÏóÊÇ srcElement£¬||Ò»ÏÂ¾Í¿ÉÒÔÁË£©
+ev.stopPropagation()		¡ñ×èÖ¹¡ñÊÂ¼þÃ°ÅÝ
+ev.preventDefault()		¡ñ×èÖ¹¡ñÊÂ¼þÄ¬ÈÏÐÐÎª£¬Èç¹ûEvent¶ÔÏóµÄcancelableÊôÐÔÎªfasle£¬ÄÇÃ´¾ÍÃ»ÓÐÄ¬ÈÏ¶¯×÷£¬»òÕß²»ÄÜ×èÖ¹Ä¬ÈÏ¶¯×÷
+ev.cancelBubble = true		¡ñÈ¡Ïû¡ñÊÂ¼þÍù¸¸¼¶Ã°ÅÝ£¬Ä¬ÈÏÎªfalse£¬true¾ÍÊÇÈ¡Ïû.µ±ÔÚ×ÓÊÂ¼þµÄÀïÃæ(Õâ¸ö×èÖ¹Ã°ÅÝÊÇIEµÄ×¨Êô)
+ev.clientX/Y			¡ñÊó±ê¡ñÔÚ¿ÉÊÓÇøÀïµÄX,¸úY
 
-ev.keyCode		¡ñ¼üÅÌ¡ñ»ñÈ¡µÄ¼üÖµ
-ev.shiftKey		»ñÈ¡¼üÅÌ¡ñshift¼ü¡ñ£¬±»°´ÏÂµÄÊ±ºò¾ÍÎªtrue
-ev.ctrlKey		»ñÈ¡¼üÅÌ¡ñctrl¼ü¡ñ£¬±»°´ÏÂµÄÊ±ºò¾ÍÎªtrue
-ev.altKey		»ñÈ¡¼üÅÌ¡ñalt¼ü¡ñ£¬±»°´ÏÂµÄÊ±ºò¾ÍÎªtrue
+ev.keyCode			¡ñ¼üÅÌ¡ñ»ñÈ¡µÄ¼üÖµ
+ev.shiftKey			»ñÈ¡¼üÅÌ¡ñshift¼ü¡ñ£¬±»°´ÏÂµÄÊ±ºò¾ÍÎªtrue
+ev.ctrlKey			»ñÈ¡¼üÅÌ¡ñctrl¼ü¡ñ£¬±»°´ÏÂµÄÊ±ºò¾ÍÎªtrue
+ev.altKey			»ñÈ¡¼üÅÌ¡ñalt¼ü¡ñ£¬±»°´ÏÂµÄÊ±ºò¾ÍÎªtrue
 
 
 ¡öº¯ÊýÌØÓÐ·½·¨¡ö
-.call			º¯Êý¡ñÌØÓÐ¡ñ·½·¨,ÓÃÀ´¸Ä±äthisµÄÖ¸Ïò Èç£ºfn.call(Ä³¸ö¶ÔÏó,¡ñºóÃæµÄ²ÎÊý½ÓÏÂÈ¥Õý³£¼ÌÐø°´Ë³Ðò´«²Î¡ñ)ÃæÏò¶ÔÏóÐèÒª´Ë·½·¨¼Ì³Ð
-.apply(²ÎÊý1,²ÎÊý2)	µÚÒ»¸ö²ÎÊýÒ²ÊÇ¸Ä±äthisÖ¸Ïò,µÚ2¸ö²ÎÊýÊÇÒ»¸öarr£¬¶øÇÒ»á°ÑÕâ¸ö¡ñarr·µ»Ø¡ñ¸øµ÷ÓÃËüµÄobj,²¢ÇÒÕâ¸öÊý×é¸øº¯ÊýµÄ»°£¬º¯Êý»á·Ö½âÃ¿Ò»¸öµ±×ö´«½øÀ´µÄ²ÎÊý
-.bind			·½·¨»á´´½¨Ò»¸öÐÂµÄº¯Êý²¢ÇÒÐÞ¸ÄÉÏÏÂÎÄ»·¾³Ö¸Ïò£¬¼òµ¥Ëµ¾ÍÊÇ²»»áÀí½âÖ´ÐÐ£¬Ö»ÊÇ¸Ä±äÁËÖ¸Ïò
+.call				º¯Êý¡ñÌØÓÐ¡ñ·½·¨,ÓÃÀ´¸Ä±äthisµÄÖ¸Ïò Èç£ºfn.call(Ä³¸ö¶ÔÏó,¡ñºóÃæµÄ²ÎÊý½ÓÏÂÈ¥Õý³£¼ÌÐø°´Ë³Ðò´«²Î¡ñ)ÃæÏò¶ÔÏóÐèÒª´Ë·½·¨¼Ì³Ð
+.apply(²ÎÊý1,²ÎÊý2)		µÚÒ»¸ö²ÎÊýÒ²ÊÇ¸Ä±äthisÖ¸Ïò,µÚ2¸ö²ÎÊýÊÇÒ»¸öarr£¬¶øÇÒ»á°ÑÕâ¸ö¡ñarr·µ»Ø¡ñ¸øµ÷ÓÃËüµÄobj,²¢ÇÒÕâ¸öÊý×é¸øº¯ÊýµÄ»°£¬º¯Êý»á·Ö½âÃ¿Ò»¸öµ±×ö´«½øÀ´µÄ²ÎÊý
+.bind				·½·¨»á´´½¨Ò»¸öÐÂµÄº¯Êý²¢ÇÒÐÞ¸ÄÉÏÏÂÎÄ»·¾³Ö¸Ïò£¬¼òµ¥Ëµ¾ÍÊÇ²»»áÀí½âÖ´ÐÐ£¬Ö»ÊÇ¸Ä±äÁËÖ¸Ïò
 
 
 
 ¡öÊÂ¼þ°ó¶¨(µÚ¶þÖÖ)¡ö
 µÚ¶þÖÖ°ó¶¨·½Ê½¿É¡ñ°ó¶¨¶à¸ö¡ñ²»±»¸²¸Ç£¬¶øÇÒË³ÐòÊÇ×îºóÒ»¸öÏÈÖ´ÐÐÔÙÍùÉÏ¡£
-±ê×¼ä¯ÀÀÆ÷ÏÂ	¶ÔÏó.addEventListener()	Èç£ºwindow.addEventListener('load',fn1,false)  ²ÎÊýÎª£¨ÐÐÎª£¬º¯Êý£¬²¶×½£©£¨µ±Õâ¸öº¯ÊýÐèÒª´«²ÎµÄÊ±ºòÓÃÄäÃûºóÔÚÀïÃæµ÷ÓÃÄÇº¯Êý£©
-IE6/7/8ÏÂ	¶ÔÏó.attachEvent()	ÈçÉÏ¡£	1.²ÎÊýÖÐµÄÐÐÎªÒª¼Ó'on'	2.»á°Ñº¯ÊýÖÐµÄthis¡ñ¸Ä¡ñµ½window£¨¿ÉÓÃÌØ¶¨º¯Êý·½·¨¸ÄÕâ¸öthisµÄÖ¸Ïò£©
+±ê×¼ä¯ÀÀÆ÷ÏÂ			¶ÔÏó.addEventListener()	Èç£ºwindow.addEventListener('load',fn1,false)  ²ÎÊýÎª£¨ÐÐÎª£¬º¯Êý£¬²¶×½£©£¨µ±Õâ¸öº¯ÊýÐèÒª´«²ÎµÄÊ±ºòÓÃÄäÃûºóÔÚÀïÃæµ÷ÓÃÄÇº¯Êý£©
+IE6/7/8ÏÂ			¶ÔÏó.attachEvent()	ÈçÉÏ¡£	1.²ÎÊýÖÐµÄÐÐÎªÒª¼Ó'on'	2.»á°Ñº¯ÊýÖÐµÄthis¡ñ¸Ä¡ñµ½window£¨¿ÉÓÃÌØ¶¨º¯Êý·½·¨¸ÄÕâ¸öthisµÄÖ¸Ïò£©
 
 
 ¡ö×¢ÏúÊÂ¼þ°ó¶¨¡ö
@@ -412,53 +414,53 @@ IE6/7/8ÏÂ	¶ÔÏó.attachEvent()	ÈçÉÏ¡£	1.²ÎÊýÖÐµÄÐÐÎªÒª¼Ó'on'	2.»á°Ñº¯ÊýÖÐµÄthis¡ñ¸
 
 
 ¡öÒÆ¶¯¶ËÊÂ¼þ¡ö
-ontouchstart		°´ÏÂµÄÊ±ºò£¨Ïàµ±ÓÚdown£© Èç¹ûÔÚstaerµÄÊ±ºò×èÖ¹ÁËÄ¬ÈÏÊÂ¼þ,ÄÇÃ´»áÒÀ´ÎÖ´ÐÐºóÃæµÄmoveºÍend
-ontouchmove		ÒÆ¶¯µÄÊ±ºò£¨Ïàµ±ÓÚmove£©
-ontouchend		ËÉ¿ªµÄÊ±ºò£¨Ïàµ±ÓÚup£©
+ontouchstart			°´ÏÂµÄÊ±ºò£¨Ïàµ±ÓÚdown£© Èç¹ûÔÚstaerµÄÊ±ºò×èÖ¹ÁËÄ¬ÈÏÊÂ¼þ,ÄÇÃ´»áÒÀ´ÎÖ´ÐÐºóÃæµÄmoveºÍend
+ontouchmove			ÒÆ¶¯µÄÊ±ºò£¨Ïàµ±ÓÚmove£©
+ontouchend			ËÉ¿ªµÄÊ±ºò£¨Ïàµ±ÓÚup£©
 
 
 ¡ñevtnt¶ÔÏó¡ñ
-ev.touches		µ±Ç°Î»ÓÚÆÁÄ»ÉÏµÄËùÓÐÊÖÖ¸µÄÒ»¸öÁÐ±í¶ÔÏó¼¯ºÏ
-ev.targetTouches	Î»ÓÚµ±Ç°DOMÔªËØÉÏµÄÊÖÖ¸µÄÒ»¸öÁÐ±í¶ÔÏó¼¯ºÏ
-ev.changedTouches	Éæ¼°µ±Ç°ÊÂ¼þµÄÊÖÖ¸µÄÒ»¸öÁÐ±í¶ÔÏó¼¯ºÏ
+ev.touches			µ±Ç°Î»ÓÚÆÁÄ»ÉÏµÄËùÓÐÊÖÖ¸µÄÒ»¸öÁÐ±í¶ÔÏó¼¯ºÏ
+ev.targetTouches		Î»ÓÚµ±Ç°DOMÔªËØÉÏµÄÊÖÖ¸µÄÒ»¸öÁÐ±í¶ÔÏó¼¯ºÏ
+ev.changedTouches		Éæ¼°µ±Ç°ÊÂ¼þµÄÊÖÖ¸µÄÒ»¸öÁÐ±í¶ÔÏó¼¯ºÏ
 
 
 ¡ñevtntÊôÐÔ¡ñ		
-pageX/Y			Ïà¶ÔÆÁÄ»µÄÎ»ÖÃµã,¸úclientÊÇÒ»ÑùµÄ
+pageX/Y				Ïà¶ÔÆÁÄ»µÄÎ»ÖÃµã,¸úclientÊÇÒ»ÑùµÄ
 
 
 
 
 
 
-¡öÊý×éºÏ¼¯¡ö£¨²¢ÇÒÊý×éÓµÓÐºÜ¶à×Ö·û´®µÄ·½·¨£¬¶¼¿ÉÒÔÊ¹ÓÃcall¸úapplyÀ´Ê¹ÓÃ£©
-.unshift()		ÍùÊý×éÇ°ÃæÌí¼Ó£¨IE6,7µÄ·µ»ØÖµÊÇ¡ñÎ´¶¨Òå¡ñÕý³£µÄÊÇÐÂµÄ³¤¶È£©
-.push()			ÍùÊý×é×îºóÒ»Î»Ìí¼Ó
-.shift()		É¾³ýÊý×éµÚÒ»¸ö,·µ»Ø¡ñ±»É¾³ý¡ñµÄÄÇ¸ö.²»½ÓÊÕ²ÎÊý£¬·½·¨Ö»É¾³ýÒ»¸ö
-.pop()			É¾³ýÊý×é×îºóÒ»¸ö£¬ÈçÉÏ
-.splice(0,1)		È«ÄÜ·½·¨£¬²ÎÊý1Îª(ÆðÊ¼Î»ÖÃ,°üÀ¨),²ÎÊý2Îª(É¾³ýÎ»ÖÃ,²»°üÀ¨),Èç¹ûºóÃæ»¹ÓÐ²ÎÊý¶¼ÊÇÌí¼Ó»òÌæ»»µÄÒâË¼,·µ»Ø¡ñÉ¾³ý¡ñµÄ¶«Î÷,Í¬Ê±»áÐÞ¸Äµ÷ÓÃÕâ¸ö·½·¨µÄÊý×é
-.sort()			ÅÅÐò,¶Ô¡ñÊý×é¡ñ½øÐÐ¼òµ¥µÄÅÅÐò,ËüÈ¡µÄÊÇÊý×éÃ¿¸öÀïÃæÄÚÈÝµÄµÚÒ»¸öµÄÄÚÈÝ½øÐÐ×Ö·û´®±àÂë£¬È»ºó¶Ô±È×Ö·û´®±àÂëµÄ´óÐ¡¸Ä±äÅÅÐò£¬
-			²ÎÊýÒ²¿ÉÒÔ´«Ò»¸öº¯Êýº¯ÊýµÄ(a,b)¿ÉÒÔ½øÐÐ´òÂÒÅÅÐò
-.concat()		°Ñ2¸ö»ò¶à¸öÊý×é¡ñÁ¬½Ó¡ñ³ÉÒ»¸öÐÂµÄÊý×é£¬Èç£¬Êý×é¶ÔÏó.concat(ÁíÍâµÄÊý×é)
-.reverse()		°ÑÊý×éÀïµÄË³Ðò¡ñµßµ¹¡ñ¹ýÀ´
+¡öÊý×éºÏ¼¯¡ö			£¨²¢ÇÒÊý×éÓµÓÐºÜ¶à×Ö·û´®µÄ·½·¨£¬¶¼¿ÉÒÔÊ¹ÓÃcall¸úapplyÀ´Ê¹ÓÃ£©
+.unshift()			ÍùÊý×éÇ°ÃæÌí¼Ó£¨IE6,7µÄ·µ»ØÖµÊÇ¡ñÎ´¶¨Òå¡ñÕý³£µÄÊÇÐÂµÄ³¤¶È£©
+.push()				ÍùÊý×é×îºóÒ»Î»Ìí¼Ó
+.shift()			É¾³ýÊý×éµÚÒ»¸ö,·µ»Ø¡ñ±»É¾³ý¡ñµÄÄÇ¸ö.²»½ÓÊÕ²ÎÊý£¬·½·¨Ö»É¾³ýÒ»¸ö
+.pop()				É¾³ýÊý×é×îºóÒ»¸ö£¬ÈçÉÏ
+.splice(0,1)			È«ÄÜ·½·¨£¬²ÎÊý1Îª(ÆðÊ¼Î»ÖÃ,°üÀ¨),²ÎÊý2Îª(É¾³ýÎ»ÖÃ,²»°üÀ¨),Èç¹ûºóÃæ»¹ÓÐ²ÎÊý¶¼ÊÇÌí¼Ó»òÌæ»»µÄÒâË¼,·µ»Ø¡ñÉ¾³ý¡ñµÄ¶«Î÷,Í¬Ê±»áÐÞ¸Äµ÷ÓÃÕâ¸ö·½·¨µÄÊý×é
+.sort()				ÅÅÐò,¶Ô¡ñÊý×é¡ñ½øÐÐ¼òµ¥µÄÅÅÐò,ËüÈ¡µÄÊÇÊý×éÃ¿¸öÀïÃæÄÚÈÝµÄµÚÒ»¸öµÄÄÚÈÝ½øÐÐ×Ö·û´®±àÂë£¬È»ºó¶Ô±È×Ö·û´®±àÂëµÄ´óÐ¡¸Ä±äÅÅÐò£¬
+				²ÎÊýÒ²¿ÉÒÔ´«Ò»¸öº¯Êýº¯ÊýµÄ(a,b)¿ÉÒÔ½øÐÐ´òÂÒÅÅÐò
+.concat()			°Ñ2¸ö»ò¶à¸öÊý×é¡ñÁ¬½Ó¡ñ³ÉÒ»¸öÐÂµÄÊý×é£¬Èç£¬Êý×é¶ÔÏó.concat(ÁíÍâµÄÊý×é)
+.reverse()			°ÑÊý×éÀïµÄË³Ðò¡ñµßµ¹¡ñ¹ýÀ´
 
 
 
 ¡ö×Ö·û´®ºÏ¼¯¡ö
-.charAt()	 	´ÓÕû¸ö×Ö·û´®ÀïÃæ¡ñÕÒµ½Ä³¸ö¡ñ£¬Ö»ÄÜ»ñÈ¡µ½Ò»¸ö²ÎÊý£¬²ÎÊýÎªÏÂ±ê
-.charCodeAt()		°Ñ±»´«½øµÄ²ÎÊý±à³ÌÒ»¸ö¡ñ×Ö·û´®±àÂë¡ñ
-.fromCharCode()		±»´«½øÈ¥µÄÊý×Ö±àÂë»á±»×ª»»³É¡ñ×Ö·û´®¡ñ
-.substring()		¡ñ½Ø×Ö·û´®¡ñ,±»´«²ÎÎªÒ»¸öÊý×ÖµÄÊ±ºò£¬´Ó±»´«²ÎµÄµÚÒ»¸öÊý×ÖÎ»ÖÃ¿ªÊ¼ÕÒµ½ºóÃæµÄ£¬Èç¹ûÓÐÁ½¸ö²ÎÊý£¬ÎÞÂÛË³Ðò£¬°´Ð¡µ½´óµÄ²ÎÊý£¬ÕÒµ½Î»ÖÃÀïµÄ×Ö·û´®
-.slice()		¸úÉÏÃæÒ»ÑùÊÇ¡ñ½Ø×Ö·û´®¡ñ£¬²»Í¬µÄÊÇËü²»¾ß±¸½»»»Î»ÖÃË³ÐòÈ¥ÕÒ£¬µ«²»Í¬µÄÊÇËûµÄ¸ºÊý»áµ¹»Ø×Ö·û´®×îºóÒ»Î»È¥¼ÆËã£¨ ²¢ÇÒÊéÖÐÍÆ¼öÊ¹ÓÃ´Ë·½·¨ £©
-.indexOf()		×óÍùÓÒÕÒµ½±»´«²Î×Ö·û´®µÄ¡ñÎ»ÖÃ¡ñ£¬Ö»ÕÒÒ»´Î£¬µ±Èç¹ûÕâ¸ö×Ö·û´®²ÎÊýºóÃæ¸úÒ»¸ö,È»ºó·Ç¸ºÊýÊý×Ö(¸ºÊýÄ¬ÈÏÎª0)µÄ»°¾Í±íÊ¾´ÓµÚ¼¸¸ö¿ªÊ¼ÕÒºóÃæµÄ
-			±»´«²ÎµÄ×Ö·û´®¿ÉÒÔÊÇ¶à¸ö£¬µ«»ñÈ¡µ½µÄÎ»ÖÃÊÇ±»´«²ÎµÄµÚÒ»¸ö×Ö·û´®µÄÎ»ÖÃ(ÕÒ²»µ½½á¹ûÎª-1¾Í¼Ù)
-.lastIndexOf()		ÓÒÍù×óÕÒµ½±»´«²Î×Ö·û´®µÄ¡ñÎ»ÖÃ¡ñ£¬Ö»ÕÒÒ»´Î£¬ÆäËû¸úÉÏÃæÒ»Ñù¡£
-.toUpperCase()		°Ñ×Ö·û´®ÀïÃæµÄÓ¢ÎÄÈ«²¿×ª»»³É¡ñ´óÐ´¡ñ,²»½ÓÊÕ²ÎÊý
-.toLowerCase()		°Ñ×Ö·û´®ÀïÃæµÄÓ¢ÎÄÈ«²¿×ª»»³É¡ñÐ¡Ð´¡ñ,²»½ÓÊÕ²ÎÊý
-.split()		¡ñ·Ö¸ô¡ñ£¬±»´«²ÎµÄÊÇ´øÒýºÅµÄ£¬¶øÇÒÊÇ×Ö·û´®ÀïµÄÄ³¸ö£¬×ª»»µÄ¶¼ÊÇÒ»¸ö¡ñÊý×é¡ñ,Èç¹û´«½øµÄÊÇÒ»¸ö¿Õ×Ö·û´®£¬¾ÍÊÇ×Ö·û´®Ã¿¸ö·Ö¸ô³ÉÒ»¸öÊý×éµÄÒ»¸ö
-			´«²Î½øÈ¥µÄÄÇ¸ö·Ö¸ô·ûµÄ×Ö·û´®»á±»µ±×ö·Ö¸ô·û£¬¾Í»áÏûÊ§£¬¶øÇÒ·Ö¸ôºó£¬²»¹Ü×óÓÒÓÐÃ»¶«Î÷£¬Ã»ÓÐ£¬¾Í¼Ó¸öÎ´¶¨Òå½øÈ¥.±»´«²ÎµÄ×Ö·û´®Èç¹ûºóÃæ»¹ÓÐ¸öÊý×Ö
-			µÄ»°£¬ÄÇ¾ÍÊÇÏÞÖÆÕâ¸öÊý×é¶à³¤µÄÒâË¼£¬Èç¹ûÔ­À´µÄlengthÐ¡£¬ÄÇÃ´»á×óÍùÓÒ£¬Ö»ÒªÕâ¸öÊý×ÖµÄ³¤¶È£¬ºóÃæµÄ²»ÒªÁË(Õâ¸öÎª¿ÉÑ¡²ÎÊý)
-.join()			°Ñ¡ñÊý×é¡ñ×ª»»³É¡ñ×Ö·û´®¡ñ,Èç¹û²»´«²Î,Ä¬ÈÏÎª´«ÁËÒ»¸ö','£¬ÒòÎªËû±ØÐëÓÐÒ»¸ö²ÎÊý¸ô¿ªÊý×éµÄ¸öÊý£¬ÔÙÁ´½Óµ½Ò»ÆðÁ´½Ó³ÉÒ»¸ö×Ö·û´®
+.charAt()	 		´ÓÕû¸ö×Ö·û´®ÀïÃæ¡ñÕÒµ½Ä³¸ö¡ñ£¬Ö»ÄÜ»ñÈ¡µ½Ò»¸ö²ÎÊý£¬²ÎÊýÎªÏÂ±ê
+.charCodeAt()			°Ñ±»´«½øµÄ²ÎÊý±à³ÌÒ»¸ö¡ñ×Ö·û´®±àÂë¡ñ
+.fromCharCode()			±»´«½øÈ¥µÄÊý×Ö±àÂë»á±»×ª»»³É¡ñ×Ö·û´®¡ñ
+.substring()			¡ñ½Ø×Ö·û´®¡ñ,±»´«²ÎÎªÒ»¸öÊý×ÖµÄÊ±ºò£¬´Ó±»´«²ÎµÄµÚÒ»¸öÊý×ÖÎ»ÖÃ¿ªÊ¼ÕÒµ½ºóÃæµÄ£¬Èç¹ûÓÐÁ½¸ö²ÎÊý£¬ÎÞÂÛË³Ðò£¬°´Ð¡µ½´óµÄ²ÎÊý£¬ÕÒµ½Î»ÖÃÀïµÄ×Ö·û´®
+.slice()			¸úÉÏÃæÒ»ÑùÊÇ¡ñ½Ø×Ö·û´®¡ñ£¬²»Í¬µÄÊÇËü²»¾ß±¸½»»»Î»ÖÃË³ÐòÈ¥ÕÒ£¬µ«²»Í¬µÄÊÇËûµÄ¸ºÊý»áµ¹»Ø×Ö·û´®×îºóÒ»Î»È¥¼ÆËã£¨ ²¢ÇÒÊéÖÐÍÆ¼öÊ¹ÓÃ´Ë·½·¨ £©
+.indexOf()			×óÍùÓÒÕÒµ½±»´«²Î×Ö·û´®µÄ¡ñÎ»ÖÃ¡ñ£¬Ö»ÕÒÒ»´Î£¬µ±Èç¹ûÕâ¸ö×Ö·û´®²ÎÊýºóÃæ¸úÒ»¸ö,È»ºó·Ç¸ºÊýÊý×Ö(¸ºÊýÄ¬ÈÏÎª0)µÄ»°¾Í±íÊ¾´ÓµÚ¼¸¸ö¿ªÊ¼ÕÒºóÃæµÄ
+				±»´«²ÎµÄ×Ö·û´®¿ÉÒÔÊÇ¶à¸ö£¬µ«»ñÈ¡µ½µÄÎ»ÖÃÊÇ±»´«²ÎµÄµÚÒ»¸ö×Ö·û´®µÄÎ»ÖÃ(ÕÒ²»µ½½á¹ûÎª-1¾Í¼Ù)
+.lastIndexOf()			ÓÒÍù×óÕÒµ½±»´«²Î×Ö·û´®µÄ¡ñÎ»ÖÃ¡ñ£¬Ö»ÕÒÒ»´Î£¬ÆäËû¸úÉÏÃæÒ»Ñù¡£
+.toUpperCase()			°Ñ×Ö·û´®ÀïÃæµÄÓ¢ÎÄÈ«²¿×ª»»³É¡ñ´óÐ´¡ñ,²»½ÓÊÕ²ÎÊý
+.toLowerCase()			°Ñ×Ö·û´®ÀïÃæµÄÓ¢ÎÄÈ«²¿×ª»»³É¡ñÐ¡Ð´¡ñ,²»½ÓÊÕ²ÎÊý
+.split()			¡ñ·Ö¸ô¡ñ£¬±»´«²ÎµÄÊÇ´øÒýºÅµÄ£¬¶øÇÒÊÇ×Ö·û´®ÀïµÄÄ³¸ö£¬×ª»»µÄ¶¼ÊÇÒ»¸ö¡ñÊý×é¡ñ,Èç¹û´«½øµÄÊÇÒ»¸ö¿Õ×Ö·û´®£¬¾ÍÊÇ×Ö·û´®Ã¿¸ö·Ö¸ô³ÉÒ»¸öÊý×éµÄÒ»¸ö
+				´«²Î½øÈ¥µÄÄÇ¸ö·Ö¸ô·ûµÄ×Ö·û´®»á±»µ±×ö·Ö¸ô·û£¬¾Í»áÏûÊ§£¬¶øÇÒ·Ö¸ôºó£¬²»¹Ü×óÓÒÓÐÃ»¶«Î÷£¬Ã»ÓÐ£¬¾Í¼Ó¸öÎ´¶¨Òå½øÈ¥.±»´«²ÎµÄ×Ö·û´®Èç¹ûºóÃæ»¹ÓÐ¸öÊý×Ö
+				µÄ»°£¬ÄÇ¾ÍÊÇÏÞÖÆÕâ¸öÊý×é¶à³¤µÄÒâË¼£¬Èç¹ûÔ­À´µÄlengthÐ¡£¬ÄÇÃ´»á×óÍùÓÒ£¬Ö»ÒªÕâ¸öÊý×ÖµÄ³¤¶È£¬ºóÃæµÄ²»ÒªÁË(Õâ¸öÎª¿ÉÑ¡²ÎÊý)
+.join()				°Ñ¡ñÊý×é¡ñ×ª»»³É¡ñ×Ö·û´®¡ñ,Èç¹û²»´«²Î,Ä¬ÈÏÎª´«ÁËÒ»¸ö','£¬ÒòÎªËû±ØÐëÓÐÒ»¸ö²ÎÊý¸ô¿ªÊý×éµÄ¸öÊý£¬ÔÙÁ´½Óµ½Ò»ÆðÁ´½Ó³ÉÒ»¸ö×Ö·û´®
 
 
 
@@ -477,17 +479,17 @@ FormData¶ÔÏó			×ª»»¼ÆËã»ú½øÖÆ»¯¶ÔÏó,Ëû²»µ«¿ÉÒÔÓÃÀ´Ä£ÄâURLÀïµÄQueryString,»¹ÄÜ°Ñ¶
 
 
 ¡öÕýÔò±í´ïÊ½¡ö
-new RegExp()		ÕýÔòµÚÒ»ÖÖ·½·¨£¨ºÃ´¦ÊÇÀïÃæ²»µ¥µ¥ÄÜ´«×Ö·û´®£¬»¹ÄÜ´«±äÁ¿£©£¨²»¹ýµÚÒ»´Î»áÏÈ°Ñ×Ö·û´®×ªÒå£¬ËùÒÔÈç\nµÄ¶«Î÷Òª\\n²ÅÄÜ±»ÕýÈ·×ªÒå£©
-/ÕýÔò/ÌØ¶¨ÊôÐÔ(ÐÞÊÎ·û)	ÕýÔòµÚ¶þÖÖ·½·¨
+new RegExp()			ÕýÔòµÚÒ»ÖÖ·½·¨£¨ºÃ´¦ÊÇÀïÃæ²»µ¥µ¥ÄÜ´«×Ö·û´®£¬»¹ÄÜ´«±äÁ¿£©£¨²»¹ýµÚÒ»´Î»áÏÈ°Ñ×Ö·û´®×ªÒå£¬ËùÒÔÈç\nµÄ¶«Î÷Òª\\n²ÅÄÜ±»ÕýÈ·×ªÒå£©
+/ÕýÔò/ÌØ¶¨ÊôÐÔ(ÐÞÊÎ·û)		ÕýÔòµÚ¶þÖÖ·½·¨
 
 ¡ñ·½·¨¡ñ
-ÕýÔò.test(str)		¡ñÅÐ¶Ï¡ñ×Ö·û´®ÊÇ·ñÓÐÕýÔòÆ¥Åäµ½µÄÄÚÈÝ£¬·µ»Ø²¼¶ûÖµ
-str.search(ÕýÔò)	·µ»ØÕýÔòÆ¥Åäµ½×Ö·û´®µÚÒ»¸ö³öÏÖµÄ¡ñÎ»ÖÃ¡ñ  £¨ ¸úindexofÒ»ÑùÆ¥ÅäÊ§°Ü·µ»Ø-1 £©
-str.match(ÕýÔò)		²éÕÒ×Ö·û´®ÖÐ·ûºÏÕýÔò±í´ïÊ½Æ¥ÅäµÄ¡ñÕû¸ö¡ñµÄÈ«²¿ÄÚÈÝ£¬²¢°ÑÆ¥ÅäµÄ½á¹û×÷ÎªÊý×é¶ÔÏó·µ»Ø £¨Æ¥ÅäÊ§°Ü·µ»Ø null ÀàÐÍ£© 
+ÕýÔò.test(str)			¡ñÅÐ¶Ï¡ñ×Ö·û´®ÊÇ·ñÓÐÕýÔòÆ¥Åäµ½µÄÄÚÈÝ£¬·µ»Ø²¼¶ûÖµ
+str.search(ÕýÔò)		·µ»ØÕýÔòÆ¥Åäµ½×Ö·û´®µÚÒ»¸ö³öÏÖµÄ¡ñÎ»ÖÃ¡ñ  £¨ ¸úindexofÒ»ÑùÆ¥ÅäÊ§°Ü·µ»Ø-1 £©
+str.match(ÕýÔò)			²éÕÒ×Ö·û´®ÖÐ·ûºÏÕýÔò±í´ïÊ½Æ¥ÅäµÄ¡ñÕû¸ö¡ñµÄÈ«²¿ÄÚÈÝ£¬²¢°ÑÆ¥ÅäµÄ½á¹û×÷ÎªÊý×é¶ÔÏó·µ»Ø £¨Æ¥ÅäÊ§°Ü·µ»Ø null ÀàÐÍ£© 
 
-ÕýÔò.exec(str)		ÈçÉÏ£¬µ«ÊÇ²»Ö§³Ö¶à´Î,Ò²¾ÍÊÇ²»Ö§³Ög²éÕÒ,Ö»·µ»ØµÚÒ»´ÎÆ¥Åäµ½µÄÈ«²¿ÄÚÈÝºÍËùÓÐÆ¥ÅäµÄ×ÓÏîÓëÆ¥Åäµ½µÄÎ»ÖÃ¸úÄÃÀ´Æ¥ÅäµÄ×Ö·û´®¶¼×öÎª¡ñÊý×é¡ñ·µ»Ø¡£
-str.split(ÕýÔò)		¡ñ·Ö¸ô¡ñ²éÕÒµ½×Ö·û´®ÀïÃæ·ûºÏÕýÔòÆ¥Åäµ½µÄÎª·Ö¸ôÏß£¬°Ñ×óÓÒÁ½±ßµÄÊý¾Ý·Ö¸ô£¬È»ºó·Ö±ðÌí¼Óµ½Êý×é£¬²¢·µ»ØÕâ¸öÊý×é
-ÕýÔò.compile("ÐÂÕýÔò")	¿ÉÒÔÔÚÄ³¸ö¹ý³ÌÖÐ£¬ÖØÐÂÐÞ¸ÄÕýÔòµÄ¹æÔò£¨ÓÐ´ý²âÊÔ£¬Ö¤Êµ½áÂÛ2015/2/6/00:30£©
+ÕýÔò.exec(str)			ÈçÉÏ£¬µ«ÊÇ²»Ö§³Ö¶à´Î,Ò²¾ÍÊÇ²»Ö§³Ög²éÕÒ,Ö»·µ»ØµÚÒ»´ÎÆ¥Åäµ½µÄÈ«²¿ÄÚÈÝºÍËùÓÐÆ¥ÅäµÄ×ÓÏîÓëÆ¥Åäµ½µÄÎ»ÖÃ¸úÄÃÀ´Æ¥ÅäµÄ×Ö·û´®¶¼×öÎª¡ñÊý×é¡ñ·µ»Ø¡£
+str.split(ÕýÔò)			¡ñ·Ö¸ô¡ñ²éÕÒµ½×Ö·û´®ÀïÃæ·ûºÏÕýÔòÆ¥Åäµ½µÄÎª·Ö¸ôÏß£¬°Ñ×óÓÒÁ½±ßµÄÊý¾Ý·Ö¸ô£¬È»ºó·Ö±ðÌí¼Óµ½Êý×é£¬²¢·µ»ØÕâ¸öÊý×é
+ÕýÔò.compile("ÐÂÕýÔò")		¿ÉÒÔÔÚÄ³¸ö¹ý³ÌÖÐ£¬ÖØÐÂÐÞ¸ÄÕýÔòµÄ¹æÔò£¨ÓÐ´ý²âÊÔ£¬Ö¤Êµ½áÂÛ2015/2/6/00:30£©
 
 str.replace(ÕýÔò£¬Ìæ»»ÄÚÈÝ)
 ¡ñÌæ»»¡ñ·µ»Ø±»Ìæ»»ºóµÄstr,²»Ö±½Ó¶ÔÔ­ÓÐµÄstr½øÐÐÐÞ¸Ä¡£µÚ2¸ö²ÎÊý¿ÉÒÔÊÇº¯Êý(Æ¥Åäµ½Ò»´ÎÖ´ÐÐÒ»´Î)£¬²¢º¯ÊýµÄ(a,b,c,d)³ýaÊÇÆ¥Åäµ½È«²¿ÒÔÍâ£¬ÆäËûÊÇ°´ÕÕË³ÐòµÄ×ÓÏî
@@ -515,21 +517,21 @@ iÊÇÐÞÊÎ·û£¬¾ÍÊÇÆ¥ÅäµÄ¹æÔò²»Çø·Ö´óÐ¡Ð´
 (?!ÒªÆ¥ÅäµÄ)				·´Ç°ÏòÉêÃ÷,Ò²¾ÍÊÇÒªÆ¥ÅäµÄ²»ÄÜÔÚÇ°ÃæµÄºóÒ»Î»³öÏÖ£¬ÆäËûµÄ¶¼¿ÉÒÔ£¬Í¬ÑùÖ»Æ¥Åäµ½Ç°ÃæÒ»Î»¡£±»ÉêÃ÷µÄ¶¼ÊÇ²»»áÆ¥Åäµ½µÄ£¬Ö»ÊÇÒªÇóÔÚºóÃæ
 
 ¡ñ±í´ïÔËËã¡ñ
-\Êý×Ö			Õû¸ö±í´ïÊ½ÀïµÄµÚ¼¸¸ö×ÓÏîµÄÖ¸Ïò,Ò²¾ÍÊÇ\numµÄÕâÒ»Î»±ØÐëÊÇ×ÓÏîÆ¥Åäµ½µÄ¶ø²»ÊÇÆ¥Åä×ÓÏîµÄÄÇ¸öÌõ¼þ£¬Èç/(a)(b)(c)\1/	ÄÇ³É¹¦µÄ»°¾ÍÒªÊÇ abca
+\Êý×Ö					Õû¸ö±í´ïÊ½ÀïµÄµÚ¼¸¸ö×ÓÏîµÄÖ¸Ïò,Ò²¾ÍÊÇ\numµÄÕâÒ»Î»±ØÐëÊÇ×ÓÏîÆ¥Åäµ½µÄ¶ø²»ÊÇÆ¥Åä×ÓÏîµÄÄÇ¸öÌõ¼þ£¬Èç/(a)(b)(c)\1/	ÄÇ³É¹¦µÄ»°¾ÍÒªÊÇ abca
 
-\d			Ò»¸öÊý×Ö
-\D			·ÇÊý×Ö
-\w			Êý×Ö£¬×ÖÄ¸£¬ÏÂ»®Ïß
-\W			·ÇÊý×Ö£¬·Ç×ÖÄ¸£¬·ÇÏÂ»®Ïß
-\s			¿Õ¸ñ
-\S			·Ç¿Õ¸ñ
-\b			±ß½ç·û£¨Õâ¸öÊÇ¿´²»µ½µÄ£¬Ê×ÏÈÒªÂú×ã/wµÄ±í´ï£©£¨ÆðÊ¼£¬½áÊø£¬°üÀ¨Æ¥ÅäÔªËØÇ°Ãæ»òºóÃæÓÐ¿Õ¸ñµÄ»°£¬Ò²»áËãÊÇ¿ªÊ¼¸ú½áÊø£¬µ«ÊÇÆ¥ÅäµÄÊÇ²»ÄÜËãÊÇ¿Õ¸ñµÄ£©
-\B			·Ç±ß½ç·û
-\f			»»Ò³·û
-\n			»»ÐÐ·û
-\r			»Ø³µ·û
-\t			ÖÆ·û±í
-\v			´¹Ö±ÖÆ·û±í
+\d					Ò»¸öÊý×Ö
+\D					·ÇÊý×Ö
+\w					Êý×Ö£¬×ÖÄ¸£¬ÏÂ»®Ïß
+\W					·ÇÊý×Ö£¬·Ç×ÖÄ¸£¬·ÇÏÂ»®Ïß
+\s					¿Õ¸ñ
+\S					·Ç¿Õ¸ñ
+\b					±ß½ç·û£¨Õâ¸öÊÇ¿´²»µ½µÄ£¬Ê×ÏÈÒªÂú×ã/wµÄ±í´ï£©£¨ÆðÊ¼£¬½áÊø£¬°üÀ¨Æ¥ÅäÔªËØÇ°Ãæ»òºóÃæÓÐ¿Õ¸ñµÄ»°£¬Ò²»áËãÊÇ¿ªÊ¼¸ú½áÊø£¬µ«ÊÇÆ¥ÅäµÄÊÇ²»ÄÜËãÊÇ¿Õ¸ñµÄ£©
+\B					·Ç±ß½ç·û
+\f					»»Ò³·û
+\n					»»ÐÐ·û
+\r					»Ø³µ·û
+\t					ÖÆ·û±í
+\v					´¹Ö±ÖÆ·û±í
 
 ¡ñÆ¥Åäºº×Ö¡ñ
 /[\u4E00-\u9FA5\uF900-\uFA2D]/
@@ -537,14 +539,14 @@ iÊÇÐÞÊÎ·û£¬¾ÍÊÇÆ¥ÅäµÄ¹æÔò²»Çø·Ö´óÐ¡Ð´
 
 
 ¡öcookie´¢´æ¡ö
-document.cookie = 'Ãû=Öµ';	´¢´æÊý¾Ý
-document.cookie			·µ»ØÊý¾Ý£¨·µ»ØµÄÈ«²¿cookie£©
-				¸ü¶àÆäËû·½·¨£¬²é¿´API°É£¡
+document.cookie = 'Ãû=Öµ';		´¢´æÊý¾Ý
+document.cookie				·µ»ØÊý¾Ý£¨·µ»ØµÄÈ«²¿cookie£©
+					¸ü¶àÆäËû·½·¨£¬²é¿´API°É£¡
 
-¡ô×¢ÒâÏî¡ô			1.cookie µÄ¡ñ´óÐ¡¡ñÊÇÓÐÏÞÖÆµÄ	2.cookie µÄ¡ñÌõÊý¡ñÊÇÓÐÏÞÖÆµÄ	3.cookie ¿ÉÒÔÉèÖÃ¡ñÓÐÐ§ÆÚ¡ñ	
-				4.²»Í¬ä¯ÀÀÆ÷Ëù²úÉúµÄcookieÊÇ¡ñ²»ÄÜÏàÍ¬¡ñ·ÃÎÊ	5.Ö»ÄÜ·ÃÎÊ¡ñ×Ô¼º¡ñÓòÃûÏÂµÄcookie£¬²»ÄÜ·ÃÎÊÆäËüÓòÃûµÄcookie
-				6.cookie ÊÇÒ»¸ö¡ñ×Ö·û´®¡ñÐÅÏ¢£¬Ò²Ö»ÄÜ´æ·Å×Ö·û´®ÐÅÏ¢	7.ÓÐ¹Ì¶¨¸ñÊ½£¬Ò»´ÎÉèÖÃ¶à¸öµÄÊ±ºòÖµºóÃæ+	·ÖºÅ¿Õ¸ñ ¸úÏÂÒ»¸öÒª´æµÄÇø·Ö¿ªÀ´
-				7.Ä¬ÈÏÇé¿öÏÂ£¬µ±ä¯ÀÀÆ÷¡ñ¹Ø±Õ¡ñÊ±£¬cookie×Ô¶¯¡ñÊ§Ð§¡ñ³ý·ÇÉèÖÃÁËÒ»¸öÎ´À´µÄ¹ýÆÚÊ±¼ä
+¡ô×¢ÒâÏî¡ô				1.cookie µÄ¡ñ´óÐ¡¡ñÊÇÓÐÏÞÖÆµÄ	2.cookie µÄ¡ñÌõÊý¡ñÊÇÓÐÏÞÖÆµÄ	3.cookie ¿ÉÒÔÉèÖÃ¡ñÓÐÐ§ÆÚ¡ñ	
+					4.²»Í¬ä¯ÀÀÆ÷Ëù²úÉúµÄcookieÊÇ¡ñ²»ÄÜÏàÍ¬¡ñ·ÃÎÊ	5.Ö»ÄÜ·ÃÎÊ¡ñ×Ô¼º¡ñÓòÃûÏÂµÄcookie£¬²»ÄÜ·ÃÎÊÆäËüÓòÃûµÄcookie
+					6.cookie ÊÇÒ»¸ö¡ñ×Ö·û´®¡ñÐÅÏ¢£¬Ò²Ö»ÄÜ´æ·Å×Ö·û´®ÐÅÏ¢	7.ÓÐ¹Ì¶¨¸ñÊ½£¬Ò»´ÎÉèÖÃ¶à¸öµÄÊ±ºòÖµºóÃæ+	·ÖºÅ¿Õ¸ñ ¸úÏÂÒ»¸öÒª´æµÄÇø·Ö¿ªÀ´
+					7.Ä¬ÈÏÇé¿öÏÂ£¬µ±ä¯ÀÀÆ÷¡ñ¹Ø±Õ¡ñÊ±£¬cookie×Ô¶¯¡ñÊ§Ð§¡ñ³ý·ÇÉèÖÃÁËÒ»¸öÎ´À´µÄ¹ýÆÚÊ±¼ä
 
 
 
@@ -554,94 +556,94 @@ var xhr = new XMLHttpRequest()	Ê×ÏÈÒªÉêÃ÷AJAX¶ÔÏó £¨×¢Òâ£¬IE6Õâ¸ö¶ÔÏóÃ»ÓÐ£¬²¢ÇÒÈ
 new ActiveXObject('Microsoft.XMLHTTP')			     £¨IE6ÀïÃæµÄ²å¼þ£¬È¥Ö§³ÖAJAX£©
 
 ²¢ÇÒËüÓÐ2ÖÖ·½·¨Ìá½»
-1.get	Í¨¹ýµØÖ·À¸µÄ¡°£¿¡±ºóÃæ´«µÝÊý¾Ý£¬Èç¹û¶à¸öÊý¾Ý»¹»áÓÃ¡°&¡±Á¬½ÓÆðÀ´¡£²¢ÇÒ»á±»»º´æ£¬´«Êäµ½ºó¶ËÈç¹ûÓÐÖÐÎÄµÄÊ±ºò»¹Òª½øÐÐ×ªURL±àÂë
-	GET·½Ê½Ìá½»µÄµØÖ·ÊÇ»á±»ä¯ÀÀÆ÷»º´æµÄ£¬Òª½â¾öÕâ¸ö»ì´æÎÊÌâ¾Í¿ÉÒÔÔÚÌá½»Êý¾ÝµÄÊ±ºòË³±ã°ÑÊ±¼ä´ÁÒ²¼Óµ½Êý¾ÝµÄ×îºóÒ»¸ö
+1.get					Í¨¹ýµØÖ·À¸µÄ¡°£¿¡±ºóÃæ´«µÝÊý¾Ý£¬Èç¹û¶à¸öÊý¾Ý»¹»áÓÃ¡°&¡±Á¬½ÓÆðÀ´¡£²¢ÇÒ»á±»»º´æ£¬´«Êäµ½ºó¶ËÈç¹ûÓÐÖÐÎÄµÄÊ±ºò»¹Òª½øÐÐ×ªURL±àÂë
+					GET·½Ê½Ìá½»µÄµØÖ·ÊÇ»á±»ä¯ÀÀÆ÷»º´æµÄ£¬Òª½â¾öÕâ¸ö»ì´æÎÊÌâ¾Í¿ÉÒÔÔÚÌá½»Êý¾ÝµÄÊ±ºòË³±ã°ÑÊ±¼ä´ÁÒ²¼Óµ½Êý¾ÝµÄ×îºóÒ»¸ö
 
-2.post	Í¨¹ýÇëÇóÍ·´«Êä,Ëü´«ÊäÊäÈëÊÇÔÚsend·½·¨µÄÊ±ºò°ÑÊäÈëµ±²ÎÊý´«¹ýÈ¥µÄ¡£²»»á±»»º´æ,
-
-
-ÎÞÂÛÊÇajax»¹ÊÇcookie	ÔÚ´«Êä´øÓÐÖÐÎÄµÄÊ±ºòÓ¦¸ÃÏÈ×ª»»³ÉURI±àÂë£¬¿ÉÓÃwindowÏÂµÄ	encodeURI('string')  ·½·¨½øÐÐ×ª»»£¬µ«post´«µÄÊ±ºòÒòÎªÉêÃ÷ÁËÇëÇóÍ·£¬ÒÑ¾­½øÐÐÁË×ªÂë
+2.post					Í¨¹ýÇëÇóÍ·´«Êä,Ëü´«ÊäÊäÈëÊÇÔÚsend·½·¨µÄÊ±ºò°ÑÊäÈëµ±²ÎÊý´«¹ýÈ¥µÄ¡£²»»á±»»º´æ,
 
 
-¶ÔÏó.responseText 	·þÎñÆ÷·µ»ØµÄÄÚÈÝ¾Í´æÔÚÕâ¸öÊôÐÔÀïÃæ(Ä¬ÈÏstringÀàÐÍ)
-¶ÔÏó.readyState		AjaxµÄ¹¤×÷×´Ì¬£¨0.³õÊ¼»¯¡£ 1.ÔØÈë£¬·¢ËÍÇëÇó¡£ 2.ÔØÈëÍê³É¡£ÊÕµ½·¢ËÍµÄËùÓÐÇëÇó²¢·µ»Ø¡£ 3.½âÎöÏìÓ¦µÄÄÚÈÝ¡£ 4.Íê³É£¬½âÎöÍê³É,¿ÉÒÔ¼ÌÐøÏÂÃæµÄ²Ù×÷£©
-			Õâ¸ö·½·¨Ò»°ãÓÃÔÚ	onreadystatechangeÊÂ¼þÀïÃæ Èç¹û×´Ì¬Íê³É£¬¾Í¿ÉÒÔÖ´ÐÐ¸Ä×öµÄÊÂÇéÁË			
+ÎÞÂÛÊÇajax»¹ÊÇcookie			ÔÚ´«Êä´øÓÐÖÐÎÄµÄÊ±ºòÓ¦¸ÃÏÈ×ª»»³ÉURI±àÂë£¬¿ÉÓÃwindowÏÂµÄ	encodeURI('string')  ·½·¨½øÐÐ×ª»»£¬µ«post´«µÄÊ±ºòÒòÎªÉêÃ÷ÁËÇëÇóÍ·£¬ÒÑ¾­½øÐÐÁË×ªÂë
 
-¶ÔÏó.status		·þÎñÆ÷µÄ×´Ì¬Öµ¡££¨²éÑ¯ HTTP×´Ì¬Âð Ò»°ãÎª3Î»Êý×ÖµÄÊýÖµ£©£¨Ò»°ãÎª200¾ÍÊÇÇëÇóµ½ÕýÈ·µÄºó¶ËÎÄ¼þ£©£¨¿ÉÒÔÈ·ÈÏAjaxµÄ¹¤×÷ÊÇ·ñÕý³£Íê³ÉÁË£¬»¹ÊÇ±¨´í£©
+	
+¶ÔÏó.responseText 			·þÎñÆ÷·µ»ØµÄÄÚÈÝ¾Í´æÔÚÕâ¸öÊôÐÔÀïÃæ(Ä¬ÈÏstringÀàÐÍ)
+¶ÔÏó.readyState				AjaxµÄ¹¤×÷×´Ì¬£¨0.³õÊ¼»¯¡£ 1.ÔØÈë£¬·¢ËÍÇëÇó¡£ 2.ÔØÈëÍê³É¡£ÊÕµ½·¢ËÍµÄËùÓÐÇëÇó²¢·µ»Ø¡£ 3.½âÎöÏìÓ¦µÄÄÚÈÝ¡£ 4.Íê³É£¬½âÎöÍê³É,¿ÉÒÔ¼ÌÐøÏÂÃæµÄ²Ù×÷£©
+					Õâ¸ö·½·¨Ò»°ãÓÃÔÚ	onreadystatechangeÊÂ¼þÀïÃæ Èç¹û×´Ì¬Íê³É£¬¾Í¿ÉÒÔÖ´ÐÐ¸Ä×öµÄÊÂÇéÁË			
+
+¶ÔÏó.status				·þÎñÆ÷µÄ×´Ì¬Öµ¡££¨²éÑ¯ HTTP×´Ì¬Âð Ò»°ãÎª3Î»Êý×ÖµÄÊýÖµ£©£¨Ò»°ãÎª200¾ÍÊÇÇëÇóµ½ÕýÈ·µÄºó¶ËÎÄ¼þ£©£¨¿ÉÒÔÈ·ÈÏAjaxµÄ¹¤×÷ÊÇ·ñÕý³£Íê³ÉÁË£¬»¹ÊÇ±¨´í£©
 
 
 ¡ôÊôÐÔ£¬·½·¨¡ô
-¶ÔÏó.open		´ò¿ª£¬²¢´«Êäµ½Ö¸¶¨µØÖ·£¨Ò»£º·½Ê½(get,post)£¬¶þ£ºÎÄ¼þ¸úgetµÄ£¿µÄ´«Êä£¬ÈýÊÇ·ñÒì²½£©
+¶ÔÏó.open				´ò¿ª£¬²¢´«Êäµ½Ö¸¶¨µØÖ·£¨Ò»£º·½Ê½(get,post)£¬¶þ£ºÎÄ¼þ¸úgetµÄ£¿µÄ´«Êä£¬ÈýÊÇ·ñÒì²½£©
 ¶ÔÏó.setRequestHeader('content-type', 'application/x-www-form-urlencoded')	ÉêÃ÷·¢ËÍµÄÊý¾ÝÀàÐÍ£¨ÕâÒ»²½Ò»°ãÊÇpost·½Ê½µÄÊ±ºò²ÅÐèÒª£¬get·½Ê½²»ÐèÒª£©
-¶ÔÏó.send()		openÊÇ´ò¿ªµÄ»°£¬send¾ÍÊÇÈ·ÈÏµÄÒâË¼ÁË¡££¨¶øÇÒ¡ñPOST¡ñÌá½»·½Ê½µÄÊý¾ÝÊÇ·Åµ½ÕâÀïÀ´µÄ£¬Êý¾Ý·½Ê½ÊÇÒ»ÑùµÄ£©
+¶ÔÏó.send()				openÊÇ´ò¿ªµÄ»°£¬send¾ÍÊÇÈ·ÈÏµÄÒâË¼ÁË¡££¨¶øÇÒ¡ñPOST¡ñÌá½»·½Ê½µÄÊý¾ÝÊÇ·Åµ½ÕâÀïÀ´µÄ£¬Êý¾Ý·½Ê½ÊÇÒ»ÑùµÄ£©
 
 
 
 ¡ôÊôÐÔ£¬ÊÂ¼þ¡ô
-¶ÔÏó.onreadystatechange		¼àÌýAjaxµÄ×´Ì¬Öµ·¢Éú¸Ä±äµÄÊ±ºò´¥·¢µÄÊÂ¼þ
+¶ÔÏó.onreadystatechange			¼àÌýAjaxµÄ×´Ì¬Öµ·¢Éú¸Ä±äµÄÊ±ºò´¥·¢µÄÊÂ¼þ
 
 
 
-¡ôÆäËûÌá½»µÄ·½·¨-from±íµ¥¡ô¿ÉÒÔ´´½¨from±íµ¥µÄDOMÀ´Ìá½»Ò»Ð©¿çÓòpostÇëÇó»òÕßgetÇëÇó
-DOM.innerHTML			¿ØÖÆÀïÃæµÄinputÄÚÈÝÀ´ÌîÐ´²ÎÊý£¬Èç£º<input type="hidden" name="²ÎÊýµÄkey" value="Ç°Ãæ²ÎÊýµÄvalue" />
-DOM.method			·¢ËÍµÄÇëÇó·½Ê½£¬Èç£ºDOM.method = 'post' 
-DOM.action			Ìá½»µÄµØÖ·£¬Èç£ºDOM.action = "http://baidu.com"
-DOM.submit()			fromDOMÏÂµÄÒ»¸öÖ÷¶¯´¥·¢Ìá½»µÄ·½·¨
+¡ôÆäËûÌá½»µÄ·½·¨-from±íµ¥¡ô		¿ÉÒÔ´´½¨from±íµ¥µÄDOMÀ´Ìá½»Ò»Ð©¿çÓòpostÇëÇó»òÕßgetÇëÇó
+DOM.innerHTML				¿ØÖÆÀïÃæµÄinputÄÚÈÝÀ´ÌîÐ´²ÎÊý£¬Èç£º<input type="hidden" name="²ÎÊýµÄkey" value="Ç°Ãæ²ÎÊýµÄvalue" />
+DOM.method				·¢ËÍµÄÇëÇó·½Ê½£¬Èç£ºDOM.method = 'post' 
+DOM.action				Ìá½»µÄµØÖ·£¬Èç£ºDOM.action = "http://baidu.com"
+DOM.submit()				fromDOMÏÂµÄÒ»¸öÖ÷¶¯´¥·¢Ìá½»µÄ·½·¨
 		
 
 
 ¡öÉÏ´«¡ö
-FileReader			ÎÄ¼þ¶ÁÈ¡¶ÔÏóµÄ¹¹Ôìº¯Êý,Í¨¹ýnewÒÔºóµÃµ½µÄÊµÀýÀàÏÂÃæÓÐ²Ù×÷ÎÄ¼þµÄ·½·¨ºÍÊÂ¼þ
+FileReader				ÎÄ¼þ¶ÁÈ¡¶ÔÏóµÄ¹¹Ôìº¯Êý,Í¨¹ýnewÒÔºóµÃµ½µÄÊµÀýÀàÏÂÃæÓÐ²Ù×÷ÎÄ¼þµÄ·½·¨ºÍÊÂ¼þ
 
 ¡ñÉÏ´«ÊµÀýµÄÊôÐÔ¡ñ		
-readyState			±íÃ÷FileReaderÊµÀýµÄµ±Ç°×´Ì¬(Ö»¶Á)
-error				ÔÚ¶ÁÈ¡ÎÄ¼þÊ±·¢ÉúµÄ´íÎó. Ö»¶Á.
-result				¶ÁÈ¡µ½µÄÎÄ¼þÄÚÈÝ.Õâ¸öÊôÐÔÖ»ÔÚ¶ÁÈ¡²Ù×÷Íê³ÉÖ®ºó²ÅÓÐÐ§,²¢ÇÒÊý¾ÝµÄ¸ñÊ½È¡¾öÓÚ¶ÁÈ¡²Ù×÷ÊÇÓÉÄÄ¸ö·½·¨·¢ÆðµÄ
+readyState				±íÃ÷FileReaderÊµÀýµÄµ±Ç°×´Ì¬(Ö»¶Á)
+error					ÔÚ¶ÁÈ¡ÎÄ¼þÊ±·¢ÉúµÄ´íÎó. Ö»¶Á.
+result					¶ÁÈ¡µ½µÄÎÄ¼þÄÚÈÝ.Õâ¸öÊôÐÔÖ»ÔÚ¶ÁÈ¡²Ù×÷Íê³ÉÖ®ºó²ÅÓÐÐ§,²¢ÇÒÊý¾ÝµÄ¸ñÊ½È¡¾öÓÚ¶ÁÈ¡²Ù×÷ÊÇÓÉÄÄ¸ö·½·¨·¢ÆðµÄ
 
 ¡ñÉÏ´«ÊµÀýµÄ·½·¨¡ñ
-abort				ÖÕÖ¹¶ÁÈ¡²Ù×÷
-readAsArrayBuffer		¶ÁÈ¡£¬²ÎÊýÎªfile¶ÔÏó»òÕßblob¶ÔÏóµÄÄÚÈÝ£¬¶ÁÈ¡Íê³ÉºóreadyStateÊôÐÔ»á±ä³Édone£¬·µ»ØArrayBufferµÄÎÄ¼þÄÚÈÝ
-readAsBinaryString		¶ÁÈ¡£¬Í¬ÉÏ£¬·µ»Ø¶þ½øÖÆÎÄ¼þÄÚÈÝ
-readAsDataURL			¶ÁÈ¡£¬Í¬ÉÏ£¬·µ»Øbase64µÄÎÄ¼þÄÚÈÝ
-readAsText			¶ÁÈ¡£¬Í¬ÉÏ£¬·µ»Ø×Ö·û´®ÀàÐÍÎÄ¼þÄÚÈÝ
+abort					ÖÕÖ¹¶ÁÈ¡²Ù×÷
+readAsArrayBuffer			¶ÁÈ¡£¬²ÎÊýÎªfile¶ÔÏó»òÕßblob¶ÔÏóµÄÄÚÈÝ£¬¶ÁÈ¡Íê³ÉºóreadyStateÊôÐÔ»á±ä³Édone£¬·µ»ØArrayBufferµÄÎÄ¼þÄÚÈÝ
+readAsBinaryString			¶ÁÈ¡£¬Í¬ÉÏ£¬·µ»Ø¶þ½øÖÆÎÄ¼þÄÚÈÝ
+readAsDataURL				¶ÁÈ¡£¬Í¬ÉÏ£¬·µ»Øbase64µÄÎÄ¼þÄÚÈÝ
+readAsText				¶ÁÈ¡£¬Í¬ÉÏ£¬·µ»Ø×Ö·û´®ÀàÐÍÎÄ¼þÄÚÈÝ
 
 ¡ñÉÏ´«ÊµÀýµÄÊÂ¼þ¡ñ
-onloadstart			ÎÄ¼þ¶ÁÈ¡¿ªÊ¼Ç°Ê±ºò´¥·¢
-onabort				ÎÄ¼þ¶ÁÈ¡ÖÕÖ¹Ê±ºò´¥·¢
-onerror				ÎÄ¼þ¶ÁÈ¡´íÎóÊ±ºò´¥·¢
-onload				ÎÄ¼þ¶ÁÈ¡Íê³ÉÊ±ºò´¥·¢
-onloadend			ÎÄ¼þ¶ÁÈ¡Íê³ÉÊ±ºò´¥·¢£¨²»¹ÜÊÇonload»¹ÊÇonerror£©
-onprogress			ÎÄ¼þ¶ÁÈ¡¹ý³ÌÖÐ£¬ÖÜÆÚÐÔµ÷ÓÃ£¨Ò²¾ÍÊÇ¶ÁÈ¡¹ý³ÌÖÐ£¬ÐÄÌø´¥·¢£©
+onloadstart				ÎÄ¼þ¶ÁÈ¡¿ªÊ¼Ç°Ê±ºò´¥·¢
+onabort					ÎÄ¼þ¶ÁÈ¡ÖÕÖ¹Ê±ºò´¥·¢
+onerror					ÎÄ¼þ¶ÁÈ¡´íÎóÊ±ºò´¥·¢
+onload					ÎÄ¼þ¶ÁÈ¡Íê³ÉÊ±ºò´¥·¢
+onloadend				ÎÄ¼þ¶ÁÈ¡Íê³ÉÊ±ºò´¥·¢£¨²»¹ÜÊÇonload»¹ÊÇonerror£©
+onprogress				ÎÄ¼þ¶ÁÈ¡¹ý³ÌÖÐ£¬ÖÜÆÚÐÔµ÷ÓÃ£¨Ò²¾ÍÊÇ¶ÁÈ¡¹ý³ÌÖÐ£¬ÐÄÌø´¥·¢£©
 
 ¡ñÉùÃ÷¾Ö²¿src´ïµ½Ô¤ÀÀ¡ñ
-URL.createObjectURL(file)	Èç¹û²»Ö§³ÖFileReaderµÄ»°¿ÉÒÔÊ¹ÓÃURL¶ÔÏóÏÂµÄÕâ¸ö·½·¨´´½¨Ò»¸öÁÙÊ±Ô¤ÀÀµÄ¶ÔÏóSRC(µ«ÊÇËü¸úFileÒ»ÑùÐèÒª¼ì²âÖ§³Ö)
-FormData(ajax2.0)		Èç¹ûÉÏÃæ¶¼²»Ö§³ÖµÄ»°£¬¿ÉÒÔ¿¼ÂÇÓÃajax2.0µÄFormData¶ÔÏóÉÏ´«£¬¸ü¶àÏ¸½Ú²éÔÄÕâ¸ö¶ÔÏó
+URL.createObjectURL(file)		Èç¹û²»Ö§³ÖFileReaderµÄ»°¿ÉÒÔÊ¹ÓÃURL¶ÔÏóÏÂµÄÕâ¸ö·½·¨´´½¨Ò»¸öÁÙÊ±Ô¤ÀÀµÄ¶ÔÏóSRC(µ«ÊÇËü¸úFileÒ»ÑùÐèÒª¼ì²âÖ§³Ö)
+FormData(ajax2.0)			Èç¹ûÉÏÃæ¶¼²»Ö§³ÖµÄ»°£¬¿ÉÒÔ¿¼ÂÇÓÃajax2.0µÄFormData¶ÔÏóÉÏ´«£¬¸ü¶àÏ¸½Ú²éÔÄÕâ¸ö¶ÔÏó
 
 
 ¡öÊ±¼ä¡ö
-new Date()			»ñÈ¡µ½µ±Ç°±¾µØÊ±¼ä(È«²¿)
-+new Date()			»ñÈ¡µ±Ç°Ê±¼äµÄºÁÃë,Ò²¾ÍÊÇ°ÑÊ±¼ä¶ÔÏó×ª»»³ÉÁË¡ñÊ±¼ä´Á¡ñ Ò²¿ÉÒÔÓÃ Date.now()×öµ½Ò»ÑùµÄÐ§¹û£¬µ«ÊÇºóÕßIE6²»Ö§³Ö
-new Date(Ê±¼ä´Á)		¿ÉÒÔ´«Ö¸¶¨µÄÊ±¼ä´Á´´½¨Ò»¸öÐÂµÄÊ±¼ä¶ÔÏó£¬¿ÉÒÔÊÇÎ´À´Ò²¿ÉÒÔÊÇ¹ýÈ¥
+new Date()				»ñÈ¡µ½µ±Ç°±¾µØÊ±¼ä(È«²¿)
++new Date()				»ñÈ¡µ±Ç°Ê±¼äµÄºÁÃë,Ò²¾ÍÊÇ°ÑÊ±¼ä¶ÔÏó×ª»»³ÉÁË¡ñÊ±¼ä´Á¡ñ Ò²¿ÉÒÔÓÃ Date.now()×öµ½Ò»ÑùµÄÐ§¹û£¬µ«ÊÇºóÕßIE6²»Ö§³Ö
+new Date(Ê±¼ä´Á)			¿ÉÒÔ´«Ö¸¶¨µÄÊ±¼ä´Á´´½¨Ò»¸öÐÂµÄÊ±¼ä¶ÔÏó£¬¿ÉÒÔÊÇÎ´À´Ò²¿ÉÒÔÊÇ¹ýÈ¥
 
 ¡ô»ñÈ¡¡ô
-getFullYear()			Äê
-getMonth()			ÔÂ·Ý,´Ó0¿ªÊ¼,ËùÒÔ +1
-getDate()			Ìì | ÈÕ
-getDay()			ÐÇÆÚ ´Ó0¿ªÊ¼£¬0±íÊ¾ÐÇÆÚÈÕ,ËùÒÔÅÐ¶Ï
+getFullYear()				Äê
+getMonth()				ÔÂ·Ý,´Ó0¿ªÊ¼,ËùÒÔ +1
+getDate()				Ìì | ÈÕ
+getDay()				ÐÇÆÚ ´Ó0¿ªÊ¼£¬0±íÊ¾ÐÇÆÚÈÕ,ËùÒÔÅÐ¶Ï
 
-getHours()			Ê±
-getMinutes()			·Ö
-getSeconds()			Ãë
-getMilliseconds()		ºÁÃë
+getHours()				Ê±
+getMinutes()				·Ö
+getSeconds()				Ãë
+getMilliseconds()			ºÁÃë
 
 ¡ôÉèÖÃ¡ô
-new Date().setTime()		ÒÔºÁÃëÉèÖÃ Date ¶ÔÏó
-new Date().setFullYear(2015);	ÉèÖÃÄê·Ýµ½¾ßÌåµÄÄ³Ò»Äê
-new Date().setMonth(4);		ÉèÖÃÔÂ·Ýµ½Ö¸¶¨µÄÄ³Ò»ÔÂ
-new Date().setDate(20);		ÉèÖÃÈÕÆÚµ½Ö¸¶¨µÄÄ³Ò»Ìì
+new Date().setTime()			ÒÔºÁÃëÉèÖÃ Date ¶ÔÏó
+new Date().setFullYear(2015);		ÉèÖÃÄê·Ýµ½¾ßÌåµÄÄ³Ò»Äê
+new Date().setMonth(4);			ÉèÖÃÔÂ·Ýµ½Ö¸¶¨µÄÄ³Ò»ÔÂ
+new Date().setDate(20);			ÉèÖÃÈÕÆÚµ½Ö¸¶¨µÄÄ³Ò»Ìì
 
 ¡ô×ª»»Îª×Ö·û´®¡ô
-Ê±¼ä¶ÔÏó.toUTCString()		Ê±¼ä¶ÔÏó.toGMTString()
+Ê±¼ä¶ÔÏó.toUTCString()			Ê±¼ä¶ÔÏó.toGMTString()
 
 
 ¡¦ÔÂ·ÝÈ¡Öµ¡¦
@@ -669,7 +671,7 @@ July¡¢August¡¢September¡¢October¡¢November¡¢December
 
 Ãë£ºt%60
 
-¸ü¶àÏêÏ¸Çë²ÎÕÕ 		http://www.w3school.com.cn/jsref/jsref_obj_date.asp
+¸ü¶àÏêÏ¸Çë²ÎÕÕ 				http://www.w3school.com.cn/jsref/jsref_obj_date.asp
 
 
 
@@ -677,7 +679,7 @@ July¡¢August¡¢September¡¢October¡¢November¡¢December
 
 
 ¡öÃæÏò¶ÔÏó,OO±à³Ì¡ö
-ËÄÖÖ¸ÅÄî	£¨³éÏó£©	·â×°	¼Ì³Ð	¶àÌ¬
+ËÄÖÖ¸ÅÄî	£¨³éÏó£©		·â×°	¼Ì³Ð	¶àÌ¬
 
 ÃæÏò¶ÔÏóµÄÃèÊö£º
 °ÑÊý¾Ý¼°¶ÔÊý¾ÝµÄ²Ù×÷·½·¨·ÅÔÚÒ»Æð£¬×÷ÎªÒ»¸öÏà»¥ÒÀ´æµÄÕûÌå¡ª¡ª¶ÔÏó¡£
@@ -700,8 +702,8 @@ July¡¢August¡¢September¡¢October¡¢November¡¢December
 
 
 
-prototype		º¯ÊýÔ­ÐÍ£¬º¯ÊýµÄÊôÐÔ£¬µ±Ò»¸öº¯Êý±»´´½¨µÄÊ±ºò£¬Ò²»á×Ô¶¯µÄ´´½¨Ò»¸öprototypeµÄ¿Õ¶ÔÏó
-__proto__		¶ÔÏóµ×ÏÂµÄÔ­ÐÍ¶ÔÏó£¬Ô­ÐÍÁ´ÉÏµÄ¶ÔÏó
+prototype				º¯ÊýÔ­ÐÍ£¬º¯ÊýµÄÊôÐÔ£¬µ±Ò»¸öº¯Êý±»´´½¨µÄÊ±ºò£¬Ò²»á×Ô¶¯µÄ´´½¨Ò»¸öprototypeµÄ¿Õ¶ÔÏó
+__proto__				¶ÔÏóµ×ÏÂµÄÔ­ÐÍ¶ÔÏó£¬Ô­ÐÍÁ´ÉÏµÄ¶ÔÏó
 
 ¡ýµ±ÎÒÃÇÈ¥µ÷ÓÃÒ»¸ö¶ÔÏóµÄÊôÐÔ»òÕß·½·¨µÄÊ±ºò£¬ËüÊ×ÏÈ»áÔÚ¶ÔÏó×ÔÉíÉÏÃæ²éÕÒÕâ¸öÊôÐÔ»òÕß·½·¨£¬
 ¡üÈç¹ûÃ»ÓÐ²éÕÒµ½£¬ÄÇÃ´Ëû»áÒÀ¾Ý__proto__¶ÔÏóÀ´²éÕÒÊÇ·ñ´æÔÚ¸ÃÊôÐÔ»òÕß·½·¨£¬Èç¹ûÓÐÔòµ÷ÓÃ
@@ -831,7 +833,7 @@ alert(a);			//Ëû²»ÄÜ±»È«¾ÖÏÂÕÒµ½£¬ÕâÑù¾ÍÄÜ±£Ö¤²»»á¸øÈ«¾ÖÔì³É¹ý¶àµÄ±äÁ¿Ôì³ÉÈ«¾ÖÎÛ
 
 var ss = (function(){
 	var a = 1;
-					//ÔÚÕâ¸öµ×ÏÂµÄËùÓÐËùÎ½µÄÈ«¾Ö±äÁ¿¸ú·½·¨¶¼ÊôÓÚË½ÓÐµÄ£¬
+						//ÔÚÕâ¸öµ×ÏÂµÄËùÓÐËùÎ½µÄÈ«¾Ö±äÁ¿¸ú·½·¨¶¼ÊôÓÚË½ÓÐµÄ£¬
 	function aaa(){		
 		a++;
 		alert(a);
@@ -842,7 +844,7 @@ var ss = (function(){
 		alert(a);
 	};
 
-	return { a:aaa,b:bbb }		//È»ºóÖ±½Ó·µ»ØÒ»¸ö¶ÔÏó£¬°ÑË½ÓÐµÄ¶«Î÷·â×°µ½Õâ¸ö¶ÔÏóÏÂ£¬Íâ²¿¿ÉÒÔÍ¨¹ý¶ÔÏóµ÷ÓÃ,µ«Ö±½ÓÕÒÊÇÕÒ²»µ½µÄ
+	return { a:aaa,b:bbb }			//È»ºóÖ±½Ó·µ»ØÒ»¸ö¶ÔÏó£¬°ÑË½ÓÐµÄ¶«Î÷·â×°µ½Õâ¸ö¶ÔÏóÏÂ£¬Íâ²¿¿ÉÒÔÍ¨¹ý¶ÔÏóµ÷ÓÃ,µ«Ö±½ÓÕÒÊÇÕÒ²»µ½µÄ
 })();
 
 

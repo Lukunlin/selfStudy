@@ -1,0 +1,109 @@
+/* 基础类型 */
+number,
+string,
+boolean,
+void, => 标明函数不需要特定返回值,可能是undefined和null
+Array, => 默认定义的是. => any[].还可以: number[] string[] Array<元素类型>  (数组泛型)
+Tuple, => 元组,申明多个类型的数组,并且需要对应顺序,不可超出定义元组的长度(不可越界)
+enum, => 枚举类型,查阅官方文档
+any, => 任何类型
+undefined,null, => 和void类型相似,可以互相赋值为null和und...
+never, => 表示不能有返回值的类型,或者返回的是错误类型、抛错或无限循环.它是任何类型的子类型,可以赋值为其他类型
+object, => 表示对象类型,和Object.create差不多
+
+
+/* 类型断言 */
+(<types>veriables)		强制让ts判定它为你指定的类型进行运算
+(types as veriables)		建议使用 as 语法进行断言
+
+
+/* 索引签名 */
+interface name { [objectKey: string成员的类型]: any键值的类型 }.   
+
+
+/* 接口 */
+构造器接口
+interface name { new(param: type): 实例 }
+类接口
+interface name { return new 构造函数 }
+类实现接口
+class name implements "interfaceName" {
+    private key: string,
+    constructor(){}
+    fn_name(){}
+}
+描述函数类型
+interface name { (paramA: string, paramB: number): boolean }
+接口继承
+interface a{}interface b{} => interface c extends a,b{}
+接口继承类
+class Control { private state: any }
+interface Ia extends Control { choose() }
+class B extends Control implements Ia { choose() }
+class C extends Control { choose() }
+=> 接口继承类以后,实现这个接口的类,必须是次接口继承的超类的子类.说白了就是都需要继承一下超类
+
+
+
+/* 关键字 | 修饰符 */
+this				除了本身的this指向,还可以显式的申明给函数的第一关参数,来标明当前上下文的this指向 => function(this: void): void {}
+super				在子类构造器里使用的关键字,调用父类的构造函数来继承,并且如果需要访问其他成员的话,super的调用需要写在前面
+				如果在子类其他使用关键字则是拿到实例里的方法 => super.parentFn( params )
+declare				申明
+class
+extends
+interface
+implements
+readonly			只读, 应用=>接口key(只读接口属性创建后即不可修改)、类(表示可访问不可修改)
+public				公用,默认不写就是public. 应用=>类
+private				私有,表示不能在类的外部使用,不能被继承. 应用=>类
+protected			受保护的,表示不能在类的外部使用,可以被继承,如果定义在构造函数上,则表示不能在外部直接new,只能在子类中 应用=>类
+get/set 			存储器,表示对属性访问和修改时候的拦截器
+				class className {private _name: string, get name(): string {return this._name}, set name(): string | never {if} }
+static				静态, 应用=>类
+abstract			抽象类|抽象方法, 只能被作为基类被派生类使用. 应用=>类: abstract class className{ abstract functionName(params: types): types } 应用=>类
+typeof				取一个对象类型, 如果在申明类型的时候使用此关键词表示取这个被运算的类型. 
+				class className { static key: string };let variable: typeof className = className;variable.key = 重新赋值;
+					      					   表示取className的类型 = 赋值给这个类型下的对象
+
+/* 泛型 */
+泛型变量				使用泛型可以自定义传入的types,并且不一定指定为T,可以指定其他名称,只是T为公定约束的名称,尽量遵守约定
+function fnName<T>(params: T): T {}
+function fnName<T>(params: T[]): T[] {}
+fnName<types>(params)
+fnName(params)
+let win: {<T>(params: T): T}	对象自变量泛型
+interface iName { <T>(params: T): T }
+interface iName<T> { (params: T): T } ==> let win: iName<types> = fn
+class name<T> { key: T, add: (x: T, y: T) => T } ==>. let 实例 = new name<types>()
+function fnName<T extends interface>(params: T): T {} 泛型约束
+function fnName<T,K extends key T>(params: T, paramsB: K): T {} 多重泛型约束,K被约束为比如为T的类型里包含 let x = {a: 1, b: 2};fnName(x, 'a');第2参数只能为a,b
+Function fnName<T>(c: { new(): T }): T { return new c() }	类类型泛型
+function fnName<T, U>(params: T, paramB: U): T & U {		交叉类型
+	let result = {} as T & U
+	return result
+}
+let 	liane = extend(new classA, new classB)
+function fnName(pet: Fish | Bird): pet is Fish {		类型保护
+	return (pet as Fish).某个属性 !== undefined
+}
+
+
+/* 函数 */
+重载				对于一个已经实现的函数进行重载
+				function 函数名(params: types): types
+				function 函数名(paramsA: types, paramsB: types): void
+				function 函数名() {
+					//原先函数的实现
+				}
+
+
+/* 自带类型 */
+ReadonlyArray<types>		只读数组
+
+
+/* 对象自变量 | 额外属性检查 */
+对象自变量是会被检查类型的
+functionNameCall({ key: value }) => 以上是会被判断检查对象自变量的类型,如需避开检查,可以把对象自变量提出来为单独的变量
+let obj = {key: value};   =>  functionNameCall( obj )
+

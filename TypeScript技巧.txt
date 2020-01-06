@@ -45,6 +45,14 @@ class C extends Control { choose() }
 
 
 
+/* 类型别名 */
+type				设置一个类型的别名,和申明函数体和联合类型等
+				type str = string
+				type getStr = (params: type) => string
+				type more = str1 | getStr
+				type moreStr = 'one' | 'two' | 'three'
+
+
 /* 关键字 | 修饰符 */
 this				除了本身的this指向,还可以显式的申明给函数的第一关参数,来标明当前上下文的this指向 => function(this: void): void {}
 super				在子类构造器里使用的关键字,调用父类的构造函数来继承,并且如果需要访问其他成员的话,super的调用需要写在前面
